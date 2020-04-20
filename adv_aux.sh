@@ -1,0 +1,7 @@
+#!/bin/bash  
+  
+for((i=1;i<=10;i++));  
+do   
+    python train.py --model_name bert_multi_target --dataset restaurant --device cuda:1 --resplit 1 --adv 1.0 --aux 1.0 --num_epoch 20
+    wait;
+done  
