@@ -147,6 +147,9 @@ class ABSADataset(Dataset):
 
         all_data = []
         load = 0
+        if int(opt.resplit)!=0 and load ==0:
+            raise RuntimeError('pls use load to load the replit')
+
         if load:
 
             if fname.lower().find('train')!=-1:
@@ -341,7 +344,11 @@ class ABSADataset(Dataset):
                     aspect_b_now=aspect_b[now]
                     aspect_e_now=aspect_e[now]
                     pos=np.argwhere(all_data[i]['multi_target_indices']==aspect_b_now)[0][0]
+                    pos_end=np.argwhere(all_data[i]['multi_target_indices']==aspect_e_now)[0][0]
+                    
+                    
                     main_target_pos=pos
+                    main_target_pos_end=pos_end
                     poss.append(pos)
                     now=now+1
                 else:
@@ -371,6 +378,8 @@ class ABSADataset(Dataset):
             # aspect_poss=np.argwhere(all_data[i]['multi_target_indices']==target_b)[0][0]
             # print(pos,all_data[i]['multi_target_indices'])
             all_data[i]['target_pos']=main_target_pos
+            all_data[i]['target_pos_end']=main_target_pos_end
+
             all_data[i]['poss']=poss
             all_data[i]['polarity_list']=polarity_list
 
