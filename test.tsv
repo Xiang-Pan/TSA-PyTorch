@@ -1,0 +1,1121 @@
+sentence	label	posb	pose
+[CLS] the  [0b] bread [0e]  is top notch as well . [SEP]	2	2	4
+[CLS] i have to say they have one of the fastest  [0b] delivery times [0e]  in the city . [SEP]	2	11	14
+[CLS]   [0b] food [0e]  is always fresh and hot - ready to eat ! [SEP]	2	1	3
+[CLS] did i mention that the  [0b] coffee [0e]  is outstanding ? [SEP]	2	6	8
+[CLS] certainly not the best sushi in new york , however , it is always fresh , and the  [0b] place [0e]  is very clean , sterile . [SEP]	2	20	22
+[CLS] i trust the  [0b] people [0e]  at go sushi , it never disappoints . [SEP]	2	4	6
+[CLS] straight-forward , no surprises , very decent  [0b] japanese food [0e]  . [SEP]	2	10	13
+[CLS] best  [1b] spicy tuna roll [1e]  , great  [0b] asian salad [0e]  . [SEP]	2	9	12
+[CLS] best  [1b] spicy tuna roll [1e]  , great  [0b] asian salad [0e]  . [SEP]	2	2	6
+[CLS] try the  [0b] rose roll [0e]  -lrb- not on  [1b] menu [1e]  -rrb- . [SEP]	2	3	6
+[CLS] try the  [0b] rose roll [0e]  -lrb- not on  [1b] menu [1e]  -rrb- . [SEP]	1	13	15
+[CLS] i love the  [0b] drinks [0e]  , esp  [1b] lychee martini [1e]  , and the  [2b] food [2e]  is also very good . [SEP]	2	4	6
+[CLS] i love the  [0b] drinks [0e]  , esp  [1b] lychee martini [1e]  , and the  [2b] food [2e]  is also very good . [SEP]	2	10	15
+[CLS] i love the  [0b] drinks [0e]  , esp  [1b] lychee martini [1e]  , and the  [2b] food [2e]  is also very good . [SEP]	2	19	21
+[CLS] in fact , this was not a  [0b] nicoise salad [0e]  and was barely eatable . [SEP]	0	8	12
+[CLS] while there 's a decent  [0b] menu [0e]  , it should n't take ten minutes to get your  [1b] drinks [1e]  and 45 for a  [2b] dessert pizza [2e]  . [SEP]	2	7	9
+[CLS] while there 's a decent  [0b] menu [0e]  , it should n't take ten minutes to get your  [1b] drinks [1e]  and 45 for a  [2b] dessert pizza [2e]  . [SEP]	1	22	24
+[CLS] while there 's a decent  [0b] menu [0e]  , it should n't take ten minutes to get your  [1b] drinks [1e]  and 45 for a  [2b] dessert pizza [2e]  . [SEP]	1	29	32
+[CLS] once we sailed , the top-notch  [0b] food [0e]  and  [1b] live entertainment [1e]  sold us on a unforgettable evening . [SEP]	2	9	11
+[CLS] once we sailed , the top-notch  [0b] food [0e]  and  [1b] live entertainment [1e]  sold us on a unforgettable evening . [SEP]	2	13	16
+[CLS] our  [0b] waiter [0e]  was horrible ; so rude and disinterested . [SEP]	0	2	4
+[CLS] the  [0b] sangria [0e]  's - watered down . [SEP]	0	2	5
+[CLS]   [0b] menu [0e]  - uneventful , small . [SEP]	0	1	3
+[CLS] anytime and everytime i find myself in the neighborhood i will go to  [0b] sushi [0e]  rose for fresh sushi and great  [1b] portions [1e]  all at a reasonable  [2b] price [2e]  . [SEP]	2	15	18
+[CLS] anytime and everytime i find myself in the neighborhood i will go to  [0b] sushi [0e]  rose for fresh sushi and great  [1b] portions [1e]  all at a reasonable  [2b] price [2e]  . [SEP]	2	26	28
+[CLS] anytime and everytime i find myself in the neighborhood i will go to  [0b] sushi [0e]  rose for fresh sushi and great  [1b] portions [1e]  all at a reasonable  [2b] price [2e]  . [SEP]	2	33	35
+[CLS] great  [0b] food [0e]  but the  [1b] service [1e]  was dreadful ! [SEP]	2	2	4
+[CLS] great  [0b] food [0e]  but the  [1b] service [1e]  was dreadful ! [SEP]	0	7	9
+[CLS] the  [0b] portions of the food [0e]  that came out were mediocre . [SEP]	1	2	7
+[CLS] the two  [0b] waitress's [0e]  looked like they had been sucking on lemons . [SEP]	0	3	7
+[CLS] from the beginning , we were met by friendly  [0b] staff memebers [0e]  , and the convienent  [1b] parking [1e]  at chelsea piers made it easy for us to get to the boat . [SEP]	2	10	15
+[CLS] from the beginning , we were met by friendly  [0b] staff memebers [0e]  , and the convienent  [1b] parking [1e]  at chelsea piers made it easy for us to get to the boat . [SEP]	2	22	24
+[CLS] we enjoyed ourselves thoroughly and will be going back for the  [0b] desserts [0e]  ... [SEP]	2	12	15
+[CLS]   [0b] desserts [0e]  are almost incredible : my personal favorite is their tart of the day . [SEP]	2	1	4
+[CLS] desserts are almost incredible : my personal favorite is their  [0b] tart of the day [0e]  . [SEP]	2	12	18
+[CLS] the  [0b] food [0e]  was extremely tasty , creatively presented and the  [1b] wine [1e]  excellent . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  was extremely tasty , creatively presented and the  [1b] wine [1e]  excellent . [SEP]	2	15	17
+[CLS] the  [0b] lasagna [0e]  was probably the best i have tasted . [SEP]	2	2	6
+[CLS] harumi sushi has the freshest and most delicious  [0b] array of sushi [0e]  in nyc . [SEP]	2	13	18
+[CLS] i highly recommend it for not just its superb  [0b] cuisine [0e]  , but also for its friendly  [1b] owners [1e]  and  [2b] staff [2e]  . [SEP]	2	10	12
+[CLS] i highly recommend it for not just its superb  [0b] cuisine [0e]  , but also for its friendly  [1b] owners [1e]  and  [2b] staff [2e]  . [SEP]	2	19	21
+[CLS] i highly recommend it for not just its superb  [0b] cuisine [0e]  , but also for its friendly  [1b] owners [1e]  and  [2b] staff [2e]  . [SEP]	2	23	25
+[CLS] if you 're craving some serious  [0b] indian food [0e]  and desire a cozy  [1b] ambiance [1e]  , this is quite and exquisite choice . [SEP]	2	8	11
+[CLS] if you 're craving some serious  [0b] indian food [0e]  and desire a cozy  [1b] ambiance [1e]  , this is quite and exquisite choice . [SEP]	2	16	20
+[CLS] i definitely enjoyed the  [0b] food [0e]  as well . [SEP]	2	5	7
+[CLS] it was pleasantly uncrowded , the  [0b] service [0e]  was delightful , the  [1b] garden [1e]  adorable , the  [2b] food [2e]  -lrb- from  [3b] appetizers [3e]  to  [4b] entrees [4e]  -rrb- was delectable . [SEP]	2	9	11
+[CLS] it was pleasantly uncrowded , the  [0b] service [0e]  was delightful , the  [1b] garden [1e]  adorable , the  [2b] food [2e]  -lrb- from  [3b] appetizers [3e]  to  [4b] entrees [4e]  -rrb- was delectable . [SEP]	2	16	18
+[CLS] it was pleasantly uncrowded , the  [0b] service [0e]  was delightful , the  [1b] garden [1e]  adorable , the  [2b] food [2e]  -lrb- from  [3b] appetizers [3e]  to  [4b] entrees [4e]  -rrb- was delectable . [SEP]	2	22	24
+[CLS] it was pleasantly uncrowded , the  [0b] service [0e]  was delightful , the  [1b] garden [1e]  adorable , the  [2b] food [2e]  -lrb- from  [3b] appetizers [3e]  to  [4b] entrees [4e]  -rrb- was delectable . [SEP]	2	30	34
+[CLS] it was pleasantly uncrowded , the  [0b] service [0e]  was delightful , the  [1b] garden [1e]  adorable , the  [2b] food [2e]  -lrb- from  [3b] appetizers [3e]  to  [4b] entrees [4e]  -rrb- was delectable . [SEP]	2	36	40
+[CLS] the  [0b] food [0e]  is surprisingly good , and the  [1b] decor [1e]  is nice . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is surprisingly good , and the  [1b] decor [1e]  is nice . [SEP]	2	11	13
+[CLS] how pretentious and inappropriate for mj grill to claim that it provides power  [0b] lunch [0e]  and  [1b] dinners [1e]  ! [SEP]	0	17	19
+[CLS] how pretentious and inappropriate for mj grill to claim that it provides power  [0b] lunch [0e]  and  [1b] dinners [1e]  ! [SEP]	0	21	23
+[CLS] two wasted  [0b] steaks [0e]  -- what a crime ! [SEP]	0	3	6
+[CLS] the  [0b] staff [0e]  should be a bit more friendly . [SEP]	0	2	4
+[CLS] i think the  [0b] meatball parm [0e]  is good . [SEP]	2	4	9
+[CLS] if you want good tasting , well seasoned  [0b] latin food [0e]  eat at cabana and you ca n't go wrong . [SEP]	2	9	12
+[CLS] definitely try the  [0b] taglierini with truffles [0e]  - it was incredible . [SEP]	2	4	12
+[CLS] also , the  [0b] staff [0e]  is very attentive and really personable . [SEP]	2	4	6
+[CLS] the  [0b] gnocchi [0e]  literally melts in your mouth ! [SEP]	2	2	6
+[CLS] had a great experience at trio ...  [0b] staff [0e]  was pleasant ;  [1b] food [1e]  was tasty and large in  [2b] portion size [2e]  - i would highly recommend the  [3b] portobello/gorgonzola/sausage appetizer [3e]  and the  [4b] lobster risotto [4e]  . [SEP]	2	10	12
+[CLS] had a great experience at trio ...  [0b] staff [0e]  was pleasant ;  [1b] food [1e]  was tasty and large in  [2b] portion size [2e]  - i would highly recommend the  [3b] portobello/gorgonzola/sausage appetizer [3e]  and the  [4b] lobster risotto [4e]  . [SEP]	2	16	18
+[CLS] had a great experience at trio ...  [0b] staff [0e]  was pleasant ;  [1b] food [1e]  was tasty and large in  [2b] portion size [2e]  - i would highly recommend the  [3b] portobello/gorgonzola/sausage appetizer [3e]  and the  [4b] lobster risotto [4e]  . [SEP]	2	25	28
+[CLS] had a great experience at trio ...  [0b] staff [0e]  was pleasant ;  [1b] food [1e]  was tasty and large in  [2b] portion size [2e]  - i would highly recommend the  [3b] portobello/gorgonzola/sausage appetizer [3e]  and the  [4b] lobster risotto [4e]  . [SEP]	2	35	49
+[CLS] had a great experience at trio ...  [0b] staff [0e]  was pleasant ;  [1b] food [1e]  was tasty and large in  [2b] portion size [2e]  - i would highly recommend the  [3b] portobello/gorgonzola/sausage appetizer [3e]  and the  [4b] lobster risotto [4e]  . [SEP]	2	52	57
+[CLS]   [0b] entrees [0e]  include classics like lasagna , fettuccine alfredo and chicken parmigiana . [SEP]	1	1	5
+[CLS] entrees include classics like  [0b] lasagna [0e]  ,  [1b] fettuccine alfredo [1e]  and  [2b] chicken parmigiana [2e]  . [SEP]	1	7	11
+[CLS] entrees include classics like  [0b] lasagna [0e]  ,  [1b] fettuccine alfredo [1e]  and  [2b] chicken parmigiana [2e]  . [SEP]	1	13	19
+[CLS] entrees include classics like  [0b] lasagna [0e]  ,  [1b] fettuccine alfredo [1e]  and  [2b] chicken parmigiana [2e]  . [SEP]	1	21	27
+[CLS] the  [0b] food [0e]  is good , the  [1b] teriyaki [1e]  i recommend . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is good , the  [1b] teriyaki [1e]  i recommend . [SEP]	2	9	13
+[CLS]   [0b] meal [0e]  was very expensive for what you get . [SEP]	0	1	3
+[CLS] try the  [0b] peanut butter sorbet [0e]  and the  [1b] pizza with soy cheese [1e]  ! [SEP]	2	3	9
+[CLS] try the  [0b] peanut butter sorbet [0e]  and the  [1b] pizza with soy cheese [1e]  ! [SEP]	2	12	17
+[CLS] good  [0b] food [0e]  at the right  [1b] price [1e]  , what more can you ask for . [SEP]	2	2	4
+[CLS] good  [0b] food [0e]  at the right  [1b] price [1e]  , what more can you ask for . [SEP]	2	8	10
+[CLS] the  [0b] food [0e]  is top notch , the  [1b] service [1e]  is attentive , and the  [2b] atmosphere [2e]  is great . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is top notch , the  [1b] service [1e]  is attentive , and the  [2b] atmosphere [2e]  is great . [SEP]	2	10	12
+[CLS] the  [0b] food [0e]  is top notch , the  [1b] service [1e]  is attentive , and the  [2b] atmosphere [2e]  is great . [SEP]	2	20	22
+[CLS] great  [0b] food [0e]  , great  [1b] waitstaff [1e]  , great  [2b] atmosphere [2e]  , and best of all great  [3b] beer [3e]  ! [SEP]	2	2	4
+[CLS] great  [0b] food [0e]  , great  [1b] waitstaff [1e]  , great  [2b] atmosphere [2e]  , and best of all great  [3b] beer [3e]  ! [SEP]	2	7	10
+[CLS] great  [0b] food [0e]  , great  [1b] waitstaff [1e]  , great  [2b] atmosphere [2e]  , and best of all great  [3b] beer [3e]  ! [SEP]	2	13	15
+[CLS] great  [0b] food [0e]  , great  [1b] waitstaff [1e]  , great  [2b] atmosphere [2e]  , and best of all great  [3b] beer [3e]  ! [SEP]	2	22	24
+[CLS] this is still one of my most favorite restaurants in the area the  [0b] food [0e]  is inexpensive but very good -lrb-  [1b] kimono shrimp special [1e]  was excellent -rrb- and has a great  [2b] atmosphere [2e]  . [SEP]	2	14	16
+[CLS] this is still one of my most favorite restaurants in the area the  [0b] food [0e]  is inexpensive but very good -lrb-  [1b] kimono shrimp special [1e]  was excellent -rrb- and has a great  [2b] atmosphere [2e]  . [SEP]	2	26	31
+[CLS] this is still one of my most favorite restaurants in the area the  [0b] food [0e]  is inexpensive but very good -lrb-  [1b] kimono shrimp special [1e]  was excellent -rrb- and has a great  [2b] atmosphere [2e]  . [SEP]	2	42	44
+[CLS] the  [0b] menu [0e]  is interesting and quite reasonably  [1b] priced [1e]  . [SEP]	2	2	4
+[CLS] the  [0b] menu [0e]  is interesting and quite reasonably  [1b] priced [1e]  . [SEP]	2	10	12
+[CLS] the  [0b] food [0e]  was delicious and clearly fresh  [1b] ingredients [1e]  were used . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  was delicious and clearly fresh  [1b] ingredients [1e]  were used . [SEP]	2	10	12
+[CLS] this made it obvious that the  [0b] food [0e]  was n't cooked fresh ; it was obviously made before hand and then reheated . [SEP]	0	7	9
+[CLS]   [0b] appetizer [0e]  are excellent here ; you can make a great -lrb- and inexpensive -rrb- meal out of them . [SEP]	2	1	5
+[CLS] appetizer are excellent here ; you can make a great -lrb- and inexpensive -rrb-  [0b] meal [0e]  out of them . [SEP]	2	23	25
+[CLS] the  [0b] spicy mussels [0e]  are a highlight . [SEP]	2	2	7
+[CLS] also get the  [0b] onion rings [0e]  -- best we 've ever had . [SEP]	2	4	7
+[CLS] however , being  [0b] food [0e] ies , we were utterly disappointed with the food . [SEP]	0	4	6
+[CLS] huge  [0b] portions [0e]  , great and attentive  [1b] service [1e]  , and pretty good  [2b] prices [2e]  . [SEP]	2	2	4
+[CLS] huge  [0b] portions [0e]  , great and attentive  [1b] service [1e]  , and pretty good  [2b] prices [2e]  . [SEP]	2	11	13
+[CLS] huge  [0b] portions [0e]  , great and attentive  [1b] service [1e]  , and pretty good  [2b] prices [2e]  . [SEP]	2	18	20
+[CLS] i was highly disappointed by their  [0b] service [0e]  and  [1b] food [1e]  . [SEP]	0	7	9
+[CLS] i was highly disappointed by their  [0b] service [0e]  and  [1b] food [1e]  . [SEP]	0	11	13
+[CLS] i complained to the  [0b] waiter [0e]  and then to the  [1b] manager [1e]  , but the intensity of rudeness from them just went up . [SEP]	0	5	7
+[CLS] i complained to the  [0b] waiter [0e]  and then to the  [1b] manager [1e]  , but the intensity of rudeness from them just went up . [SEP]	0	12	14
+[CLS] the  [0b] food [0e]  is great and the  [1b] milkshakes [1e]  are even better ! [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is great and the  [1b] milkshakes [1e]  are even better ! [SEP]	2	9	13
+[CLS] the  [0b] mushroom barley soup [0e]  is amazing . [SEP]	2	2	6
+[CLS] i 'm glad i did as the  [0b] food [0e]  was very good and the  [1b] staff [1e]  was friendly , courteous and efficient . [SEP]	2	9	11
+[CLS] i 'm glad i did as the  [0b] food [0e]  was very good and the  [1b] staff [1e]  was friendly , courteous and efficient . [SEP]	2	17	19
+[CLS] their  [0b] duck [0e]  here is also absolutely delicious . [SEP]	2	2	4
+[CLS] while it was large and a bit noisy , the  [0b] drinks [0e]  were fantastic , and the  [1b] food [1e]  was superb . [SEP]	2	11	13
+[CLS] while it was large and a bit noisy , the  [0b] drinks [0e]  were fantastic , and the  [1b] food [1e]  was superb . [SEP]	2	19	21
+[CLS] one caveat : some of the  [0b] curried casseroles [0e]  can be a trifle harsh . [SEP]	0	8	14
+[CLS] the  [0b] food [0e]  was almost always excellent . [SEP]	2	2	4
+[CLS] i was pleasently surprised at the  [0b] taste [0e]  . [SEP]	2	8	10
+[CLS] a nice space , as long as it does n't get too crowded and a singleminded devotion to its chosen  [1b] cuisine [1e]  make mare a great choice for  [0b] seafood [0e]  lovers . [SEP]	2	34	36
+[CLS] a nice space , as long as it does n't get too crowded and a singleminded devotion to its chosen  [1b] cuisine [1e]  make mare a great choice for  [0b] seafood [0e]  lovers . [SEP]	2	25	27
+[CLS] i never had an  [0b] orange donut [0e]  before so i gave it a shot . [SEP]	1	5	9
+[CLS] they really provide a relaxing , laid-back  [0b] atmosphere [0e]  . [SEP]	2	10	12
+[CLS] this particular location certainly uses substandard  [0b] meats [0e]  . [SEP]	0	9	12
+[CLS] the  [0b] management [0e]  was less than accomodating . [SEP]	0	2	4
+[CLS] the  [0b] ambience [0e]  is also more laid-back and relaxed . [SEP]	2	2	6
+[CLS] the  [0b] teas [0e]  are great and all the  [1b] sweets [1e]  are homemade . [SEP]	2	2	5
+[CLS] the  [0b] teas [0e]  are great and all the  [1b] sweets [1e]  are homemade . [SEP]	2	11	13
+[CLS]   [0b] mojitos [0e]  and the service are the best part in there [SEP]	2	1	5
+[CLS] mojitos and the  [0b] service [0e]  are the best part in there [SEP]	2	6	8
+[CLS]   [0b] sandwiches [0e]  , burgers and salads , like the lemon-dressed cobb , are classic successes . [SEP]	2	1	3
+[CLS] sandwiches ,  [0b] burgers [0e]  and  [1b] salads [1e]  , like the  [2b] lemon-dressed cobb [2e]  , are classic successes . [SEP]	2	3	6
+[CLS] sandwiches ,  [0b] burgers [0e]  and  [1b] salads [1e]  , like the  [2b] lemon-dressed cobb [2e]  , are classic successes . [SEP]	2	8	11
+[CLS] sandwiches ,  [0b] burgers [0e]  and  [1b] salads [1e]  , like the  [2b] lemon-dressed cobb [2e]  , are classic successes . [SEP]	2	15	20
+[CLS] the  [0b] design [0e]  is very intimate and romantic . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  was wonderful and imaginative . [SEP]	2	2	4
+[CLS] the  [0b] staff [0e]  is very sharp and they look good too . [SEP]	2	2	4
+[CLS] the worst though was the  [0b] taste [0e]  . [SEP]	0	6	8
+[CLS] the  [0b] fajita [0e]  we tried was tasteless and burned and the  [1b] mole sauce [1e]  was way too sweet . [SEP]	0	2	6
+[CLS] the  [0b] fajita [0e]  we tried was tasteless and burned and the  [1b] mole sauce [1e]  was way too sweet . [SEP]	0	16	19
+[CLS] stay with the  [0b] roasted chickens [0e]  and you 'll be fine . [SEP]	2	4	7
+[CLS] the  [0b] atmosphere [0e]  is warm , comfortable , artsy and sexy . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is great -lrb- big  [1b] selection [1e]  , reasonable  [2b] prices [2e]  -rrb- and the  [3b] drinks [3e]  are really good . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is great -lrb- big  [1b] selection [1e]  , reasonable  [2b] prices [2e]  -rrb- and the  [3b] drinks [3e]  are really good . [SEP]	2	12	14
+[CLS] the  [0b] food [0e]  is great -lrb- big  [1b] selection [1e]  , reasonable  [2b] prices [2e]  -rrb- and the  [3b] drinks [3e]  are really good . [SEP]	2	17	19
+[CLS] the  [0b] food [0e]  is great -lrb- big  [1b] selection [1e]  , reasonable  [2b] prices [2e]  -rrb- and the  [3b] drinks [3e]  are really good . [SEP]	2	26	28
+[CLS] the  [0b] steak [0e]  melted in my mouth . [SEP]	2	2	4
+[CLS] the  [1b] food [1e]  did take a few extra minutes to come , but the cute  [0b] waiters [0e]  ' jokes and friendliness made up for it . [SEP]	2	17	20
+[CLS] the  [1b] food [1e]  did take a few extra minutes to come , but the cute  [0b] waiters [0e]  ' jokes and friendliness made up for it . [SEP]	1	2	4
+[CLS] most importantly , it is reasonably  [0b] priced [0e]  . [SEP]	2	7	9
+[CLS] the  [0b] selection of food [0e]  is excellent -lrb- i 'm not used to having much choice at restaurants -rrb- , and the  [1b] atmosphere [1e]  is great . [SEP]	2	2	6
+[CLS] the  [0b] selection of food [0e]  is excellent -lrb- i 'm not used to having much choice at restaurants -rrb- , and the  [1b] atmosphere [1e]  is great . [SEP]	2	31	33
+[CLS] only suggestion is that you skip the  [0b] dessert [0e]  , it was overpriced and fell short on  [1b] taste [1e]  . [SEP]	0	8	10
+[CLS] only suggestion is that you skip the  [0b] dessert [0e]  , it was overpriced and fell short on  [1b] taste [1e]  . [SEP]	0	22	24
+[CLS]   [0b] food [0e]  was decent , but not great . [SEP]	2	1	3
+[CLS] i dont know what some people who rave about this  [0b] hot dog [0e]  are talking about . [SEP]	0	12	15
+[CLS] it is a hidden delight complete with a quaint  [0b] bar [0e]  and good  [1b] food [1e]  . [SEP]	2	11	13
+[CLS] it is a hidden delight complete with a quaint  [0b] bar [0e]  and good  [1b] food [1e]  . [SEP]	2	16	18
+[CLS] the  [0b] waiters [0e]  always look angry and even ignore their high-tipping regulars . [SEP]	0	2	5
+[CLS] the  [0b] atmosphere [0e]  is very nice , and a welcome escape from the rest of the si mall . [SEP]	2	2	4
+[CLS] yes , they 're a bit more expensive then typical , but then again , so is their  [0b] food [0e]  . [SEP]	2	20	22
+[CLS] i can say that the  [0b] wraps [0e]  ,  [1b] burgers [1e]  and  [2b] salads [2e]  were all fresh , tasty and the  [3b] mango margareta [3e]  at $ 9 was well worth the money . [SEP]	2	6	8
+[CLS] i can say that the  [0b] wraps [0e]  ,  [1b] burgers [1e]  and  [2b] salads [2e]  were all fresh , tasty and the  [3b] mango margareta [3e]  at $ 9 was well worth the money . [SEP]	2	10	13
+[CLS] i can say that the  [0b] wraps [0e]  ,  [1b] burgers [1e]  and  [2b] salads [2e]  were all fresh , tasty and the  [3b] mango margareta [3e]  at $ 9 was well worth the money . [SEP]	2	15	18
+[CLS] i can say that the  [0b] wraps [0e]  ,  [1b] burgers [1e]  and  [2b] salads [2e]  were all fresh , tasty and the  [3b] mango margareta [3e]  at $ 9 was well worth the money . [SEP]	2	27	31
+[CLS] anywhere else , the  [0b] prices [0e]  would be 3x as high ! [SEP]	2	5	7
+[CLS] the  [0b] service [0e]  we experienced was friendly and good . [SEP]	2	2	4
+[CLS] our  [0b] waiter [0e]  was friendly and it is a shame that he didnt have a supportive  [1b] staff [1e]  to work with . [SEP]	2	2	4
+[CLS] our  [0b] waiter [0e]  was friendly and it is a shame that he didnt have a supportive  [1b] staff [1e]  to work with . [SEP]	0	19	21
+[CLS] the  [0b] folding chair [0e]  i was seated at was uncomfortable . [SEP]	0	2	5
+[CLS]   [0b] service [0e]  was among the best i have ever had in nyc . [SEP]	2	1	3
+[CLS] the  [0b] fettucino alfredo [0e]  was amazing . [SEP]	2	2	8
+[CLS] the  [0b] food [0e]  was very good and i was pleasantly surprised to see so many  [1b] vegan options [1e]  . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  was very good and i was pleasantly surprised to see so many  [1b] vegan options [1e]  . [SEP]	2	17	21
+[CLS] i know real  [0b] indian food [0e]  and this was n't it . [SEP]	0	4	7
+[CLS] be sure to try the  [0b] smoked trout [0e]  ...  [1b] lamb chops [1e]  ,  [2b] veal chops [2e]  ,  [3b] rabbit [3e]  , the  [4b] potato gratin [4e]  , on and on and on ... [SEP]	2	6	9
+[CLS] be sure to try the  [0b] smoked trout [0e]  ...  [1b] lamb chops [1e]  ,  [2b] veal chops [2e]  ,  [3b] rabbit [3e]  , the  [4b] potato gratin [4e]  , on and on and on ... [SEP]	2	13	17
+[CLS] be sure to try the  [0b] smoked trout [0e]  ...  [1b] lamb chops [1e]  ,  [2b] veal chops [2e]  ,  [3b] rabbit [3e]  , the  [4b] potato gratin [4e]  , on and on and on ... [SEP]	2	19	24
+[CLS] be sure to try the  [0b] smoked trout [0e]  ...  [1b] lamb chops [1e]  ,  [2b] veal chops [2e]  ,  [3b] rabbit [3e]  , the  [4b] potato gratin [4e]  , on and on and on ... [SEP]	2	26	28
+[CLS] be sure to try the  [0b] smoked trout [0e]  ...  [1b] lamb chops [1e]  ,  [2b] veal chops [2e]  ,  [3b] rabbit [3e]  , the  [4b] potato gratin [4e]  , on and on and on ... [SEP]	2	31	35
+[CLS] even when the  [0b] chef [0e]  is not in the house , the  [1b] food [1e]  and  [2b] service [2e]  are right on target . [SEP]	1	4	6
+[CLS] even when the  [0b] chef [0e]  is not in the house , the  [1b] food [1e]  and  [2b] service [2e]  are right on target . [SEP]	2	14	16
+[CLS] even when the  [0b] chef [0e]  is not in the house , the  [1b] food [1e]  and  [2b] service [2e]  are right on target . [SEP]	2	18	20
+[CLS] everything from the  [0b] eggs benedict [0e]  to the  [1b] mussels [1e]  and even the  [2b] hamburger [2e]  were done well and very tasty . [SEP]	2	4	7
+[CLS] everything from the  [0b] eggs benedict [0e]  to the  [1b] mussels [1e]  and even the  [2b] hamburger [2e]  were done well and very tasty . [SEP]	2	10	14
+[CLS] everything from the  [0b] eggs benedict [0e]  to the  [1b] mussels [1e]  and even the  [2b] hamburger [2e]  were done well and very tasty . [SEP]	2	18	20
+[CLS] the  [0b] waiters [0e]  were very professional , courteous and attentive . [SEP]	2	2	5
+[CLS] the  [0b] falafal [0e]  was rather over cooked and dried but the  [1b] chicken [1e]  was fine . [SEP]	0	2	7
+[CLS] the  [0b] falafal [0e]  was rather over cooked and dried but the  [1b] chicken [1e]  was fine . [SEP]	2	16	18
+[CLS] i highly reccomend the  [0b] grand marnier shrimp [0e]  , it 's insanely good . [SEP]	2	7	12
+[CLS] we been there and we really enjoy the  [0b]  [1b] food [1e]  [0e]  , was areally great food , and the  [2b] service [2e]  was really good . [SEP]	2	10	12
+[CLS] we been there and we really enjoy the  [0b]  [1b] food [1e]  [0e]  , was areally great food , and the  [2b] service [2e]  was really good . [SEP]	2	10	12
+[CLS] we been there and we really enjoy the  [0b]  [1b] food [1e]  [0e]  , was areally great food , and the  [2b] service [2e]  was really good . [SEP]	2	23	25
+[CLS]   [0b] desserts [0e]  include flan and sopaipillas . [SEP]	1	1	4
+[CLS] desserts include  [0b] flan [0e]  and  [1b] sopaipillas [1e]  . [SEP]	1	4	7
+[CLS] desserts include  [0b] flan [0e]  and  [1b] sopaipillas [1e]  . [SEP]	1	9	15
+[CLS] i was starving and the small  [0b] portions [0e]  were driving me crazy ! [SEP]	0	7	9
+[CLS] the  [0b] wait staff [0e]  was loud and inconsiderate . [SEP]	0	2	5
+[CLS] however , the  [0b] food [0e]  and  [1b] service [1e]  and dramatically lacking . [SEP]	0	4	6
+[CLS] however , the  [0b] food [0e]  and  [1b] service [1e]  and dramatically lacking . [SEP]	0	8	10
+[CLS] the  [0b] sushi [0e]  is cut in blocks bigger than my cell phone . [SEP]	0	2	5
+[CLS] the  [0b] service [0e]  is great , my  [1b] soup [1e]  always arrives nice and hot . [SEP]	2	2	4
+[CLS] the  [0b] service [0e]  is great , my  [1b] soup [1e]  always arrives nice and hot . [SEP]	2	9	11
+[CLS] it had been awhile and i forgot just how delicious  [0b] crepes [0e]  can be . [SEP]	2	11	15
+[CLS] montparnasse 's  [0b] desserts [0e]  -- especially the silken  [1b] creme brulee [1e]  and paper-thin  [2b] apple tart [2e]  -- are good enough on their own to make the restaurant worth the trip . [SEP]	2	7	10
+[CLS] montparnasse 's  [0b] desserts [0e]  -- especially the silken  [1b] creme brulee [1e]  and paper-thin  [2b] apple tart [2e]  -- are good enough on their own to make the restaurant worth the trip . [SEP]	2	17	23
+[CLS] montparnasse 's  [0b] desserts [0e]  -- especially the silken  [1b] creme brulee [1e]  and paper-thin  [2b] apple tart [2e]  -- are good enough on their own to make the restaurant worth the trip . [SEP]	2	28	32
+[CLS] i had a delicious  [0b] shrimp creole [0e]  . [SEP]	2	5	8
+[CLS] the  [0b] chicken dinner [0e]  was real good . [SEP]	2	2	5
+[CLS] beware of the  [0b] chili signed food items [0e]  not unless you want to call the fire department to douse the flames in your mouth . [SEP]	0	5	10
+[CLS] the  [0b] decor [0e]  is designed in a contemporary japanese style restaurant . [SEP]	1	2	4
+[CLS] but the  [0b] food [0e]  was delicious . [SEP]	2	3	5
+[CLS] try the  [1b] ribs [1e]  , sizzling  [2b] beef [2e]  and couple it with  [0b] coconut rice [0e]  . [SEP]	2	16	19
+[CLS] try the  [1b] ribs [1e]  , sizzling  [2b] beef [2e]  and couple it with  [0b] coconut rice [0e]  . [SEP]	2	3	5
+[CLS] try the  [1b] ribs [1e]  , sizzling  [2b] beef [2e]  and couple it with  [0b] coconut rice [0e]  . [SEP]	2	9	11
+[CLS] the  [0b] avocado salad [0e]  is a personal fave . [SEP]	2	2	7
+[CLS] and , the  [0b] honey bbq rib tips [0e]  are yummy ! [SEP]	2	4	10
+[CLS] the best  [0b] chinese food [0e]  uptown ! [SEP]	2	3	6
+[CLS]   [0b] service [0e]  is known for bending over backwards to make everyone happy . [SEP]	2	1	3
+[CLS] the  [0b] staff [0e]  is very friendly . [SEP]	2	2	4
+[CLS]   [0b] waiters [0e]  are very friendly and the pasta is out of this world . [SEP]	2	1	4
+[CLS] waiters are very friendly and the  [0b] pasta [0e]  is out of this world . [SEP]	2	8	10
+[CLS] great  [0b] wine list [0e]  and great  [1b] cocktail menu [1e]  . [SEP]	2	2	5
+[CLS] great  [0b] wine list [0e]  and great  [1b] cocktail menu [1e]  . [SEP]	2	8	11
+[CLS] the  [0b] crab cakes [0e]  are delicious and the  [1b] bbq rib [1e]  was perfect . [SEP]	2	2	5
+[CLS] the  [0b] crab cakes [0e]  are delicious and the  [1b] bbq rib [1e]  was perfect . [SEP]	2	10	14
+[CLS] the  [0b] food [0e]  is wonderful , artfully done and simply delicious . [SEP]	2	2	4
+[CLS] tiny restaurant with very fast  [0b] service [0e]  . [SEP]	2	6	8
+[CLS] my husband and i have been there at least 6 times and we 've always been given the highest  [0b] service [0e]  and often free  [1b] desserts [1e]  . [SEP]	2	21	23
+[CLS] my husband and i have been there at least 6 times and we 've always been given the highest  [0b] service [0e]  and often free  [1b] desserts [1e]  . [SEP]	2	27	30
+[CLS] a beautiful  [0b] atmosphere [0e]  , perfect for  [1b] drinks [1e]  and/or  [2b] appetizers [2e]  . [SEP]	2	3	5
+[CLS] a beautiful  [0b] atmosphere [0e]  , perfect for  [1b] drinks [1e]  and/or  [2b] appetizers [2e]  . [SEP]	1	9	11
+[CLS] a beautiful  [0b] atmosphere [0e]  , perfect for  [1b] drinks [1e]  and/or  [2b] appetizers [2e]  . [SEP]	1	15	19
+[CLS] they make the best  [0b] pizza [0e]  in new jersey . [SEP]	2	5	7
+[CLS] what a difference , the  [0b] service [0e]  was very comforting and the  [1b] food [1e]  was better than average , but what really standed out was such a dynamic and extensive  [2b] beer list [2e]  . [SEP]	2	6	8
+[CLS] what a difference , the  [0b] service [0e]  was very comforting and the  [1b] food [1e]  was better than average , but what really standed out was such a dynamic and extensive  [2b] beer list [2e]  . [SEP]	2	14	16
+[CLS] what a difference , the  [0b] service [0e]  was very comforting and the  [1b] food [1e]  was better than average , but what really standed out was such a dynamic and extensive  [2b] beer list [2e]  . [SEP]	2	34	37
+[CLS] frankly , the  [0b] chinese food [0e]  here is something i can make better at home . [SEP]	0	4	7
+[CLS] there was only one  [0b] waiter [0e]  for the whole restaurant upstairs . [SEP]	1	5	7
+[CLS] we started with the  [0b] scallops [0e]  and  [1b] asparagus [1e]  and also had the  [2b] soft shell crab [2e]  as well as the  [3b] cheese plate [3e]  . [SEP]	1	5	9
+[CLS] we started with the  [0b] scallops [0e]  and  [1b] asparagus [1e]  and also had the  [2b] soft shell crab [2e]  as well as the  [3b] cheese plate [3e]  . [SEP]	1	11	15
+[CLS] we started with the  [0b] scallops [0e]  and  [1b] asparagus [1e]  and also had the  [2b] soft shell crab [2e]  as well as the  [3b] cheese plate [3e]  . [SEP]	1	20	24
+[CLS] we started with the  [0b] scallops [0e]  and  [1b] asparagus [1e]  and also had the  [2b] soft shell crab [2e]  as well as the  [3b] cheese plate [3e]  . [SEP]	1	29	32
+[CLS] not to be overlooked , the  [0b] service [0e]  is excellent . [SEP]	2	7	9
+[CLS] this without question is one of the worst  [0b] hotdogs [0e]  i have ever had . [SEP]	0	9	13
+[CLS] the  [0b] staff [0e]  is unbelievably friendly , and i dream about their  [1b] saag gosht [1e]  ... so good . [SEP]	2	2	4
+[CLS] the  [0b] staff [0e]  is unbelievably friendly , and i dream about their  [1b] saag gosht [1e]  ... so good . [SEP]	2	18	24
+[CLS] i also recommend the  [0b] garlic knots [0e]  . [SEP]	2	5	8
+[CLS] best  [0b] indian food [0e]  i have ever eaten . [SEP]	2	2	5
+[CLS] this place has the best  [0b] pizza [0e]  . [SEP]	2	6	8
+[CLS] the  [0b] music [0e]  which is sometimes a little too heavy for my taste . [SEP]	0	2	4
+[CLS] the  [0b] service [0e]  is excellent and always informative without an air . [SEP]	2	2	4
+[CLS] the  [0b] owner [0e]  and  [1b] staff [1e]  go to great lengths to make you feel comfortable . [SEP]	2	2	4
+[CLS] the  [0b] owner [0e]  and  [1b] staff [1e]  go to great lengths to make you feel comfortable . [SEP]	2	6	8
+[CLS] the  [0b] sushi [0e]  is always fresh and yummy and the  [1b] menu [1e]  is pretty varied . [SEP]	2	2	5
+[CLS] the  [0b] sushi [0e]  is always fresh and yummy and the  [1b] menu [1e]  is pretty varied . [SEP]	2	14	16
+[CLS] the  [0b] food [0e]  was great -  [1b] sushi [1e]  was good , but the  [2b] cooked food [2e]  amazed us . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  was great -  [1b] sushi [1e]  was good , but the  [2b] cooked food [2e]  amazed us . [SEP]	2	8	11
+[CLS] the  [0b] food [0e]  was great -  [1b] sushi [1e]  was good , but the  [2b] cooked food [2e]  amazed us . [SEP]	2	17	20
+[CLS] their  [0b] dinner specials [0e]  are fantastic . [SEP]	2	2	5
+[CLS] great  [0b] food [0e]  , great  [1b] drinks [1e]  , nice  [2b] dining atmosphere [2e]  . [SEP]	2	2	4
+[CLS] great  [0b] food [0e]  , great  [1b] drinks [1e]  , nice  [2b] dining atmosphere [2e]  . [SEP]	2	7	9
+[CLS] great  [0b] food [0e]  , great  [1b] drinks [1e]  , nice  [2b] dining atmosphere [2e]  . [SEP]	2	12	15
+[CLS] for the  [0b] price [0e]  you pay for the  [1b] food [1e]  here , you 'd expect it to be at least on par with other japanese restaurants . [SEP]	0	3	5
+[CLS] for the  [0b] price [0e]  you pay for the  [1b] food [1e]  here , you 'd expect it to be at least on par with other japanese restaurants . [SEP]	0	10	12
+[CLS]   [0b] food portion [0e]  was small and below average . [SEP]	0	1	4
+[CLS] sit back in one of those comfortable  [0b] chairs [0e]  . [SEP]	2	8	10
+[CLS] my favs here are the  [0b] tacos pastor [0e]  and the  [1b] tostada de tinga [1e]  ... [SEP]	2	7	11
+[CLS] my favs here are the  [0b] tacos pastor [0e]  and the  [1b] tostada de tinga [1e]  ... [SEP]	2	14	21
+[CLS] the  [0b] bartenders [0e]  and the  [1b] managers [1e]  are really nice and the  [2b] decor [2e]  is very comfy and laid-back , all the while being trendy . [SEP]	2	2	5
+[CLS] the  [0b] bartenders [0e]  and the  [1b] managers [1e]  are really nice and the  [2b] decor [2e]  is very comfy and laid-back , all the while being trendy . [SEP]	2	8	10
+[CLS] the  [0b] bartenders [0e]  and the  [1b] managers [1e]  are really nice and the  [2b] decor [2e]  is very comfy and laid-back , all the while being trendy . [SEP]	2	16	18
+[CLS] for a savory take on the  [1b] soup and sandwich meal [1e]  , try the  [0b] hot and sour soup [0e]  . [SEP]	2	18	23
+[CLS] for a savory take on the  [1b] soup and sandwich meal [1e]  , try the  [0b] hot and sour soup [0e]  . [SEP]	2	9	14
+[CLS] this bar has it all - great  [0b] drinks [0e]  , cool  [1b] atmosphere [1e]  , excellent  [2b] service [2e]  and delicious  [3b] food [3e]  . [SEP]	2	8	10
+[CLS] this bar has it all - great  [0b] drinks [0e]  , cool  [1b] atmosphere [1e]  , excellent  [2b] service [2e]  and delicious  [3b] food [3e]  . [SEP]	2	13	15
+[CLS] this bar has it all - great  [0b] drinks [0e]  , cool  [1b] atmosphere [1e]  , excellent  [2b] service [2e]  and delicious  [3b] food [3e]  . [SEP]	2	18	20
+[CLS] this bar has it all - great  [0b] drinks [0e]  , cool  [1b] atmosphere [1e]  , excellent  [2b] service [2e]  and delicious  [3b] food [3e]  . [SEP]	2	23	25
+[CLS] also , the  [0b] chick peas with shrimp (appetizer) [0e]  is divine . [SEP]	2	4	14
+[CLS] finally , i got sick of the bad  [0b] service [0e]  , obnoxious smirks , and snotty back talk . [SEP]	0	9	11
+[CLS] we ordered  [0b] lamb [0e]  which was perfectly cooked and tasted awesome . [SEP]	2	3	5
+[CLS] i especially like their  [0b] soft shell crab sandwich with fries [0e]  . [SEP]	2	5	12
+[CLS] if you 're looking for authentic  [0b] hong kong-style food [0e]  , look no further . [SEP]	2	8	14
+[CLS] good  [0b] food [0e]  good  [1b] wine [1e]  that 's it . [SEP]	2	2	4
+[CLS] good  [0b] food [0e]  good  [1b] wine [1e]  that 's it . [SEP]	2	6	8
+[CLS] the  [0b] staff [0e]  was extremely friendly and pleasant . [SEP]	2	2	4
+[CLS] while their  [0b] kitchen food [0e]  is delicious , their  [1b] sushi [1e]  is out of this world . [SEP]	2	3	6
+[CLS] while their  [0b] kitchen food [0e]  is delicious , their  [1b] sushi [1e]  is out of this world . [SEP]	2	11	14
+[CLS] everything is scrumptious , from the excellent  [0b] service [0e]  by cute  [1b] waitresses [1e]  , to the extremely lush  [2b] atmosphere [2e]  . [SEP]	2	11	13
+[CLS] everything is scrumptious , from the excellent  [0b] service [0e]  by cute  [1b] waitresses [1e]  , to the extremely lush  [2b] atmosphere [2e]  . [SEP]	2	16	19
+[CLS] everything is scrumptious , from the excellent  [0b] service [0e]  by cute  [1b] waitresses [1e]  , to the extremely lush  [2b] atmosphere [2e]  . [SEP]	2	25	27
+[CLS] it 's traditional , simple  [0b] italian food [0e]  . [SEP]	2	7	10
+[CLS] the  [0b] food [0e]  is all-around good , with the  [1b] rolls [1e]  usually excellent and the  [2b] sushi/sashimi [2e]  not quite on the same level . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is all-around good , with the  [1b] rolls [1e]  usually excellent and the  [2b] sushi/sashimi [2e]  not quite on the same level . [SEP]	2	13	15
+[CLS] the  [0b] food [0e]  is all-around good , with the  [1b] rolls [1e]  usually excellent and the  [2b] sushi/sashimi [2e]  not quite on the same level . [SEP]	1	20	26
+[CLS] -lrb- the  [0b] sashimi [0e]  is cut a little thinly . [SEP]	0	6	9
+[CLS] could have had better for 1/3 the  [0b] price [0e]  in chinatown . [SEP]	0	10	12
+[CLS] in addition to great  [0b] hot dogs [0e]  , dotp has wonderful  [1b] breakfast sandwiches [1e]  that feature , in addition to great things like  [2b] tator tots [2e]  and  [3b] english muffins [3e]  , a delicious nj-based  [5b] pork product [5e]  know to us jersey girls and boys as  [4b] taylor ham [4e]  . [SEP]	2	5	8
+[CLS] in addition to great  [0b] hot dogs [0e]  , dotp has wonderful  [1b] breakfast sandwiches [1e]  that feature , in addition to great things like  [2b] tator tots [2e]  and  [3b] english muffins [3e]  , a delicious nj-based  [5b] pork product [5e]  know to us jersey girls and boys as  [4b] taylor ham [4e]  . [SEP]	2	14	17
+[CLS] in addition to great  [0b] hot dogs [0e]  , dotp has wonderful  [1b] breakfast sandwiches [1e]  that feature , in addition to great things like  [2b] tator tots [2e]  and  [3b] english muffins [3e]  , a delicious nj-based  [5b] pork product [5e]  know to us jersey girls and boys as  [4b] taylor ham [4e]  . [SEP]	2	27	32
+[CLS] in addition to great  [0b] hot dogs [0e]  , dotp has wonderful  [1b] breakfast sandwiches [1e]  that feature , in addition to great things like  [2b] tator tots [2e]  and  [3b] english muffins [3e]  , a delicious nj-based  [5b] pork product [5e]  know to us jersey girls and boys as  [4b] taylor ham [4e]  . [SEP]	2	34	39
+[CLS] in addition to great  [0b] hot dogs [0e]  , dotp has wonderful  [1b] breakfast sandwiches [1e]  that feature , in addition to great things like  [2b] tator tots [2e]  and  [3b] english muffins [3e]  , a delicious nj-based  [5b] pork product [5e]  know to us jersey girls and boys as  [4b] taylor ham [4e]  . [SEP]	2	58	61
+[CLS] in addition to great  [0b] hot dogs [0e]  , dotp has wonderful  [1b] breakfast sandwiches [1e]  that feature , in addition to great things like  [2b] tator tots [2e]  and  [3b] english muffins [3e]  , a delicious nj-based  [5b] pork product [5e]  know to us jersey girls and boys as  [4b] taylor ham [4e]  . [SEP]	2	46	49
+[CLS] well , it happened because of a graceless  [0b] manager [0e]  and a rude  [1b] bartender [1e]  who had us  [3b] waiting [3e]  20 minutes for  [2b] drinks [2e]  , and then tells us to chill out . [SEP]	0	10	12
+[CLS] well , it happened because of a graceless  [0b] manager [0e]  and a rude  [1b] bartender [1e]  who had us  [3b] waiting [3e]  20 minutes for  [2b] drinks [2e]  , and then tells us to chill out . [SEP]	0	16	18
+[CLS] well , it happened because of a graceless  [0b] manager [0e]  and a rude  [1b] bartender [1e]  who had us  [3b] waiting [3e]  20 minutes for  [2b] drinks [2e]  , and then tells us to chill out . [SEP]	1	28	30
+[CLS] well , it happened because of a graceless  [0b] manager [0e]  and a rude  [1b] bartender [1e]  who had us  [3b] waiting [3e]  20 minutes for  [2b] drinks [2e]  , and then tells us to chill out . [SEP]	0	22	24
+[CLS] not only is the  [0b] service [0e]  great , but forming conversation around a table is so easy beacuse the  [1b] atmosphere [1e]  can be both romantic and comfortable . [SEP]	2	5	7
+[CLS] not only is the  [0b] service [0e]  great , but forming conversation around a table is so easy beacuse the  [1b] atmosphere [1e]  can be both romantic and comfortable . [SEP]	2	23	25
+[CLS] when the  [1b] dish [1e]  arrived it was blazing with  [0b] green chillis [0e]  , definitely not edible by a human . [SEP]	0	11	15
+[CLS] when the  [1b] dish [1e]  arrived it was blazing with  [0b] green chillis [0e]  , definitely not edible by a human . [SEP]	0	3	5
+[CLS] the absolute worst  [0b] service [0e]  i 've ever experienced and the  [1b] food [1e]  was below average -lrb- when they actually gave people the  [2b] meals [2e]  they ordered -rrb- . [SEP]	0	4	6
+[CLS] the absolute worst  [0b] service [0e]  i 've ever experienced and the  [1b] food [1e]  was below average -lrb- when they actually gave people the  [2b] meals [2e]  they ordered -rrb- . [SEP]	0	14	16
+[CLS] the absolute worst  [0b] service [0e]  i 've ever experienced and the  [1b] food [1e]  was below average -lrb- when they actually gave people the  [2b] meals [2e]  they ordered -rrb- . [SEP]	1	30	32
+[CLS] it 's about $ 7 for  [0b] lunch [0e]  and they have  [1b] take-out [1e]  or  [2b] dine-in [2e]  . [SEP]	1	8	10
+[CLS] it 's about $ 7 for  [0b] lunch [0e]  and they have  [1b] take-out [1e]  or  [2b] dine-in [2e]  . [SEP]	1	14	18
+[CLS] it 's about $ 7 for  [0b] lunch [0e]  and they have  [1b] take-out [1e]  or  [2b] dine-in [2e]  . [SEP]	1	20	25
+[CLS] be sure to accompany your  [0b] food [0e]  with one of their  [1b] fresh juice concoctions [1e]  . [SEP]	1	6	8
+[CLS] be sure to accompany your  [0b] food [0e]  with one of their  [1b] fresh juice concoctions [1e]  . [SEP]	2	13	19
+[CLS] the  [0b] food [0e]  is great and the  [1b] prices [1e]  are reasonable . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is great and the  [1b] prices [1e]  are reasonable . [SEP]	2	9	11
+[CLS] the  [0b] place [0e]  is clean , and if you like  [1b] soul food [1e]  , then this is the place to be ! [SEP]	2	2	4
+[CLS] the  [0b] place [0e]  is clean , and if you like  [1b] soul food [1e]  , then this is the place to be ! [SEP]	2	12	15
+[CLS] i had  [0b] roast chicken [0e]  and a  [1b] salad [1e]  . [SEP]	1	3	6
+[CLS] i had  [0b] roast chicken [0e]  and a  [1b] salad [1e]  . [SEP]	1	9	11
+[CLS] they have a very good  [0b] chicken with avocado [0e]  and good  [1b] tuna [1e]  as well . [SEP]	2	6	12
+[CLS] they have a very good  [0b] chicken with avocado [0e]  and good  [1b] tuna [1e]  as well . [SEP]	2	15	17
+[CLS] but the  [0b] meals [0e]  were terrible . [SEP]	0	3	5
+[CLS] my  [0b] chicken [0e]  was completely dried out and on the cold side and the  [1b] sauce [1e]  was not very flavorful . [SEP]	0	2	4
+[CLS] my  [0b] chicken [0e]  was completely dried out and on the cold side and the  [1b] sauce [1e]  was not very flavorful . [SEP]	0	16	18
+[CLS]   [0b] malted milk ball gelato [0e]  - have you ever in your life heard of anything so ridiculously wonderful ? [SEP]	2	1	8
+[CLS] way too much money for such a terrible  [0b] meal [0e]  . [SEP]	0	9	11
+[CLS] however , the  [0b] service [0e]  is absolutely horrible . [SEP]	0	4	6
+[CLS] a con was the slow  [0b] bar service [0e]  . [SEP]	0	6	9
+[CLS]   [0b] dessert [0e]  was also to die for ! [SEP]	2	1	3
+[CLS] btw , the  [0b] service [0e]  is very good . [SEP]	2	5	7
+[CLS] it 's eaten with  [0b] black vinegar [0e]  and  [1b] shredded ginger [1e]  . [SEP]	1	6	9
+[CLS] it 's eaten with  [0b] black vinegar [0e]  and  [1b] shredded ginger [1e]  . [SEP]	1	11	14
+[CLS] the unattractive  [0b] lighting [0e]  made me want to gag , the  [1b] food [1e]  was overpriced , there was the most awful  [2b] disco pop duo [2e]  performing-and my  [3b] escargot [3e]  looked like it might crawl off the plate . [SEP]	0	5	7
+[CLS] the unattractive  [0b] lighting [0e]  made me want to gag , the  [1b] food [1e]  was overpriced , there was the most awful  [2b] disco pop duo [2e]  performing-and my  [3b] escargot [3e]  looked like it might crawl off the plate . [SEP]	0	15	17
+[CLS] the unattractive  [0b] lighting [0e]  made me want to gag , the  [1b] food [1e]  was overpriced , there was the most awful  [2b] disco pop duo [2e]  performing-and my  [3b] escargot [3e]  looked like it might crawl off the plate . [SEP]	0	29	33
+[CLS] the unattractive  [0b] lighting [0e]  made me want to gag , the  [1b] food [1e]  was overpriced , there was the most awful  [2b] disco pop duo [2e]  performing-and my  [3b] escargot [3e]  looked like it might crawl off the plate . [SEP]	0	38	43
+[CLS] it is a cozy  [0b] place [0e]  to go with a couple of friends . [SEP]	2	5	7
+[CLS] the  [0b] service [0e]  is always great , and the  [1b] owner [1e]  walks around to make sure you enjoy . [SEP]	2	2	4
+[CLS] the  [0b] service [0e]  is always great , and the  [1b] owner [1e]  walks around to make sure you enjoy . [SEP]	2	11	13
+[CLS] because the  [0b] waiters [0e]  need severe attitue adjustments . [SEP]	0	3	6
+[CLS] the  [0b] food [0e]  is delicious and highly recommended . [SEP]	2	2	4
+[CLS] when it came time to take the order the  [0b] waiter [0e]  gave us a hard time , walked away then came back with a paper and pen for us to write down what we wanted ... excuse me but is n't that his job ??? [SEP]	0	10	12
+[CLS] dieters stick to  [0b] salads [0e]  or indulge in  [1b] vegetarian platters [1e]  . [SEP]	2	5	8
+[CLS] dieters stick to  [0b] salads [0e]  or indulge in  [1b] vegetarian platters [1e]  . [SEP]	2	14	18
+[CLS] so for a filling and healthy  [0b] meal [0e]  give it a go . [SEP]	2	7	9
+[CLS] since i cook for a living , i 'm very fussy about the  [0b] food [0e]  i eat in restaurants . [SEP]	1	16	18
+[CLS] the  [0b] service [0e]  was outstanding . [SEP]	2	2	4
+[CLS] my friends and i stop here for  [0b] pizza [0e]  before hitting the kips bay movie theater . [SEP]	1	8	10
+[CLS] we always enjoy the  [0b] pizza [0e]  . [SEP]	2	5	7
+[CLS] the  [0b] service [0e]  is pretty good . [SEP]	2	2	4
+[CLS] yum , the  [0b] chicken [0e]  is great here . [SEP]	2	5	7
+[CLS] the  [0b] food [0e]  here was great , a treat from beginning to end . [SEP]	2	2	4
+[CLS] the  [0b] host (owner) [0e]  and servers are personable and caring . [SEP]	2	2	7
+[CLS] the host -lrb- owner -rrb- and  [0b] servers [0e]  are personable and caring . [SEP]	2	13	15
+[CLS] it 's just everything ... the  [0b] food [0e]  , the  [1b] atmosphere [1e]  ... the incrediby kind and gracious  [2b] hostess [2e]  . [SEP]	2	10	12
+[CLS] it 's just everything ... the  [0b] food [0e]  , the  [1b] atmosphere [1e]  ... the incrediby kind and gracious  [2b] hostess [2e]  . [SEP]	2	15	17
+[CLS] it 's just everything ... the  [0b] food [0e]  , the  [1b] atmosphere [1e]  ... the incrediby kind and gracious  [2b] hostess [2e]  . [SEP]	2	30	32
+[CLS] the  [0b] food [0e]  is very good and the  [1b] service [1e]  is great . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is very good and the  [1b] service [1e]  is great . [SEP]	2	10	12
+[CLS] i usually get one the  [0b] vietnamese beef noodle soup [0e]  . [SEP]	1	6	12
+[CLS] we were wondering why they were there to make our  [0b] dining experience [0e]  miserable ? [SEP]	0	11	14
+[CLS] this place has the best  [0b] indian food [0e]  in new york , hands down . [SEP]	2	6	9
+[CLS] the  [0b] waiters [0e]  are very friendly and helpful and if you frequent they will remember you . [SEP]	2	2	5
+[CLS] intimate but charming  [0b] interior [0e]  with extremely friendly and attentive  [1b] service [1e]  . [SEP]	2	4	6
+[CLS] intimate but charming  [0b] interior [0e]  with extremely friendly and attentive  [1b] service [1e]  . [SEP]	2	14	16
+[CLS] the  [0b] food [0e]  was as creative as the  [1b] decor [1e]  and both worked . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  was as creative as the  [1b] decor [1e]  and both worked . [SEP]	2	10	12
+[CLS] the  [0b] menu [0e]  is great , with a good  [1b] selection [1e]  , and everything that i have tried is absolutely delicious . [SEP]	2	2	4
+[CLS] the  [0b] menu [0e]  is great , with a good  [1b] selection [1e]  , and everything that i have tried is absolutely delicious . [SEP]	2	11	13
+[CLS] the  [0b] sauce [0e]  is zesty and flavorful and the  [1b] crust [1e]  is nice and crispy . [SEP]	2	2	4
+[CLS] the  [0b] sauce [0e]  is zesty and flavorful and the  [1b] crust [1e]  is nice and crispy . [SEP]	2	13	15
+[CLS] this place has the best  [0b] sushi [0e]  in the city . [SEP]	2	6	9
+[CLS] they have an excellent  [0b] selection [0e]  -lrb- the  [1b] rolls with crab [1e]  are really great -rrb- . [SEP]	2	5	7
+[CLS] they have an excellent  [0b] selection [0e]  -lrb- the  [1b] rolls with crab [1e]  are really great -rrb- . [SEP]	2	13	17
+[CLS] everyone who works there -lrb- the  [0b] host [0e]  , the  [1b] bartender [1e]  , the  [2b] servers [2e]  -rrb- is so helpful . [SEP]	2	10	12
+[CLS] everyone who works there -lrb- the  [0b] host [0e]  , the  [1b] bartender [1e]  , the  [2b] servers [2e]  -rrb- is so helpful . [SEP]	2	15	17
+[CLS] everyone who works there -lrb- the  [0b] host [0e]  , the  [1b] bartender [1e]  , the  [2b] servers [2e]  -rrb- is so helpful . [SEP]	2	20	22
+[CLS] and the  [0b] food [0e]  is fantastic . [SEP]	2	3	5
+[CLS] favourites include :  [0b] potato spinach gnocchi [0e]  and the  [1b] lamb [1e]  . [SEP]	2	4	11
+[CLS] favourites include :  [0b] potato spinach gnocchi [0e]  and the  [1b] lamb [1e]  . [SEP]	2	14	16
+[CLS] unfortunately , we chose this spot for  [0b] lunch [0e]  as we had done a lot of walking and ended up at the south st seaport . [SEP]	1	8	10
+[CLS] but regulars know that the  [0b] sandwiches [0e]  are the real star here . [SEP]	2	6	8
+[CLS] the skillfully  [1e] chosen  [0b] port [0e] uguese cheese cart paired with quality port provides the perfect iberian ending . [SEP [1b] ]	2	6	8
+[CLS] the skillfully  [1e] chosen  [0b] port [0e] uguese cheese cart paired with quality port provides the perfect iberian ending . [SEP [1b] ]	2	26	4
+[CLS] my friend had a  [0b] burger [0e]  and i had these wonderful  [1b] blueberry pancakes [1e]  . [SEP]	1	5	7
+[CLS] my friend had a  [0b] burger [0e]  and i had these wonderful  [1b] blueberry pancakes [1e]  . [SEP]	2	13	17
+[CLS] we were so happy with our  [0b] food [0e]  and were even more thrilled when we saw the  [1b] bill [1e]  . [SEP]	2	7	9
+[CLS] we were so happy with our  [0b] food [0e]  and were even more thrilled when we saw the  [1b] bill [1e]  . [SEP]	2	19	21
+[CLS] all  [0b] toppings [0e]  are so fresh you 'd think they had their own vegetable garden and the  [1b] crust [1e]  is so perfect , that one actually thinks of how it was made . [SEP]	2	2	5
+[CLS] all  [0b] toppings [0e]  are so fresh you 'd think they had their own vegetable garden and the  [1b] crust [1e]  is so perfect , that one actually thinks of how it was made . [SEP]	2	21	23
+[CLS] we 've always gotten amazing  [0b] service [0e]  and we love the  [1b] food [1e]  . [SEP]	2	7	9
+[CLS] we 've always gotten amazing  [0b] service [0e]  and we love the  [1b] food [1e]  . [SEP]	2	14	16
+[CLS] the  [0b] waitstaff [0e]  is solicitous and friendly and always seems glad to see us , and the  [1b] food [1e]  is wonderful , if not stunningly creative . [SEP]	2	2	5
+[CLS] the  [0b] waitstaff [0e]  is solicitous and friendly and always seems glad to see us , and the  [1b] food [1e]  is wonderful , if not stunningly creative . [SEP]	2	23	25
+[CLS] i 'm in love with the  [0b] lobster ravioli [0e]  ! [SEP]	2	8	12
+[CLS] we came across this restaurant by accident while at a dumbo art festival and thoroughly enjoyed our  [0b] meal [0e]  . [SEP]	2	19	21
+[CLS]   [0b] service [0e]  is excellent , no wait , and you get a lot for the price . [SEP]	2	1	3
+[CLS] service is excellent , no  [1b] wait [1e]  , and you get a lot for the  [0b] price [0e]  . [SEP]	2	17	19
+[CLS] service is excellent , no  [1b] wait [1e]  , and you get a lot for the  [0b] price [0e]  . [SEP]	2	6	8
+[CLS] i thought the  [0b] food [0e]  is n't cheap at all compared to chinatown . [SEP]	0	4	6
+[CLS]   [0b] coffee [0e]  is a better deal than overpriced cosi sandwiches . [SEP]	2	1	3
+[CLS] coffee is a better deal than overpriced  [0b] cosi sandwiches [0e]  . [SEP]	0	11	15
+[CLS] we did n't know if we should order a  [0b] drink [0e]  or leave ? [SEP]	1	12	14
+[CLS] -rrb- it 's not the best japanese restaurant in the east village , but it 's a pretty solid one for its modest  [0b] prices [0e]  , and worth repeat visits . [SEP]	2	29	31
+[CLS] the  [0b] food [0e]  is so good and so popular that  [1b] waiting [1e]  can really be a nightmare . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is so good and so popular that  [1b] waiting [1e]  can really be a nightmare . [SEP]	0	12	14
+[CLS] first walking in the  [0b] place [0e]  seemed to have great  [1b] ambience [1e]  . [SEP]	2	5	7
+[CLS] first walking in the  [0b] place [0e]  seemed to have great  [1b] ambience [1e]  . [SEP]	2	12	16
+[CLS] i went to kitchenette this weekend for  [0b] brunch [0e]  . [SEP]	1	9	13
+[CLS] even for two very hungry people there is plenty of  [0b] food [0e]  left to be taken home -lrb- it reheats really well also -rrb- . [SEP]	2	11	13
+[CLS] then they somehow made a dry and burnt  [0b] crust [0e]  , around a raw and cold inside . [SEP]	0	9	11
+[CLS] it 's just good  [0b] food [0e]  , nothing more and that 's all we want ! [SEP]	2	6	8
+[CLS] average  [0b] cake [0e]  thats been courted by a lot of hype . [SEP]	0	2	4
+[CLS] my wife and i recently visited the bistro for  [0b] dinner [0e]  and had a wonderful experience . [SEP]	1	11	13
+[CLS] the  [0b] service [0e]  is perfect too nothing wrong in this italian/french restaurant [SEP]	2	2	4
+[CLS] the $ 72  [0b] delmonico steak [0e]  had to be sent back because it was not cooked to order . [SEP]	0	4	9
+[CLS] everytime i go there i ca n't pick anything to eat and not because the  [0b] menu [0e]  is filled with great things to eat . [SEP]	0	19	21
+[CLS] half a  [2b] chicken [2e]  with a mountain of  [0b] rice [0e]  and  [1b] beans [1e]  for $ 6.25 . [SEP]	1	10	12
+[CLS] half a  [2b] chicken [2e]  with a mountain of  [0b] rice [0e]  and  [1b] beans [1e]  for $ 6.25 . [SEP]	1	14	16
+[CLS] half a  [2b] chicken [2e]  with a mountain of  [0b] rice [0e]  and  [1b] beans [1e]  for $ 6.25 . [SEP]	1	3	5
+[CLS] the  [0b] service [0e]  is really fast and friendly , and the  [1b] value [1e]  is great . [SEP]	2	2	4
+[CLS] the  [0b] service [0e]  is really fast and friendly , and the  [1b] value [1e]  is great . [SEP]	2	13	15
+[CLS] we were very impressed with the  [0b] food [0e]  and  [1b] value [1e]  . [SEP]	2	7	9
+[CLS] we were very impressed with the  [0b] food [0e]  and  [1b] value [1e]  . [SEP]	2	11	13
+[CLS] you must try the  [0b] garlic soup [0e]  ! [SEP]	2	5	8
+[CLS] casablanca servces delicious  [0b] falafel [0e]  ,  [1b] tabouleh [1e]  ,  [2b] humus [2e]  and other  [3b] mediterranean delights [3e]  , which are all very inexpensive . [SEP]	2	6	11
+[CLS] casablanca servces delicious  [0b] falafel [0e]  ,  [1b] tabouleh [1e]  ,  [2b] humus [2e]  and other  [3b] mediterranean delights [3e]  , which are all very inexpensive . [SEP]	2	13	18
+[CLS] casablanca servces delicious  [0b] falafel [0e]  ,  [1b] tabouleh [1e]  ,  [2b] humus [2e]  and other  [3b] mediterranean delights [3e]  , which are all very inexpensive . [SEP]	2	20	23
+[CLS] casablanca servces delicious  [0b] falafel [0e]  ,  [1b] tabouleh [1e]  ,  [2b] humus [2e]  and other  [3b] mediterranean delights [3e]  , which are all very inexpensive . [SEP]	2	26	30
+[CLS] the  [0b] pizza's [0e]  are made fresh , crispy , and ready to serve . [SEP]	2	2	6
+[CLS]   [0b] staff [0e]  is accomodating make sure you are satified . [SEP]	2	1	3
+[CLS]   [0b] chef [0e]  waldy 's always measures up . [SEP]	2	1	3
+[CLS] reasonably  [1b] priced [1e]  with very fresh  [0b] sushi [0e]  . [SEP]	2	8	11
+[CLS] reasonably  [1b] priced [1e]  with very fresh  [0b] sushi [0e]  . [SEP]	2	2	4
+[CLS] go for the  [0b] seafood paella for two [0e]  . [SEP]	2	4	10
+[CLS] all of the  [0b] apetizers [0e]  are good and the  [1b] sangria [1e]  is very good . [SEP]	2	4	8
+[CLS] all of the  [0b] apetizers [0e]  are good and the  [1b] sangria [1e]  is very good . [SEP]	2	13	16
+[CLS] the one positive thing i can say is that the  [0b] service [0e]  was prompt , we got seated right away and the  [1b] server [1e]  was very friendly . [SEP]	2	11	13
+[CLS] the one positive thing i can say is that the  [0b] service [0e]  was prompt , we got seated right away and the  [1b] server [1e]  was very friendly . [SEP]	2	24	26
+[CLS] the  [0b] staff [0e]  greeted me warmly at the door and i was seated promptly and the  [1b] food [1e]  was excellent . [SEP]	2	2	4
+[CLS] the  [0b] staff [0e]  greeted me warmly at the door and i was seated promptly and the  [1b] food [1e]  was excellent . [SEP]	2	18	20
+[CLS]   [0b] service [0e]  is usually pretty good . [SEP]	2	1	3
+[CLS]   [0b] host [0e]  and hostess was quite rude . [SEP]	0	1	3
+[CLS] host and  [0b] hostess [0e]  was quite rude . [SEP]	0	3	5
+[CLS] the  [0b] wait staff [0e]  is very friendly , if your not rude or picky ... . . our  [1b] meal [1e]  at leon last weekend was great - . [SEP]	2	2	5
+[CLS] the  [0b] wait staff [0e]  is very friendly , if your not rude or picky ... . . our  [1b] meal [1e]  at leon last weekend was great - . [SEP]	2	23	25
+[CLS] i recommend any of their  [0b] salmon dishes [0e]  ... . [SEP]	2	6	9
+[CLS] the  [0b] foie gras [0e]  was sweet and luscious . [SEP]	2	2	8
+[CLS] the  [0b] menu [0e]  , which changes seasonally , shows both regional and international influences . [SEP]	1	2	4
+[CLS] but their  [0b] mac cheese [0e]  was yummy ! [SEP]	2	3	6
+[CLS] their  [0b] brunch menu [0e]  had something for everyone . [SEP]	2	2	7
+[CLS]   [0b] jazz singer [0e]  had a nice voice + she made us all get up to dance to shake some cals to eat some more . [SEP]	2	1	4
+[CLS] they have very quick  [0b] service [0e]  which is great when you do n't have much time . [SEP]	2	5	7
+[CLS] the  [0b] food [0e]  is average :  [1b] breakfast food [1e]  ,  [2b] soups [2e]  ,  [3b] salads [3e]  ,  [4b] sandwiches [4e]  , etc. . [SEP]	1	2	4
+[CLS] the  [0b] food [0e]  is average :  [1b] breakfast food [1e]  ,  [2b] soups [2e]  ,  [3b] salads [3e]  ,  [4b] sandwiches [4e]  , etc. . [SEP]	1	8	11
+[CLS] the  [0b] food [0e]  is average :  [1b] breakfast food [1e]  ,  [2b] soups [2e]  ,  [3b] salads [3e]  ,  [4b] sandwiches [4e]  , etc. . [SEP]	1	13	16
+[CLS] the  [0b] food [0e]  is average :  [1b] breakfast food [1e]  ,  [2b] soups [2e]  ,  [3b] salads [3e]  ,  [4b] sandwiches [4e]  , etc. . [SEP]	1	18	21
+[CLS] the  [0b] food [0e]  is average :  [1b] breakfast food [1e]  ,  [2b] soups [2e]  ,  [3b] salads [3e]  ,  [4b] sandwiches [4e]  , etc. . [SEP]	1	23	25
+[CLS] i was highly disappointed by the  [0b] food [0e]  . [SEP]	0	7	9
+[CLS] the  [0b] banana pudding [0e]  they serve has never seen an oven , the  [1b] crabcakes [1e]  are way over salted and do n't get me started on the very greasy  [2b] mac and cheese [2e]  . [SEP]	0	2	5
+[CLS] the  [0b] banana pudding [0e]  they serve has never seen an oven , the  [1b] crabcakes [1e]  are way over salted and do n't get me started on the very greasy  [2b] mac and cheese [2e]  . [SEP]	0	15	19
+[CLS] the  [0b] banana pudding [0e]  they serve has never seen an oven , the  [1b] crabcakes [1e]  are way over salted and do n't get me started on the very greasy  [2b] mac and cheese [2e]  . [SEP]	0	37	41
+[CLS] the  [0b] staff [0e]  is arrogant , the  [1b] prices [1e]  are way high for brooklyn . [SEP]	0	2	4
+[CLS] the  [0b] staff [0e]  is arrogant , the  [1b] prices [1e]  are way high for brooklyn . [SEP]	0	9	11
+[CLS] the  [0b] service [0e]  is prompt friendly . [SEP]	2	2	4
+[CLS] this is literally a hot spot when it comes to the  [0b] food [0e]  . [SEP]	2	12	14
+[CLS] the  [0b] downstairs bar scene [0e]  is very cool and chill ... [SEP]	2	2	6
+[CLS] the  [0b] food [0e]  was definitely good , but when all was said and done , i just could n't justify it for the  [1b] price [1e]  -lrb- including 2  [2b] drinks [2e]  , $ 100/person -rrb- ... [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  was definitely good , but when all was said and done , i just could n't justify it for the  [1b] price [1e]  -lrb- including 2  [2b] drinks [2e]  , $ 100/person -rrb- ... [SEP]	0	27	29
+[CLS] the  [0b] food [0e]  was definitely good , but when all was said and done , i just could n't justify it for the  [1b] price [1e]  -lrb- including 2  [2b] drinks [2e]  , $ 100/person -rrb- ... [SEP]	1	36	38
+[CLS] i 've come here for  [0b] casual lunches [0e]  as well as for a friend 's birthday and i always enjoy myself . [SEP]	1	7	11
+[CLS] if you are a  [0b] tequila [0e]  fan you will not be disappointed . [SEP]	2	5	7
+[CLS] great  [0b] beer selection [0e]  too , something like 50  [1b] beers [1e]  . [SEP]	2	2	5
+[CLS] great  [0b] beer selection [0e]  too , something like 50  [1b] beers [1e]  . [SEP]	1	11	13
+[CLS] not to sound too negative but be wary of the  [0b] delivary [0e]  . [SEP]	0	11	15
+[CLS] i found the  [0b] food [0e]  to be just as good as its  [1b] owner [1e]  , da silvano , just much less expensive . [SEP]	2	4	6
+[CLS] i found the  [0b] food [0e]  to be just as good as its  [1b] owner [1e]  , da silvano , just much less expensive . [SEP]	2	14	16
+[CLS] they have  [0b] homemade pastas [0e]  of all kinds -- i recommend the  [1b] gnocchi [1e]  -- yum ! [SEP]	2	3	7
+[CLS] they have  [0b] homemade pastas [0e]  of all kinds -- i recommend the  [1b] gnocchi [1e]  -- yum ! [SEP]	2	16	20
+[CLS] my  [0b] vegetable risotto [0e]  was burnt , and infused totally in a burnt  [1b] flavor [1e]  . [SEP]	0	2	7
+[CLS] my  [0b] vegetable risotto [0e]  was burnt , and infused totally in a burnt  [1b] flavor [1e]  . [SEP]	0	17	19
+[CLS] the main draw of this place is the  [0b] price [0e]  . [SEP]	2	9	11
+[CLS] how can hope to stay in business with  [0b] service [0e]  like this ? [SEP]	0	9	11
+[CLS] but  [0b] dinner [0e]  here is never disappointing , even if the  [1b] prices [1e]  are a bit over the top . [SEP]	2	2	4
+[CLS] but  [0b] dinner [0e]  here is never disappointing , even if the  [1b] prices [1e]  are a bit over the top . [SEP]	0	13	15
+[CLS] not only did they have amazing ,  [0b] sandwiches [0e]  ,  [1b] soup [1e]  ,  [2b] pizza [2e]  etc , but their  [3b] homemade sorbets [3e]  are out of this world ! [SEP]	2	8	10
+[CLS] not only did they have amazing ,  [0b] sandwiches [0e]  ,  [1b] soup [1e]  ,  [2b] pizza [2e]  etc , but their  [3b] homemade sorbets [3e]  are out of this world ! [SEP]	2	12	14
+[CLS] not only did they have amazing ,  [0b] sandwiches [0e]  ,  [1b] soup [1e]  ,  [2b] pizza [2e]  etc , but their  [3b] homemade sorbets [3e]  are out of this world ! [SEP]	2	16	18
+[CLS] not only did they have amazing ,  [0b] sandwiches [0e]  ,  [1b] soup [1e]  ,  [2b] pizza [2e]  etc , but their  [3b] homemade sorbets [3e]  are out of this world ! [SEP]	2	23	28
+[CLS] the  [0b] homemade guacamole [0e]  , the unbelievable  [1b] entree [1e]  , and thee most amazing  [2b] deserts [2e]  . [SEP]	2	2	8
+[CLS] the  [0b] homemade guacamole [0e]  , the unbelievable  [1b] entree [1e]  , and thee most amazing  [2b] deserts [2e]  . [SEP]	2	12	15
+[CLS] the  [0b] homemade guacamole [0e]  , the unbelievable  [1b] entree [1e]  , and thee most amazing  [2b] deserts [2e]  . [SEP]	2	21	23
+[CLS] the  [0b] sushi [0e]  is reasonably  [1b] priced [1e]  and fresh . [SEP]	2	2	5
+[CLS] the  [0b] sushi [0e]  is reasonably  [1b] priced [1e]  and fresh . [SEP]	2	8	10
+[CLS] save room for  [0b] deserts [0e]  - they 're to die for . [SEP]	2	4	6
+[CLS] best things to order are from the  [0b] grill [0e]  -lrb-  [1b] churrasco [1e]  and  [2b] ribs [2e]  -rrb- . [SEP]	2	8	10
+[CLS] best things to order are from the  [0b] grill [0e]  -lrb-  [1b] churrasco [1e]  and  [2b] ribs [2e]  -rrb- . [SEP]	2	15	19
+[CLS] best things to order are from the  [0b] grill [0e]  -lrb-  [1b] churrasco [1e]  and  [2b] ribs [2e]  -rrb- . [SEP]	2	21	23
+[CLS] the  [0b] traditional italian items [0e]  are great - cheap and  [2b] served [2e]  in a cozy  [1b] setting [1e]  . [SEP]	2	2	6
+[CLS] the  [0b] traditional italian items [0e]  are great - cheap and  [2b] served [2e]  in a cozy  [1b] setting [1e]  . [SEP]	2	18	20
+[CLS] the  [0b] traditional italian items [0e]  are great - cheap and  [2b] served [2e]  in a cozy  [1b] setting [1e]  . [SEP]	2	12	14
+[CLS] whether your choose the  [0b] iced blended mocha [0e]  or the  [1b] hot white mocha [1e]  you are sure to be extremely happy . [SEP]	2	5	10
+[CLS] whether your choose the  [0b] iced blended mocha [0e]  or the  [1b] hot white mocha [1e]  you are sure to be extremely happy . [SEP]	2	13	18
+[CLS] last tuesday for a  [0b] late lunch [0e]  with a friend . [SEP]	1	5	8
+[CLS] another friend had to ask 3 times for  [0b] parmesan cheese [0e]  . [SEP]	1	9	14
+[CLS] our  [0b] waitress [0e]  had apparently never tried any of the  [1b] food [1e]  , and there was no one to recommend any  [2b] wine [2e]  . [SEP]	0	2	4
+[CLS] our  [0b] waitress [0e]  had apparently never tried any of the  [1b] food [1e]  , and there was no one to recommend any  [2b] wine [2e]  . [SEP]	1	12	14
+[CLS] our  [0b] waitress [0e]  had apparently never tried any of the  [1b] food [1e]  , and there was no one to recommend any  [2b] wine [2e]  . [SEP]	1	24	26
+[CLS] the  [0b] service [0e]  was a bit slow and the  [1b] portions [1e]  are a bit small so if you are hungry and in a rush , this is not the place for you . [SEP]	0	2	4
+[CLS] the  [0b] service [0e]  was a bit slow and the  [1b] portions [1e]  are a bit small so if you are hungry and in a rush , this is not the place for you . [SEP]	0	11	13
+[CLS] the unfortunate lady next to us thought she had ordered a  [0b] salad [0e]  -lrb- including asking for  [1b] salad dressing [1e]  -rrb- and was instead given a  [2b] quesedilla [2e]  . [SEP]	1	12	14
+[CLS] the unfortunate lady next to us thought she had ordered a  [0b] salad [0e]  -lrb- including asking for  [1b] salad dressing [1e]  -rrb- and was instead given a  [2b] quesedilla [2e]  . [SEP]	1	22	25
+[CLS] the unfortunate lady next to us thought she had ordered a  [0b] salad [0e]  -lrb- including asking for  [1b] salad dressing [1e]  -rrb- and was instead given a  [2b] quesedilla [2e]  . [SEP]	1	35	39
+[CLS] el nidos one of the best restaurants in new york which i 've ever been to , has a great variety of tasty , mouth watering  [0b] pizza's [0e]  . [SEP]	2	30	34
+[CLS] the  [0b] service [0e]  was pretty poor all around , the  [1b] food [1e]  was well below average relative to the  [2b] cost [2e]  , and outside there is a crazy bum who harasses every customer who leaves the place . [SEP]	0	2	4
+[CLS] the  [0b] service [0e]  was pretty poor all around , the  [1b] food [1e]  was well below average relative to the  [2b] cost [2e]  , and outside there is a crazy bum who harasses every customer who leaves the place . [SEP]	0	12	14
+[CLS] the  [0b] service [0e]  was pretty poor all around , the  [1b] food [1e]  was well below average relative to the  [2b] cost [2e]  , and outside there is a crazy bum who harasses every customer who leaves the place . [SEP]	0	22	24
+[CLS] although i moved uptown i try to stop in as often as possible for the great cheap  [0b] food [0e]  and to pay the friendly  [1b] staff [1e]  a visit . [SEP]	2	18	20
+[CLS] although i moved uptown i try to stop in as often as possible for the great cheap  [0b] food [0e]  and to pay the friendly  [1b] staff [1e]  a visit . [SEP]	2	26	28
+[CLS] i had to wait for my friend at the  [0b] bar [0e]  for a few minutes [SEP]	1	10	12
+[CLS]   [0b] chef [0e]  vincenzo , always there if you need him , is a real talent and a real roman . [SEP]	2	1	3
+[CLS] if you 're looking to taste some great  [0b] indian food [0e]  and want good  [1b] service [1e]  , definitely visit curry leaf . [SEP]	2	10	13
+[CLS] if you 're looking to taste some great  [0b] indian food [0e]  and want good  [1b] service [1e]  , definitely visit curry leaf . [SEP]	2	17	19
+[CLS] you must try  [0b] odessa stew [0e]  or  [1b] rabbit stew [1e]  ; salads-all good ; and kompot is soo refreshing during the hot summer day -lrb- they make it the way my mom does , reminds me of home a lot -rrb- . [SEP]	2	4	7
+[CLS] you must try  [0b] odessa stew [0e]  or  [1b] rabbit stew [1e]  ; salads-all good ; and kompot is soo refreshing during the hot summer day -lrb- they make it the way my mom does , reminds me of home a lot -rrb- . [SEP]	2	9	12
+[CLS] you must try odessa stew or rabbit stew ;  [0b] salads [0e]  - all good ; and kompot is soo refreshing during the hot summer day -lrb- they make it the way my mom does , reminds me of home a lot -rrb- . [SEP]	2	10	13
+[CLS] you must try odessa stew or rabbit stew ; salads-all good ; and  [0b] kompot [0e]  is soo refreshing during the hot summer day -lrb- they make it the way my mom does , reminds me of home a lot -rrb- . [SEP]	2	17	21
+[CLS] my daughter and i left feeling satisfied -lrb- not stuffed -rrb- and it felt good to know we had a healthy  [0b] lunch [0e]  . [SEP]	2	28	30
+[CLS] when she complained , the  [0b] waitress [0e]  said , sorry . [SEP]	1	6	8
+[CLS] the  [0b] quality of the meat [0e]  was on par with your local grocery store . [SEP]	0	2	7
+[CLS] they specialize in  [0b] smoothies [0e]  and  [1b] fresh juices [1e]  . [SEP]	2	5	8
+[CLS] they specialize in  [0b] smoothies [0e]  and  [1b] fresh juices [1e]  . [SEP]	2	10	14
+[CLS] i recommend the  [0b] black roasted codfish [0e]  , it was the best  [1b] dish [1e]  of the evening . [SEP]	2	4	9
+[CLS] i recommend the  [0b] black roasted codfish [0e]  , it was the best  [1b] dish [1e]  of the evening . [SEP]	2	15	17
+[CLS] the  [2b] manager [2e]  then told us we could order from whatever  [1b] menu [1e]  we wanted but by that time we were so annoyed with the  [0b] waiter [0e]  and the resturant that we let and went some place else . [SEP]	0	28	30
+[CLS] the  [2b] manager [2e]  then told us we could order from whatever  [1b] menu [1e]  we wanted but by that time we were so annoyed with the  [0b] waiter [0e]  and the resturant that we let and went some place else . [SEP]	1	13	15
+[CLS] the  [2b] manager [2e]  then told us we could order from whatever  [1b] menu [1e]  we wanted but by that time we were so annoyed with the  [0b] waiter [0e]  and the resturant that we let and went some place else . [SEP]	1	2	4
+[CLS] in mi burrito , here was nothing but dark  [1b] chicken [1e]  that had that cooked last week and just warmed up in a microwave  [0b] taste [0e]  . [SEP]	0	27	29
+[CLS] in mi burrito , here was nothing but dark  [1b] chicken [1e]  that had that cooked last week and just warmed up in a microwave  [0b] taste [0e]  . [SEP]	0	11	13
+[CLS] during busy hrs , i recommend that you make a  [0b] reservation [0e]  . [SEP]	1	12	14
+[CLS] i went to common stock for  [0b] brunch [0e]  and i was so impressed . [SEP]	1	7	11
+[CLS] now called nikki  [0b] sushi [0e]  , sushi is ok . [SEP]	1	4	7
+[CLS] the  [0b] food [0e]  is also outstanding and is  [1b] served [1e]  quite quickly . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is also outstanding and is  [1b] served [1e]  quite quickly . [SEP]	2	10	12
+[CLS] from the  [0b] erbazzone emiliana [0e]  to the  [1b] mostarda on the cheese plate [1e]  , the  [2b] dishes [2e]  at this restaurant are all handled with delicate care . [SEP]	2	3	10
+[CLS] from the  [0b] erbazzone emiliana [0e]  to the  [1b] mostarda on the cheese plate [1e]  , the  [2b] dishes [2e]  at this restaurant are all handled with delicate care . [SEP]	2	13	21
+[CLS] from the  [0b] erbazzone emiliana [0e]  to the  [1b] mostarda on the cheese plate [1e]  , the  [2b] dishes [2e]  at this restaurant are all handled with delicate care . [SEP]	2	24	26
+[CLS] the  [0b] food [0e]  is delicious and the  [1b] bar [1e]  has a great  [2b] vibe [2e]  . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is delicious and the  [1b] bar [1e]  has a great  [2b] vibe [2e]  . [SEP]	2	9	11
+[CLS] the  [0b] food [0e]  is delicious and the  [1b] bar [1e]  has a great  [2b] vibe [2e]  . [SEP]	2	15	17
+[CLS] there 's  [0b] candlelight [0e]  and  [1b] music [1e]  . [SEP]	1	4	7
+[CLS] there 's  [0b] candlelight [0e]  and  [1b] music [1e]  . [SEP]	1	9	11
+[CLS] simple healthy unglamorous  [0b] food [0e]  cheap . [SEP]	2	7	9
+[CLS] it was such a fantastic  [0b] dining experience [0e]  , that i returned again the same week . [SEP]	2	6	9
+[CLS] to be fair , the  [0b] food [0e]  still is good and the  [1b] service [1e]  is quick and attentative even though its usually very busy . [SEP]	2	6	8
+[CLS] to be fair , the  [0b] food [0e]  still is good and the  [1b] service [1e]  is quick and attentative even though its usually very busy . [SEP]	2	14	16
+[CLS] the  [0b] place [0e]  is absolutely adorable and the  [1b] food [1e]  is delicious . [SEP]	2	2	4
+[CLS] the  [0b] place [0e]  is absolutely adorable and the  [1b] food [1e]  is delicious . [SEP]	2	10	12
+[CLS] i ordered the  [0b] chicken teriyaki [0e]  and my husband got  [1b] garlic shrimp [1e]  . [SEP]	1	4	9
+[CLS] i ordered the  [0b] chicken teriyaki [0e]  and my husband got  [1b] garlic shrimp [1e]  . [SEP]	1	14	17
+[CLS] i 've had better  [0b] japanese food [0e]  at a mall food court . [SEP]	0	6	9
+[CLS] the  [0b] staff members [0e]  are extremely friendly and even replaced my  [1b] drink [1e]  once when i dropped it outside . [SEP]	2	2	5
+[CLS] the  [0b] staff members [0e]  are extremely friendly and even replaced my  [1b] drink [1e]  once when i dropped it outside . [SEP]	1	13	15
+[CLS] cool  [0b] atmosphere [0e]  but such a let down . [SEP]	2	2	4
+[CLS] the  [0b] sashimi portion [0e]  are big enough to appease most people , but i did n't like the fact they used  [1b] artifical lobster meat [1e]  . [SEP]	2	2	6
+[CLS] the  [0b] sashimi portion [0e]  are big enough to appease most people , but i did n't like the fact they used  [1b] artifical lobster meat [1e]  . [SEP]	0	27	33
+[CLS] they have  [0b] wheat crusted pizza [0e]  made with really fresh and yummy  [1b] ingredients [1e]  . [SEP]	2	3	8
+[CLS] they have  [0b] wheat crusted pizza [0e]  made with really fresh and yummy  [1b] ingredients [1e]  . [SEP]	2	16	18
+[CLS] had a lovely  [0b] dinner [0e]  in this dedicated sea [1b] food [1e]  joint , food was well-prepared and - presented and the  [2b] service [2e]  was pleasant and prompt . [SEP]	2	4	6
+[CLS] had a lovely  [0b] dinner [0e]  in this dedicated sea [1b] food [1e]  joint , food was well-prepared and - presented and the  [2b] service [2e]  was pleasant and prompt . [SEP]	2	11	13
+[CLS] had a lovely  [0b] dinner [0e]  in this dedicated sea [1b] food [1e]  joint , food was well-prepared and - presented and the  [2b] service [2e]  was pleasant and prompt . [SEP]	2	26	28
+[CLS] the icing made this  [0b] cake [0e]  , it was fluffy , not ultra sweet , creamy and light . [SEP]	2	6	8
+[CLS] finally let into the store 5 at a time , to buy expensive  [1b] slices [1e]  from a harried  [0b] staff [0e]  . [SEP]	0	22	24
+[CLS] finally let into the store 5 at a time , to buy expensive  [1b] slices [1e]  from a harried  [0b] staff [0e]  . [SEP]	0	14	16
+[CLS] we ended up having to just leave because we were essentially being ignored by the  [0b] wait staff [0e]  -- even though the rest of the restaurant was largely empty . [SEP]	0	16	19
+[CLS] the  [0b] wine list [0e]  is extensive , well  [1b] priced [1e]  and covers alot of regions . [SEP]	2	2	5
+[CLS] the  [0b] wine list [0e]  is extensive , well  [1b] priced [1e]  and covers alot of regions . [SEP]	2	10	12
+[CLS] go here if you want fresh and tasty  [0b] salads [0e]  of any type you can imagine . [SEP]	2	10	13
+[CLS] everything about this place is adorable - even the  [0b] bathroom [0e]  ! [SEP]	2	10	12
+[CLS] speedy  [0b] delivers [0e]  , great  [1b] food [1e]  , decent  [2b] prices [2e]  , and friendly  [3b] service [3e]  combine to ensure an enjoyable  [4b] repast [4e]  . [SEP]	2	2	4
+[CLS] speedy  [0b] delivers [0e]  , great  [1b] food [1e]  , decent  [2b] prices [2e]  , and friendly  [3b] service [3e]  combine to ensure an enjoyable  [4b] repast [4e]  . [SEP]	2	7	9
+[CLS] speedy  [0b] delivers [0e]  , great  [1b] food [1e]  , decent  [2b] prices [2e]  , and friendly  [3b] service [3e]  combine to ensure an enjoyable  [4b] repast [4e]  . [SEP]	2	12	14
+[CLS] speedy  [0b] delivers [0e]  , great  [1b] food [1e]  , decent  [2b] prices [2e]  , and friendly  [3b] service [3e]  combine to ensure an enjoyable  [4b] repast [4e]  . [SEP]	2	18	20
+[CLS] speedy  [0b] delivers [0e]  , great  [1b] food [1e]  , decent  [2b] prices [2e]  , and friendly  [3b] service [3e]  combine to ensure an enjoyable  [4b] repast [4e]  . [SEP]	2	26	29
+[CLS] they have  [0b] waiters [0e]  on the sidewalk trying to pull you in which made us suspicious . [SEP]	1	3	6
+[CLS] it was our only opportunity to visit and wanted an authentic  [0b] italian meal [0e]  . [SEP]	1	12	15
+[CLS] it took 100 years for parisi to get around to making  [0b] pizza [0e]  -lrb- at least i do n't think they ever made it before this year -rrb- ... but it was worth the wait . [SEP]	2	13	15
+[CLS] i asked for a simple medium rare  [0b] steak [0e]  . [SEP]	1	8	10
+[CLS] generously garnished ,  [0b] organic grilled burgers [0e]  are the most popular  [1b] dish [1e]  , but the  [2b] jerusalem market-style falafel wraps [2e]  and mediterranean salads -- layered with beets , goat cheese and walnuts -- are equally scrumptious . [SEP]	2	7	13
+[CLS] generously garnished ,  [0b] organic grilled burgers [0e]  are the most popular  [1b] dish [1e]  , but the  [2b] jerusalem market-style falafel wraps [2e]  and mediterranean salads -- layered with beets , goat cheese and walnuts -- are equally scrumptious . [SEP]	2	18	20
+[CLS] generously garnished ,  [0b] organic grilled burgers [0e]  are the most popular  [1b] dish [1e]  , but the  [2b] jerusalem market-style falafel wraps [2e]  and mediterranean salads -- layered with beets , goat cheese and walnuts -- are equally scrumptious . [SEP]	2	24	34
+[CLS] generously garnished , organic grilled burgers are the most popular dish , but the jerusalem market-style falafel wraps and  [0b] mediterranean salads--layered with beets, goat cheese and walnuts [0e]  -- are equally scrumptious . [SEP]	2	30	46
+[CLS] probably my worst  [0b] dining experience [0e]  in new york , and i 'm a former  [1b] waiter [1e]  so i know what i 'm talking about . [SEP]	0	4	7
+[CLS] probably my worst  [0b] dining experience [0e]  in new york , and i 'm a former  [1b] waiter [1e]  so i know what i 'm talking about . [SEP]	1	18	20
+[CLS] result -lrb- red velvet -rrb- : great  [0b] texture [0e]  , soft and velvety , nice  [1b] hint of cocoa [1e]  . [SEP]	2	14	16
+[CLS] result -lrb- red velvet -rrb- : great  [0b] texture [0e]  , soft and velvety , nice  [1b] hint of cocoa [1e]  . [SEP]	2	24	28
+[CLS] ask for the  [0b] round corner table next to the large window [0e]  . [SEP]	2	4	13
+[CLS] their  [1b] twist on pizza [1e]  is heatlhy , but full of  [0b] flavor [0e]  . [SEP]	2	15	17
+[CLS] their  [1b] twist on pizza [1e]  is heatlhy , but full of  [0b] flavor [0e]  . [SEP]	2	2	6
+[CLS] the l [0b] ac [0e] k of ac and the fact that there are a million swarming bodies -lrb- although everyone is polite and no one is pushing -rrb- is a slight turn off . [SEP]	0	3	5
+[CLS] i love the little pie company as much as anyone else who has written reviews , but must discourage anyone from visiting the grand central location due to their rude  [0b] service [0e]  from two  [1b] sales people [1e]  . [SEP]	0	31	33
+[CLS] i love the little pie company as much as anyone else who has written reviews , but must discourage anyone from visiting the grand central location due to their rude  [0b] service [0e]  from two  [1b] sales people [1e]  . [SEP]	0	36	39
+[CLS] unfortunately , unless you live in the neighborhood , it 's not in a convenient  [0b] location [0e]  but is more like a hidden treasure . [SEP]	0	17	19
+[CLS] did n't seem like any effort was made to the  [0b] display and quality of the food [0e]  . [SEP]	0	13	20
+[CLS] the  [0b] food [0e]  -- though mostly deep-fried -- is simple and satisfying . [SEP]	2	2	4
+[CLS] glechik might be way too tiny for a restaurant by russian standards , but it is cozy and the  [0b] food [0e]  is simply great . [SEP]	2	23	25
+[CLS] the  [0b] food [0e]  was excellent - authentic  [1b] italian cuisine [1e]  made absolutely fresh . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  was excellent - authentic  [1b] italian cuisine [1e]  made absolutely fresh . [SEP]	2	9	12
+[CLS] at night the  [0b] atmoshere [0e]  changes turning into this hidden jewel that is waiting to be discovered . [SEP]	2	4	8
+[CLS] the other times i 've gone it 's romantic date heaven , you can walk in get a  [0b] booth by the windows [0e]  , be treated like a vip in a not-crowded  [1b] place [1e]  , with great  [2b] food [2e]  and  [3b] service [3e]  . [SEP]	1	21	26
+[CLS] the other times i 've gone it 's romantic date heaven , you can walk in get a  [0b] booth by the windows [0e]  , be treated like a vip in a not-crowded  [1b] place [1e]  , with great  [2b] food [2e]  and  [3b] service [3e]  . [SEP]	2	38	40
+[CLS] the other times i 've gone it 's romantic date heaven , you can walk in get a  [0b] booth by the windows [0e]  , be treated like a vip in a not-crowded  [1b] place [1e]  , with great  [2b] food [2e]  and  [3b] service [3e]  . [SEP]	2	44	46
+[CLS] the other times i 've gone it 's romantic date heaven , you can walk in get a  [0b] booth by the windows [0e]  , be treated like a vip in a not-crowded  [1b] place [1e]  , with great  [2b] food [2e]  and  [3b] service [3e]  . [SEP]	2	48	50
+[CLS] i would only go for the  [0b] coffee [0e]  which is way better than starbucks or the like . [SEP]	2	7	9
+[CLS] somewhat disappointing  [0b] wine list [0e]  -lrb- only new  [1b] vintages [1e]  . [SEP]	0	3	6
+[CLS] somewhat disappointing  [0b] wine list [0e]  -lrb- only new  [1b] vintages [1e]  . [SEP]	0	13	16
+[CLS] if your looking for nasty high  [0b] priced [0e]   [1b] food [1e]  with a dash of ghetto  [2b] scenery [2e]  cheap bx a$ $ this is the place to be !! [SEP]	0	7	9
+[CLS] if your looking for nasty high  [0b] priced [0e]   [1b] food [1e]  with a dash of ghetto  [2b] scenery [2e]  cheap bx a$ $ this is the place to be !! [SEP]	0	10	12
+[CLS] if your looking for nasty high  [0b] priced [0e]   [1b] food [1e]  with a dash of ghetto  [2b] scenery [2e]  cheap bx a$ $ this is the place to be !! [SEP]	0	18	20
+[CLS]   [0b] new hamburger with special sauce [0e]  is ok - at least better than big mac ! [SEP]	2	1	7
+[CLS] new hamburger with special sauce is ok - at least better than  [0b] big mac [0e]  ! [SEP]	0	13	16
+[CLS] perfectly al dente  [0b] pasta [0e]  , not drowned in  [1b] sauce [1e]  -- generous  [2b] portions [2e]  . [SEP]	2	5	7
+[CLS] perfectly al dente  [0b] pasta [0e]  , not drowned in  [1b] sauce [1e]  -- generous  [2b] portions [2e]  . [SEP]	1	12	14
+[CLS] perfectly al dente  [0b] pasta [0e]  , not drowned in  [1b] sauce [1e]  -- generous  [2b] portions [2e]  . [SEP]	2	18	20
+[CLS] i can understand the  [0b] prices [0e]  if it served better  [1b] food [1e]  , like some chinese restaurants in midtown/uptown area . [SEP]	0	5	7
+[CLS] i can understand the  [0b] prices [0e]  if it served better  [1b] food [1e]  , like some chinese restaurants in midtown/uptown area . [SEP]	0	12	14
+[CLS]   [0b] service [0e]  was awful - mostly because staff were overwhelmed on a saturday night . [SEP]	0	1	3
+[CLS] service was awful - mostly because  [0b] staff [0e]  were overwhelmed on a saturday night . [SEP]	0	7	9
+[CLS] to the  [0b] owners [0e]  ; good job guys , this place is a keeper ! [SEP]	2	3	5
+[CLS] and the  [0b] owner [0e]  is simply lovely and friendly . [SEP]	2	3	5
+[CLS] this little  [0b] place [0e]  is wonderfully warm welcoming . [SEP]	2	3	5
+[CLS] perfect for a quick  [0b] meal [0e]  . [SEP]	2	5	7
+[CLS] has the warmth of a family local yet it is a great  [0b] place [0e]  to watch sporting events . [SEP]	2	13	15
+[CLS] the  [0b] service [0e]  was great , and they have a whole great deal for birthdays . [SEP]	2	2	4
+[CLS] the  [0b] staff [0e]  is 100 % italian and the  [1b] food [1e]  is as authentic as it gets . [SEP]	2	2	4
+[CLS] the  [0b] staff [0e]  is 100 % italian and the  [1b] food [1e]  is as authentic as it gets . [SEP]	2	11	13
+[CLS] my only complaint might be the  [0b] fortune  [1b] cookie [1e] s [0e]  - i 've never had a cookie predict bad luck for me before i visited kar . [SEP]	0	7	13
+[CLS] my only complaint might be the  [0b] fortune  [1b] cookie [1e] s [0e]  - i 've never had a cookie predict bad luck for me before i visited kar . [SEP]	0	9	11
+[CLS] good for a quick  [0b] sushi lunch [0e]  . [SEP]	2	5	9
+[CLS] have a  [0b] mojito [0e]  and sit in the  [1b] back patio [1e]  . [SEP]	2	3	7
+[CLS] have a  [0b] mojito [0e]  and sit in the  [1b] back patio [1e]  . [SEP]	2	12	15
+[CLS] the  [0b] service [0e]  was dreadfully slow -lrb- the place was only half full -rrb- and a smile would have been nice ... [SEP]	0	2	4
+[CLS] i went this past saturday and had a excellent  [0b] meal [0e]  of consisting of a  [1b] braised lamb shank with mashed potatoes [1e]  . [SEP]	2	10	12
+[CLS] i went this past saturday and had a excellent  [0b] meal [0e]  of consisting of a  [1b] braised lamb shank with mashed potatoes [1e]  . [SEP]	2	17	27
+[CLS] the  [0b] waitress [0e]  came by to pick up the  [1b] soy sauce [1e]  while we were eating our  [2b] lunch [2e]  !!!!! [SEP]	0	2	4
+[CLS] the  [0b] waitress [0e]  came by to pick up the  [1b] soy sauce [1e]  while we were eating our  [2b] lunch [2e]  !!!!! [SEP]	1	11	14
+[CLS] the  [0b] waitress [0e]  came by to pick up the  [1b] soy sauce [1e]  while we were eating our  [2b] lunch [2e]  !!!!! [SEP]	1	20	22
+[CLS] so we sat at the  [0b] bar [0e]  , the  [1b] bartender [1e]  did n't seem like he wanted to be there . [SEP]	1	6	8
+[CLS] so we sat at the  [0b] bar [0e]  , the  [1b] bartender [1e]  did n't seem like he wanted to be there . [SEP]	0	11	13
+[CLS] i reccomend the  [0b] fried pork dumplings [0e]  , the  [1b] orange chicken/beef [1e]  , and the  [2b] fried rice [2e]  . [SEP]	2	6	11
+[CLS] i reccomend the  [0b] fried pork dumplings [0e]  , the  [1b] orange chicken/beef [1e]  , and the  [2b] fried rice [2e]  . [SEP]	2	14	19
+[CLS] i reccomend the  [0b] fried pork dumplings [0e]  , the  [1b] orange chicken/beef [1e]  , and the  [2b] fried rice [2e]  . [SEP]	2	23	26
+[CLS] you will not be dissapointed by any of the choices in the  [0b] menu [0e]  . [SEP]	2	16	18
+[CLS] the  [0b] french fries -- with the kalmata dip [0e]  were terrific ! [SEP]	2	2	13
+[CLS] would you ever believe that when you complain about over an hour  [0b] wait [0e]  , when they tell you it will be 20-30 minutes , the  [1b] manager [1e]  tells the  [2b] bartender [2e]  to spill the  [3b] drinks [3e]  you just paid for ? [SEP]	0	13	15
+[CLS] would you ever believe that when you complain about over an hour  [0b] wait [0e]  , when they tell you it will be 20-30 minutes , the  [1b] manager [1e]  tells the  [2b] bartender [2e]  to spill the  [3b] drinks [3e]  you just paid for ? [SEP]	0	30	32
+[CLS] would you ever believe that when you complain about over an hour  [0b] wait [0e]  , when they tell you it will be 20-30 minutes , the  [1b] manager [1e]  tells the  [2b] bartender [2e]  to spill the  [3b] drinks [3e]  you just paid for ? [SEP]	1	35	37
+[CLS] would you ever believe that when you complain about over an hour  [0b] wait [0e]  , when they tell you it will be 20-30 minutes , the  [1b] manager [1e]  tells the  [2b] bartender [2e]  to spill the  [3b] drinks [3e]  you just paid for ? [SEP]	1	41	43
+[CLS] the  [0b] boutique selection of wines [0e]  covers a wide variety without being imposeing . [SEP]	1	2	7
+[CLS] they also have a great  [0b] assortment of wraps [0e]  if your not in the mood for  [1b] traditional mediterranean fare [1e]  . [SEP]	2	6	10
+[CLS] they also have a great  [0b] assortment of wraps [0e]  if your not in the mood for  [1b] traditional mediterranean fare [1e]  . [SEP]	1	18	22
+[CLS]   [0b] fresh veggies [0e]  , all sorts of middle eastern spreads , cheese and falafel , soup , fish , rice , root vegetables , a rice medley , some spinach thing , lamb kebabs , cheese baclava ... soooo much fooood , and all of it delicious . [SEP]	2	1	6
+[CLS] fresh veggies , all sorts of  [0b] middle eastern spreads [0e]  ,  [1b] cheese [1e]  and  [2b] falafel [2e]  ,  [3b] soup [3e]  ,  [4b] fish [4e]  ,  [5b] rice [5e]  ,  [6b] root vegetables [6e]  , a  [7b] rice medley [7e]  , some  [8b] spinach thing [8e]  ,  [9b] lamb kebabs [9e]  ,  [10b] cheese baclava [10e]  ... soooo much  [11b] fooood [11e]  , and all of it delicious . [SEP]	2	9	13
+[CLS] fresh veggies , all sorts of  [0b] middle eastern spreads [0e]  ,  [1b] cheese [1e]  and  [2b] falafel [2e]  ,  [3b] soup [3e]  ,  [4b] fish [4e]  ,  [5b] rice [5e]  ,  [6b] root vegetables [6e]  , a  [7b] rice medley [7e]  , some  [8b] spinach thing [8e]  ,  [9b] lamb kebabs [9e]  ,  [10b] cheese baclava [10e]  ... soooo much  [11b] fooood [11e]  , and all of it delicious . [SEP]	2	15	17
+[CLS] fresh veggies , all sorts of  [0b] middle eastern spreads [0e]  ,  [1b] cheese [1e]  and  [2b] falafel [2e]  ,  [3b] soup [3e]  ,  [4b] fish [4e]  ,  [5b] rice [5e]  ,  [6b] root vegetables [6e]  , a  [7b] rice medley [7e]  , some  [8b] spinach thing [8e]  ,  [9b] lamb kebabs [9e]  ,  [10b] cheese baclava [10e]  ... soooo much  [11b] fooood [11e]  , and all of it delicious . [SEP]	2	19	24
+[CLS] fresh veggies , all sorts of  [0b] middle eastern spreads [0e]  ,  [1b] cheese [1e]  and  [2b] falafel [2e]  ,  [3b] soup [3e]  ,  [4b] fish [4e]  ,  [5b] rice [5e]  ,  [6b] root vegetables [6e]  , a  [7b] rice medley [7e]  , some  [8b] spinach thing [8e]  ,  [9b] lamb kebabs [9e]  ,  [10b] cheese baclava [10e]  ... soooo much  [11b] fooood [11e]  , and all of it delicious . [SEP]	2	26	28
+[CLS] fresh veggies , all sorts of  [0b] middle eastern spreads [0e]  ,  [1b] cheese [1e]  and  [2b] falafel [2e]  ,  [3b] soup [3e]  ,  [4b] fish [4e]  ,  [5b] rice [5e]  ,  [6b] root vegetables [6e]  , a  [7b] rice medley [7e]  , some  [8b] spinach thing [8e]  ,  [9b] lamb kebabs [9e]  ,  [10b] cheese baclava [10e]  ... soooo much  [11b] fooood [11e]  , and all of it delicious . [SEP]	2	30	32
+[CLS] fresh veggies , all sorts of  [0b] middle eastern spreads [0e]  ,  [1b] cheese [1e]  and  [2b] falafel [2e]  ,  [3b] soup [3e]  ,  [4b] fish [4e]  ,  [5b] rice [5e]  ,  [6b] root vegetables [6e]  , a  [7b] rice medley [7e]  , some  [8b] spinach thing [8e]  ,  [9b] lamb kebabs [9e]  ,  [10b] cheese baclava [10e]  ... soooo much  [11b] fooood [11e]  , and all of it delicious . [SEP]	2	34	36
+[CLS] fresh veggies , all sorts of  [0b] middle eastern spreads [0e]  ,  [1b] cheese [1e]  and  [2b] falafel [2e]  ,  [3b] soup [3e]  ,  [4b] fish [4e]  ,  [5b] rice [5e]  ,  [6b] root vegetables [6e]  , a  [7b] rice medley [7e]  , some  [8b] spinach thing [8e]  ,  [9b] lamb kebabs [9e]  ,  [10b] cheese baclava [10e]  ... soooo much  [11b] fooood [11e]  , and all of it delicious . [SEP]	2	38	41
+[CLS] fresh veggies , all sorts of  [0b] middle eastern spreads [0e]  ,  [1b] cheese [1e]  and  [2b] falafel [2e]  ,  [3b] soup [3e]  ,  [4b] fish [4e]  ,  [5b] rice [5e]  ,  [6b] root vegetables [6e]  , a  [7b] rice medley [7e]  , some  [8b] spinach thing [8e]  ,  [9b] lamb kebabs [9e]  ,  [10b] cheese baclava [10e]  ... soooo much  [11b] fooood [11e]  , and all of it delicious . [SEP]	2	44	47
+[CLS] fresh veggies , all sorts of  [0b] middle eastern spreads [0e]  ,  [1b] cheese [1e]  and  [2b] falafel [2e]  ,  [3b] soup [3e]  ,  [4b] fish [4e]  ,  [5b] rice [5e]  ,  [6b] root vegetables [6e]  , a  [7b] rice medley [7e]  , some  [8b] spinach thing [8e]  ,  [9b] lamb kebabs [9e]  ,  [10b] cheese baclava [10e]  ... soooo much  [11b] fooood [11e]  , and all of it delicious . [SEP]	2	50	54
+[CLS] fresh veggies , all sorts of  [0b] middle eastern spreads [0e]  ,  [1b] cheese [1e]  and  [2b] falafel [2e]  ,  [3b] soup [3e]  ,  [4b] fish [4e]  ,  [5b] rice [5e]  ,  [6b] root vegetables [6e]  , a  [7b] rice medley [7e]  , some  [8b] spinach thing [8e]  ,  [9b] lamb kebabs [9e]  ,  [10b] cheese baclava [10e]  ... soooo much  [11b] fooood [11e]  , and all of it delicious . [SEP]	2	56	61
+[CLS] fresh veggies , all sorts of  [0b] middle eastern spreads [0e]  ,  [1b] cheese [1e]  and  [2b] falafel [2e]  ,  [3b] soup [3e]  ,  [4b] fish [4e]  ,  [5b] rice [5e]  ,  [6b] root vegetables [6e]  , a  [7b] rice medley [7e]  , some  [8b] spinach thing [8e]  ,  [9b] lamb kebabs [9e]  ,  [10b] cheese baclava [10e]  ... soooo much  [11b] fooood [11e]  , and all of it delicious . [SEP]	2	63	68
+[CLS] fresh veggies , all sorts of  [0b] middle eastern spreads [0e]  ,  [1b] cheese [1e]  and  [2b] falafel [2e]  ,  [3b] soup [3e]  ,  [4b] fish [4e]  ,  [5b] rice [5e]  ,  [6b] root vegetables [6e]  , a  [7b] rice medley [7e]  , some  [8b] spinach thing [8e]  ,  [9b] lamb kebabs [9e]  ,  [10b] cheese baclava [10e]  ... soooo much  [11b] fooood [11e]  , and all of it delicious . [SEP]	2	75	78
+[CLS] disappointingly , their wonderful  [0b] saketini [0e]  has been taken off the  [1b] bar menu [1e]  . [SEP]	2	6	10
+[CLS] disappointingly , their wonderful  [0b] saketini [0e]  has been taken off the  [1b] bar menu [1e]  . [SEP]	0	16	19
+[CLS] in short the black sheep distinguishes itself from the midtown pub herd with a  [0b] look [0e]  that 's a mix of sports-bar butch and ornate kitsch . [SEP]	0	15	17
+[CLS] i would definitely go back -- if only for some of those exotic  [0b] martinis [0e]  on the blackboard . [SEP]	2	15	18
+[CLS] then she made a fuss about not being able to add 1 or 2  [0b] chairs [0e]  on either end of the  [1b] table [1e]  for additional people . [SEP]	1	15	17
+[CLS] then she made a fuss about not being able to add 1 or 2  [0b] chairs [0e]  on either end of the  [1b] table [1e]  for additional people . [SEP]	1	23	25
+[CLS] the  [0b] happy hour [0e]  is so cheap , but that does not reflect the  [1b] service [1e]  or the  [2b] atmosphere [2e]  . [SEP]	2	2	5
+[CLS] the  [0b] happy hour [0e]  is so cheap , but that does not reflect the  [1b] service [1e]  or the  [2b] atmosphere [2e]  . [SEP]	2	16	18
+[CLS] the  [0b] happy hour [0e]  is so cheap , but that does not reflect the  [1b] service [1e]  or the  [2b] atmosphere [2e]  . [SEP]	2	21	23
+[CLS] after  [2b] waiting [2e]  for almost an hour , the  [0b] waiter [0e]  brusquely told us he 'd forgotten to give the  [1b] kitchen [1e]  our order . [SEP]	0	11	13
+[CLS] after  [2b] waiting [2e]  for almost an hour , the  [0b] waiter [0e]  brusquely told us he 'd forgotten to give the  [1b] kitchen [1e]  our order . [SEP]	1	27	29
+[CLS] after  [2b] waiting [2e]  for almost an hour , the  [0b] waiter [0e]  brusquely told us he 'd forgotten to give the  [1b] kitchen [1e]  our order . [SEP]	0	2	4
+[CLS] with all the mundane or mediocre places on 8th avenue it is nice to have one that is a step above in  [0b] quaility [0e]  and  [1b] atmosphere [1e]  . [SEP]	2	25	29
+[CLS] with all the mundane or mediocre places on 8th avenue it is nice to have one that is a step above in  [0b] quaility [0e]  and  [1b] atmosphere [1e]  . [SEP]	2	31	33
+[CLS] a mix of students and area residents crowd into this narrow , barely there  [0b] space [0e]  for its quick , tasty  [2b] treats [2e]  at dirt-cheap  [1b] prices [1e]  . [SEP]	0	15	17
+[CLS] a mix of students and area residents crowd into this narrow , barely there  [0b] space [0e]  for its quick , tasty  [2b] treats [2e]  at dirt-cheap  [1b] prices [1e]  . [SEP]	2	31	33
+[CLS] a mix of students and area residents crowd into this narrow , barely there  [0b] space [0e]  for its quick , tasty  [2b] treats [2e]  at dirt-cheap  [1b] prices [1e]  . [SEP]	2	24	26
+[CLS] give it a try ,  [0b] menu [0e]  is typical french but varied . [SEP]	1	6	8
+[CLS] it gets crowded at lunchtime but there are lots of  [0b] seats [0e]  in back and everyone who works there is so nice . [SEP]	2	12	14
+[CLS] but for the  [0b] value [0e]  , it was a great affordable spot to enjoy a fun night out with small group . [SEP]	2	4	6
+[CLS] the negative reviews on city search are probably from jealous competing restaurants who realize they ca n't compete with temple 's entire positive  [1b] attitude [1e]  about the proper way to treat their customers and deliver top quality  [0b] food [0e]  . [SEP]	2	42	44
+[CLS] the negative reviews on city search are probably from jealous competing restaurants who realize they ca n't compete with temple 's entire positive  [1b] attitude [1e]  about the proper way to treat their customers and deliver top quality  [0b] food [0e]  . [SEP]	2	27	29
+[CLS] we ordered a  [0b] glass of wine [0e]  and were finished eating and paying before the wine came . [SEP]	1	4	8
+[CLS] it was good , but none of the  [0b] flavors [0e]  wow . [SEP]	1	9	11
+[CLS] overall , this is a nice  [0b] place [0e]  to take a few friends to hang out at and the  [1b] service [1e]  is excellent . [SEP]	2	7	9
+[CLS] overall , this is a nice  [0b] place [0e]  to take a few friends to hang out at and the  [1b] service [1e]  is excellent . [SEP]	2	21	23
+[CLS]   [0b] food [0e]  is excellent quality for a good restaurant price . [SEP]	2	1	3
+[CLS] food is excellent quality for a good restaurant  [0b] price [0e]  . [SEP]	2	9	11
+[CLS] for about eleven bucks you get a gigantic  [0b] burrito [0e]  -lrb- or  [1b] tacos [1e]  -rrb- ,  [2b] margarita [2e]  , and  [3b] dessert [3e]  . [SEP]	2	9	12
+[CLS] for about eleven bucks you get a gigantic  [0b] burrito [0e]  -lrb- or  [1b] tacos [1e]  -rrb- ,  [2b] margarita [2e]  , and  [3b] dessert [3e]  . [SEP]	2	18	21
+[CLS] for about eleven bucks you get a gigantic  [0b] burrito [0e]  -lrb- or  [1b] tacos [1e]  -rrb- ,  [2b] margarita [2e]  , and  [3b] dessert [3e]  . [SEP]	1	27	29
+[CLS] for about eleven bucks you get a gigantic  [0b] burrito [0e]  -lrb- or  [1b] tacos [1e]  -rrb- ,  [2b] margarita [2e]  , and  [3b] dessert [3e]  . [SEP]	1	32	34
+[CLS] the  [0b] space [0e]  is traditional in feel . [SEP]	1	2	4
+[CLS] the restaurant was completely empty , but she gave me a dirty look and asked , no  [0b] reservations [0e]  ? [SEP]	1	18	20
+[CLS] the  [0b] food [0e]  was mediocre to be kind - the  [1b] interior [1e]  is small and average - the  [2b] owners [2e]  are a tag-team of unpleasantries - so rude and snotty i actually let out a hearty guffaw whilst  [3b] dining [3e]  . [SEP]	0	2	4
+[CLS] the  [0b] food [0e]  was mediocre to be kind - the  [1b] interior [1e]  is small and average - the  [2b] owners [2e]  are a tag-team of unpleasantries - so rude and snotty i actually let out a hearty guffaw whilst  [3b] dining [3e]  . [SEP]	0	14	16
+[CLS] the  [0b] food [0e]  was mediocre to be kind - the  [1b] interior [1e]  is small and average - the  [2b] owners [2e]  are a tag-team of unpleasantries - so rude and snotty i actually let out a hearty guffaw whilst  [3b] dining [3e]  . [SEP]	0	23	25
+[CLS] the  [0b] food [0e]  was mediocre to be kind - the  [1b] interior [1e]  is small and average - the  [2b] owners [2e]  are a tag-team of unpleasantries - so rude and snotty i actually let out a hearty guffaw whilst  [3b] dining [3e]  . [SEP]	1	52	54
+[CLS] good  [0b] service [0e]  , great  [1b] food [1e]  , good  [2b] value [2e]  , and never have to  [3b] wait [3e]  in line ! [SEP]	2	2	4
+[CLS] good  [0b] service [0e]  , great  [1b] food [1e]  , good  [2b] value [2e]  , and never have to  [3b] wait [3e]  in line ! [SEP]	2	7	9
+[CLS] good  [0b] service [0e]  , great  [1b] food [1e]  , good  [2b] value [2e]  , and never have to  [3b] wait [3e]  in line ! [SEP]	2	12	14
+[CLS] good  [0b] service [0e]  , great  [1b] food [1e]  , good  [2b] value [2e]  , and never have to  [3b] wait [3e]  in line ! [SEP]	2	20	22
+[CLS] offerings like  [1b] hot cakes [1e]  and the  [0b] egg mcmuffin sandwich [0e]  are available for  [2b] breakfast [2e]  . [SEP]	1	9	15
+[CLS] offerings like  [1b] hot cakes [1e]  and the  [0b] egg mcmuffin sandwich [0e]  are available for  [2b] breakfast [2e]  . [SEP]	1	3	6
+[CLS] offerings like  [1b] hot cakes [1e]  and the  [0b] egg mcmuffin sandwich [0e]  are available for  [2b] breakfast [2e]  . [SEP]	1	19	21
+[CLS] i have been going to this restaurant for years , in the past the  [0b] service [0e]  was average and the  [1b] food [1e]  inconsistant . [SEP]	1	15	17
+[CLS] i have been going to this restaurant for years , in the past the  [0b] service [0e]  was average and the  [1b] food [1e]  inconsistant . [SEP]	0	22	24
+[CLS] the  [0b] music [0e]  was fascinating , but left room for conversation , and the  [1b] bartender [1e]  made superb  [2b] drinks [2e]  . [SEP]	2	2	4
+[CLS] the  [0b] music [0e]  was fascinating , but left room for conversation , and the  [1b] bartender [1e]  made superb  [2b] drinks [2e]  . [SEP]	2	16	18
+[CLS] the  [0b] music [0e]  was fascinating , but left room for conversation , and the  [1b] bartender [1e]  made superb  [2b] drinks [2e]  . [SEP]	2	21	23
+[CLS]   [0b] rice dishes [0e]  and noodle dishes rarely exceed $ 5 and add on a refreshing ice drink for $ 2 and you 're set for the night ! [SEP]	2	1	4
+[CLS] rice dishes and  [0b] noodle dishes [0e]  rarely exceed $ 5 and add on a refreshing  [1b] ice drink [1e]  for $ 2 and you 're set for the night ! [SEP]	2	4	8
+[CLS] rice dishes and  [0b] noodle dishes [0e]  rarely exceed $ 5 and add on a refreshing  [1b] ice drink [1e]  for $ 2 and you 're set for the night ! [SEP]	2	18	21
+[CLS]   [0b] cuisine [0e]  is billed as asian fusion - does n't meet the bill . [SEP]	0	1	3
+[CLS] [2e]  cuisine is  [0b] bill [0e] ed as  [1b] asian fusion [1e]  - does n't meet the bill . [SEP [2b] ]	0	4	6
+[CLS] [2e]  cuisine is  [0b] bill [0e] ed as  [1b] asian fusion [1e]  - does n't meet the bill . [SEP [2b] ]	1	9	12
+[CLS] [2e]  cuisine is  [0b] bill [0e] ed as  [1b] asian fusion [1e]  - does n't meet the bill . [SEP [2b] ]	0	24	1
+[CLS] creative  [0b] dishes [0e]  like  [1b] king crab salad with passion fruit vinaigrette [1e]  and  [2b] fettuccine with grilled seafood in a rosemary-orange sauce [2e]  are unexpected elements on an otherwise predictable  [3b] bistro menu [3e]  . [SEP]	2	2	4
+[CLS] creative  [0b] dishes [0e]  like  [1b] king crab salad with passion fruit vinaigrette [1e]  and  [2b] fettuccine with grilled seafood in a rosemary-orange sauce [2e]  are unexpected elements on an otherwise predictable  [3b] bistro menu [3e]  . [SEP]	2	6	17
+[CLS] creative  [0b] dishes [0e]  like  [1b] king crab salad with passion fruit vinaigrette [1e]  and  [2b] fettuccine with grilled seafood in a rosemary-orange sauce [2e]  are unexpected elements on an otherwise predictable  [3b] bistro menu [3e]  . [SEP]	2	19	34
+[CLS] creative  [0b] dishes [0e]  like  [1b] king crab salad with passion fruit vinaigrette [1e]  and  [2b] fettuccine with grilled seafood in a rosemary-orange sauce [2e]  are unexpected elements on an otherwise predictable  [3b] bistro menu [3e]  . [SEP]	1	42	46
+[CLS]   [0b] dishes [0e]  denoted as `` roy 's classics '' -lrb- marked on the menu with asterisks -rrb- are tried-and-true recipes , such as macadamia-crusted mahi mahi , or subtly sweet honey-mustard beef short ribs . [SEP]	2	1	3
+[CLS] dishes denoted as  [0b] "roy's classics" [0e]  -lrb- marked on the menu with asterisks -rrb- are tried-and-true recipes , such as macadamia-crusted mahi mahi , or subtly sweet honey-mustard beef short ribs . [SEP]	2	4	11
+[CLS] dishes denoted as `` roy 's classics '' -lrb- marked on the  [0b] menu [0e]  with asterisks -rrb- are tried-and-true  [1b] recipes [1e]  , such as  [2b] macadamia-crusted mahi mahi [2e]  , or subtly  [3b] sweet honey-mustard beef short ribs [3e]  . [SEP]	1	19	21
+[CLS] dishes denoted as `` roy 's classics '' -lrb- marked on the  [0b] menu [0e]  with asterisks -rrb- are tried-and-true  [1b] recipes [1e]  , such as  [2b] macadamia-crusted mahi mahi [2e]  , or subtly  [3b] sweet honey-mustard beef short ribs [3e]  . [SEP]	2	37	39
+[CLS] dishes denoted as `` roy 's classics '' -lrb- marked on the  [0b] menu [0e]  with asterisks -rrb- are tried-and-true  [1b] recipes [1e]  , such as  [2b] macadamia-crusted mahi mahi [2e]  , or subtly  [3b] sweet honey-mustard beef short ribs [3e]  . [SEP]	2	43	54
+[CLS] dishes denoted as `` roy 's classics '' -lrb- marked on the  [0b] menu [0e]  with asterisks -rrb- are tried-and-true  [1b] recipes [1e]  , such as  [2b] macadamia-crusted mahi mahi [2e]  , or subtly  [3b] sweet honey-mustard beef short ribs [3e]  . [SEP]	2	58	66
+[CLS] the  [0b] cold sesame noodles [0e]  , which are a freebie when you order $ 10 + , are delectable . [SEP]	2	2	6
+[CLS] i came to fresh expecting a great  [1b] meal [1e]  , and all i got was marginally so-so  [0b] food [0e]   [2b] served [2e]  in a restaurant that was just so freezing we could n't enjoy eating . [SEP]	0	22	24
+[CLS] i came to fresh expecting a great  [1b] meal [1e]  , and all i got was marginally so-so  [0b] food [0e]   [2b] served [2e]  in a restaurant that was just so freezing we could n't enjoy eating . [SEP]	0	8	10
+[CLS] i came to fresh expecting a great  [1b] meal [1e]  , and all i got was marginally so-so  [0b] food [0e]   [2b] served [2e]  in a restaurant that was just so freezing we could n't enjoy eating . [SEP]	1	25	27
+[CLS] the lone  [0b] argentine chorizo appetizer [0e]  at $ 8.95 was a heavy  [1b] fennel flavored italian sausage [1e]  like the ones that sell for $ 2.99 / lb at the store . [SEP]	0	3	11
+[CLS] the lone  [0b] argentine chorizo appetizer [0e]  at $ 8.95 was a heavy  [1b] fennel flavored italian sausage [1e]  like the ones that sell for $ 2.99 / lb at the store . [SEP]	0	20	27
+[CLS] i went to swiftys with some friends of the family and we had a very nice  [0b] dinner [0e]  , but nothing amazing . [SEP]	2	18	20
+[CLS] best chinese on the upper east , prompt  [0b] delivery [0e]  , good  [1b] value [1e]  . [SEP]	2	9	11
+[CLS] best chinese on the upper east , prompt  [0b] delivery [0e]  , good  [1b] value [1e]  . [SEP]	2	14	16
+[CLS] most of the  [0b] sandwiches [0e]  are made with  [1b] soy mayonaise [1e]  which is actually pretty good . [SEP]	2	4	6
+[CLS] most of the  [0b] sandwiches [0e]  are made with  [1b] soy mayonaise [1e]  which is actually pretty good . [SEP]	2	10	15
+[CLS] i went in one day asking for a  [1b] table [1e]  for a group and was greeted by a very rude  [0b] hostess [0e]  . [SEP]	0	22	24
+[CLS] i went in one day asking for a  [1b] table [1e]  for a group and was greeted by a very rude  [0b] hostess [0e]  . [SEP]	1	9	11
+[CLS] it 's worthwhile to take a cab to chelsea just for an awesome  [0b] dinner [0e]  at my chelsea . [SEP]	2	16	18
+[CLS] not only is the  [0b]  [2b] food [2e]  [0e]  authentic , but the  [1b] staff [1e]  here are practically off-the-boat , they are young and hip and know what they are doing when it comes to food and  [3b] wine [3e]  . [SEP]	2	6	8
+[CLS] not only is the  [0b]  [2b] food [2e]  [0e]  authentic , but the  [1b] staff [1e]  here are practically off-the-boat , they are young and hip and know what they are doing when it comes to food and  [3b] wine [3e]  . [SEP]	2	14	16
+[CLS] not only is the  [0b]  [2b] food [2e]  [0e]  authentic , but the  [1b] staff [1e]  here are practically off-the-boat , they are young and hip and know what they are doing when it comes to food and  [3b] wine [3e]  . [SEP]	2	6	8
+[CLS] not only is the  [0b]  [2b] food [2e]  [0e]  authentic , but the  [1b] staff [1e]  here are practically off-the-boat , they are young and hip and know what they are doing when it comes to food and  [3b] wine [3e]  . [SEP]	2	43	45
+[CLS] it has good  [0b] music [0e]  , nice  [1b] tapas [1e]  , an interesting selection of wines -lrb- primarily spanish -rrb- and a lowkey hip neighborhood clientele . [SEP]	2	4	6
+[CLS] it has good  [0b] music [0e]  , nice  [1b] tapas [1e]  , an interesting selection of wines -lrb- primarily spanish -rrb- and a lowkey hip neighborhood clientele . [SEP]	2	9	12
+[CLS] it has good music , nice tapas , an interesting  [0b] selection of wines (primarily spanish) [0e]  and a lowkey hip neighborhood clientele . [SEP]	2	12	20
+[CLS] it has good music , nice tapas , an interesting selection of wines -lrb- primarily spanish -rrb- and a lowkey hip neighborhood  [0b] clientele [0e]  . [SEP]	2	31	34
+[CLS] the  [0b] food [0e]  is great , i love their  [1b] dumplings [1e]  ,  [2b] cold sesame noodles [2e]  ,  [3b] chicken [3e]  and  [4b] shrimp dishs [4e]  . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  is great , i love their  [1b] dumplings [1e]  ,  [2b] cold sesame noodles [2e]  ,  [3b] chicken [3e]  and  [4b] shrimp dishs [4e]  . [SEP]	2	11	14
+[CLS] the  [0b] food [0e]  is great , i love their  [1b] dumplings [1e]  ,  [2b] cold sesame noodles [2e]  ,  [3b] chicken [3e]  and  [4b] shrimp dishs [4e]  . [SEP]	2	16	20
+[CLS] the  [0b] food [0e]  is great , i love their  [1b] dumplings [1e]  ,  [2b] cold sesame noodles [2e]  ,  [3b] chicken [3e]  and  [4b] shrimp dishs [4e]  . [SEP]	2	22	24
+[CLS] the  [0b] food [0e]  is great , i love their  [1b] dumplings [1e]  ,  [2b] cold sesame noodles [2e]  ,  [3b] chicken [3e]  and  [4b] shrimp dishs [4e]  . [SEP]	2	26	30
+[CLS] and the  [0b]  [1b] food [1e]  [0e]  , well the food will keep you coming back . [SEP]	2	4	6
+[CLS] and the  [0b]  [1b] food [1e]  [0e]  , well the food will keep you coming back . [SEP]	2	4	6
+[CLS] waiting three hours before getting our  [0b] entrees [0e]  was a treat as well . [SEP]	1	7	11
+[CLS]   [0b] waiting [0e]  three hours before getting our entrees was a treat as well . [SEP]	0	1	3
+[CLS] it 's the conversations that make this a fun  [0b] place [0e]  to be . [SEP]	2	11	13
+[CLS] my gf 's  [0b] duck confitte [0e]  was very solid as well , although i have little base of reference . [SEP]	2	6	11
+[CLS] the  [0b] wine list [0e]  was superb , our  [1b] tapas [1e]  delightful , and the quiet  [2b] atmosphere [2e]  perfect for good conversation . [SEP]	2	2	5
+[CLS] the  [0b] wine list [0e]  was superb , our  [1b] tapas [1e]  delightful , and the quiet  [2b] atmosphere [2e]  perfect for good conversation . [SEP]	2	10	13
+[CLS] the  [0b] wine list [0e]  was superb , our  [1b] tapas [1e]  delightful , and the quiet  [2b] atmosphere [2e]  perfect for good conversation . [SEP]	2	19	21
+[CLS] you can eat gourmet  [1b] food [1e]  at a fast food  [0b] price [0e]  . [SEP]	2	14	16
+[CLS] you can eat gourmet  [1b] food [1e]  at a fast food  [0b] price [0e]  . [SEP]	2	7	9
+[CLS] i 've eaten at all three locations and i always love , love the  [0b] food [0e]  , the  [1b] service [1e]  is always wonderful and the  [2b] prices [2e]  are really reasonable . [SEP]	2	16	18
+[CLS] i 've eaten at all three locations and i always love , love the  [0b] food [0e]  , the  [1b] service [1e]  is always wonderful and the  [2b] prices [2e]  are really reasonable . [SEP]	2	21	23
+[CLS] i 've eaten at all three locations and i always love , love the  [0b] food [0e]  , the  [1b] service [1e]  is always wonderful and the  [2b] prices [2e]  are really reasonable . [SEP]	2	29	31
+[CLS] not because i was pregnant , but the  [0b] food [0e]  here is always delicious . [SEP]	2	9	11
+[CLS] had a great  [0b] meal [0e]  there this weekend before heading to the movies ! [SEP]	2	4	6
+[CLS] we had a birthday party here recently and the  [0b] food [0e]  and  [1b] service [1e]  was amazing . [SEP]	2	10	12
+[CLS] we had a birthday party here recently and the  [0b] food [0e]  and  [1b] service [1e]  was amazing . [SEP]	2	14	16
+[CLS] the  [0b] dinner menu [0e]  offers a variety of great  [1b] entrees [1e]  , including fresh  [2b] seafood [2e]  and huge  [3b] steaks [3e]  , there 's also a couple of  [4b] non-meat alternatives [4e]  . [SEP]	2	2	5
+[CLS] the  [0b] dinner menu [0e]  offers a variety of great  [1b] entrees [1e]  , including fresh  [2b] seafood [2e]  and huge  [3b] steaks [3e]  , there 's also a couple of  [4b] non-meat alternatives [4e]  . [SEP]	2	11	15
+[CLS] the  [0b] dinner menu [0e]  offers a variety of great  [1b] entrees [1e]  , including fresh  [2b] seafood [2e]  and huge  [3b] steaks [3e]  , there 's also a couple of  [4b] non-meat alternatives [4e]  . [SEP]	2	19	21
+[CLS] the  [0b] dinner menu [0e]  offers a variety of great  [1b] entrees [1e]  , including fresh  [2b] seafood [2e]  and huge  [3b] steaks [3e]  , there 's also a couple of  [4b] non-meat alternatives [4e]  . [SEP]	2	24	27
+[CLS] the  [0b] dinner menu [0e]  offers a variety of great  [1b] entrees [1e]  , including fresh  [2b] seafood [2e]  and huge  [3b] steaks [3e]  , there 's also a couple of  [4b] non-meat alternatives [4e]  . [SEP]	1	36	41
+[CLS] this place has the strangest  [0b] menu [0e]  and the restaurants tries too hard to make fancy  [1b] food [1e]  . [SEP]	0	7	9
+[CLS] this place has the strangest  [0b] menu [0e]  and the restaurants tries too hard to make fancy  [1b] food [1e]  . [SEP]	0	19	21
+[CLS] the  [0b] appetizers [0e]  are ok , but the  [1b] service [1e]  is slow . [SEP]	1	2	6
+[CLS] the  [0b] appetizers [0e]  are ok , but the  [1b] service [1e]  is slow . [SEP]	0	12	14
+[CLS] the  [0b] food [0e]  - not worth the  [1b] price [1e]  . [SEP]	0	2	4
+[CLS] the  [0b] food [0e]  - not worth the  [1b] price [1e]  . [SEP]	0	9	11
+[CLS] what can you say about a place where the  [0b] waitress [0e]  brings out the wrong  [1b] entree [1e]  , then verbally assaults your 80 year old grandmother and gives her lip about sending it back -lrb- which she did politely , by the way -rrb- . [SEP]	0	10	12
+[CLS] what can you say about a place where the  [0b] waitress [0e]  brings out the wrong  [1b] entree [1e]  , then verbally assaults your 80 year old grandmother and gives her lip about sending it back -lrb- which she did politely , by the way -rrb- . [SEP]	1	17	20
+[CLS] the  [0b] prices [0e]  are not terrible . [SEP]	2	2	4
+[CLS] 15 %  [1b] gratuity [1e]  automatically added to the  [0b] bill [0e]  . [SEP]	0	12	14
+[CLS] 15 %  [1b] gratuity [1e]  automatically added to the  [0b] bill [0e]  . [SEP]	0	3	7
+[CLS] the  [0b] halibut cheek appetizer [0e]  came with a generous  [1b] portion of foie gras [1e]  , but that 's about the only positive thing i can say about the meal . [SEP]	1	2	10
+[CLS] the  [0b] halibut cheek appetizer [0e]  came with a generous  [1b] portion of foie gras [1e]  , but that 's about the only positive thing i can say about the meal . [SEP]	2	15	23
+[CLS]   [0b] food [0e]  is excellent and they also have empenadas and plaintains which are good for an afternoon snack . [SEP]	2	1	3
+[CLS] food is excellent and they also have  [0b] empenadas [0e]  and  [1b] plaintains [1e]  which are good for an  [2b] afternoon snack [2e]  . [SEP]	2	8	13
+[CLS] food is excellent and they also have  [0b] empenadas [0e]  and  [1b] plaintains [1e]  which are good for an  [2b] afternoon snack [2e]  . [SEP]	2	15	19
+[CLS] food is excellent and they also have  [0b] empenadas [0e]  and  [1b] plaintains [1e]  which are good for an  [2b] afternoon snack [2e]  . [SEP]	2	25	28
+[CLS] both a number of the  [1b] appetizer [1e]  and  [0b] pasta specials [0e]  were amazing . [SEP]	2	12	15
+[CLS] both a number of the  [1b] appetizer [1e]  and  [0b] pasta specials [0e]  were amazing . [SEP]	2	6	10
+[CLS] all-time favorites include the  [0b] big mac [0e]  ,  [1b] chicken mcnuggets [1e]  ,  [2b] filet-o-fish sandwich [2e]  and mcdonald 's famous french fries ; lighter options like entree-sized salads are also available . [SEP]	2	7	10
+[CLS] all-time favorites include the  [0b] big mac [0e]  ,  [1b] chicken mcnuggets [1e]  ,  [2b] filet-o-fish sandwich [2e]  and mcdonald 's famous french fries ; lighter options like entree-sized salads are also available . [SEP]	2	12	18
+[CLS] all-time favorites include the  [0b] big mac [0e]  ,  [1b] chicken mcnuggets [1e]  ,  [2b] filet-o-fish sandwich [2e]  and mcdonald 's famous french fries ; lighter options like entree-sized salads are also available . [SEP]	2	20	28
+[CLS] all-time favorites include the big mac , chicken mcnuggets , filet-o-fish sandwich and  [0b] mcdonald's famous french fries [0e]  ; lighter options like entree-sized salads are also available . [SEP]	2	24	31
+[CLS] all-time favorites include the big mac , chicken mcnuggets , filet-o-fish sandwich and mcdonald 's famous french fries ; lighter options like  [0b] entree-sized salads [0e]  are also available . [SEP]	1	34	41
+[CLS] it 's a basic  [0b] pizza [0e]  joint , not much to look at , but the pizza is what i go for . [SEP]	2	6	8
+[CLS]   [0b] tables [0e]  are close , so you better be comfortable bumping elbows with other patrons . [SEP]	0	1	3
+[CLS] was her monday for  [0b] lunch [0e]  - was working on a film in the area - and found this rare jewel . [SEP]	1	5	7
+[CLS] not too much so , but enough that there 's a great  [0b] scene [0e]  . [SEP]	2	14	16
+[CLS] dug the  [0b] blue bar area [0e]  too . [SEP]	2	3	7
+[CLS] i got the opportunity to dine at your establishment again a few weeks ago , i was in your  [0b] upstrairs dining area [0e]  . [SEP]	1	21	27
+[CLS] meat-phobes are in luck with the extraordinary  [0b] veggie burger [0e]  , made from a distinctive blend of  [1b] chickpeas [1e]  ,  [2b] carrots [2e]  and other  [3b] vegetables [3e]  and  [4b] spices [4e]  . [SEP]	2	12	17
+[CLS] meat-phobes are in luck with the extraordinary  [0b] veggie burger [0e]  , made from a distinctive blend of  [1b] chickpeas [1e]  ,  [2b] carrots [2e]  and other  [3b] vegetables [3e]  and  [4b] spices [4e]  . [SEP]	2	25	29
+[CLS] meat-phobes are in luck with the extraordinary  [0b] veggie burger [0e]  , made from a distinctive blend of  [1b] chickpeas [1e]  ,  [2b] carrots [2e]  and other  [3b] vegetables [3e]  and  [4b] spices [4e]  . [SEP]	2	31	34
+[CLS] meat-phobes are in luck with the extraordinary  [0b] veggie burger [0e]  , made from a distinctive blend of  [1b] chickpeas [1e]  ,  [2b] carrots [2e]  and other  [3b] vegetables [3e]  and  [4b] spices [4e]  . [SEP]	2	37	39
+[CLS] meat-phobes are in luck with the extraordinary  [0b] veggie burger [0e]  , made from a distinctive blend of  [1b] chickpeas [1e]  ,  [2b] carrots [2e]  and other  [3b] vegetables [3e]  and  [4b] spices [4e]  . [SEP]	2	41	43
+[CLS] at peak times , the restaurant is overcrowded and  [0b] tables [0e]  are uncomfortably close . [SEP]	0	12	14
+[CLS] the  [0b] service [0e]  was on point - what else you would expect from a ritz ? [SEP]	2	2	4
+[CLS]   [0b] menus [0e]  feature seasonal picks , like sweet corn-foie gras brulee . [SEP]	1	1	4
+[CLS] menus feature seasonal picks , like  [0b] sweet corn-foie gras brulee [0e]  . [SEP]	1	8	20
+[CLS] innovations are just as assured , from the simple  [0b] carinthia cheese ravioli with wild mushrooms [0e]  to the  [1b] caviar-topped sturgeon [1e]  , beautifully matched with a bright  [2b] green spinach-vodka sauce [2e]  . [SEP]	2	10	20
+[CLS] innovations are just as assured , from the simple  [0b] carinthia cheese ravioli with wild mushrooms [0e]  to the  [1b] caviar-topped sturgeon [1e]  , beautifully matched with a bright  [2b] green spinach-vodka sauce [2e]  . [SEP]	2	23	31
+[CLS] innovations are just as assured , from the simple  [0b] carinthia cheese ravioli with wild mushrooms [0e]  to the  [1b] caviar-topped sturgeon [1e]  , beautifully matched with a bright  [2b] green spinach-vodka sauce [2e]  . [SEP]	2	38	45
+[CLS] and these are not small , wimpy fast food type  [0b] burgers [0e]  - these are real , full sized  [1b] patties [1e]  . [SEP]	2	13	16
+[CLS] and these are not small , wimpy fast food type  [0b] burgers [0e]  - these are real , full sized  [1b] patties [1e]  . [SEP]	2	24	27
+[CLS] there restaurant is very casual , but perfect for  [0b] lunch [0e]  , and their  [1b] delivery service [1e]  is always very fast . [SEP]	1	10	12
+[CLS] there restaurant is very casual , but perfect for  [0b] lunch [0e]  , and their  [1b] delivery service [1e]  is always very fast . [SEP]	2	16	19
+[CLS] chinatown definitely has better  [0b] quality [0e]  with cheaper  [1b] prices [1e]  . [SEP]	2	5	7
+[CLS] chinatown definitely has better  [0b] quality [0e]  with cheaper  [1b] prices [1e]  . [SEP]	2	10	12
+[CLS] i had to flag down a third  [0b] staff person [0e]  for a  [1b] fork [1e]  ... so now it 's goodbye little rude pie company . [SEP]	1	8	11
+[CLS] i had to flag down a third  [0b] staff person [0e]  for a  [1b] fork [1e]  ... so now it 's goodbye little rude pie company . [SEP]	1	14	16
+[CLS] go with the  [0b] specials [0e]  , and stay away from the  [1b] salmon [1e]  . [SEP]	2	4	6
+[CLS] go with the  [0b] specials [0e]  , and stay away from the  [1b] salmon [1e]  . [SEP]	0	13	15
+[CLS] the  [0b] pastas [0e]  were pretty good . [SEP]	2	2	5
+[CLS]   [0b] atmosphere [0e]  is a bore . [SEP]	0	1	3
+[CLS] the  [0b] decor [0e]  is what initially got me in the door . [SEP]	2	2	4
+[CLS] the  [0b] wait staff [0e]  was very attentive and polite . [SEP]	2	2	5
+[CLS] great restaurant , and even greater  [0b] food [0e]  ! [SEP]	2	7	9
+[CLS] the  [0b] dishes [0e]  are remarkably tasty and such a cozy and intimate  [1b] place [1e]  ! [SEP]	2	2	4
+[CLS] the  [0b] dishes [0e]  are remarkably tasty and such a cozy and intimate  [1b] place [1e]  ! [SEP]	2	15	17
+[CLS] save room for the  [0b] desserts [0e]  ! ; - -rrb- [SEP]	2	5	8
+[CLS] i love the simplicity and respect which was given to the  [0b] food [0e]  , as well the  [1b] staff [1e]  was freindly and knowledgable . [SEP]	2	12	14
+[CLS] i love the simplicity and respect which was given to the  [0b] food [0e]  , as well the  [1b] staff [1e]  was freindly and knowledgable . [SEP]	2	19	21
+[CLS]   [0b] service [0e]  was good and so was the atmosphere . [SEP]	2	1	3
+[CLS] service was good and so was the  [0b] atmosphere [0e]  . [SEP]	2	8	10
+[CLS] my date and i both ordered the  [0b] branzini [0e]  and both felt the  [1b] fish [1e]  was very average . [SEP]	1	8	12
+[CLS] my date and i both ordered the  [0b] branzini [0e]  and both felt the  [1b] fish [1e]  was very average . [SEP]	0	17	19
+[CLS] the  [0b] food [0e]  was good , the  [1b] service [1e]  prompt , and the  [2b] price [2e]  very reasonable . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  was good , the  [1b] service [1e]  prompt , and the  [2b] price [2e]  very reasonable . [SEP]	2	9	11
+[CLS] the  [0b] food [0e]  was good , the  [1b] service [1e]  prompt , and the  [2b] price [2e]  very reasonable . [SEP]	2	16	18
+[CLS] wonderful  [0b] menu [0e]  , warm inviting  [1b] ambiance [1e]  , great  [2b] service [2e]  the  [3b] food [3e]  keeps me coming back ! [SEP]	2	2	4
+[CLS] wonderful  [0b] menu [0e]  , warm inviting  [1b] ambiance [1e]  , great  [2b] service [2e]  the  [3b] food [3e]  keeps me coming back ! [SEP]	2	8	12
+[CLS] wonderful  [0b] menu [0e]  , warm inviting  [1b] ambiance [1e]  , great  [2b] service [2e]  the  [3b] food [3e]  keeps me coming back ! [SEP]	2	15	17
+[CLS] wonderful  [0b] menu [0e]  , warm inviting  [1b] ambiance [1e]  , great  [2b] service [2e]  the  [3b] food [3e]  keeps me coming back ! [SEP]	2	19	21
+[CLS] great  [0b] food [0e]  , good  [1b] wine [1e]  and an excellent  [2b] host [2e]  . [SEP]	2	2	4
+[CLS] great  [0b] food [0e]  , good  [1b] wine [1e]  and an excellent  [2b] host [2e]  . [SEP]	2	7	9
+[CLS] great  [0b] food [0e]  , good  [1b] wine [1e]  and an excellent  [2b] host [2e]  . [SEP]	2	13	15
+[CLS]   [0b] pizzas [0e]  were excellent in addition to appetizers and main courses . [SEP]	2	1	4
+[CLS] pizzas were excellent in addition to  [0b] appetizers [0e]  and  [1b] main courses [1e]  . [SEP]	2	8	12
+[CLS] pizzas were excellent in addition to  [0b] appetizers [0e]  and  [1b] main courses [1e]  . [SEP]	2	14	17
+[CLS] definitely try the  [0b] calamari [0e]  , any  [1b] pasta [1e]  , or even the  [2b] sliced steak entree [2e]  . [SEP]	2	4	8
+[CLS] definitely try the  [0b] calamari [0e]  , any  [1b] pasta [1e]  , or even the  [2b] sliced steak entree [2e]  . [SEP]	2	11	13
+[CLS] definitely try the  [0b] calamari [0e]  , any  [1b] pasta [1e]  , or even the  [2b] sliced steak entree [2e]  . [SEP]	2	18	23
+[CLS] the  [0b] caeser salad [0e]  was great . [SEP]	2	2	7
+[CLS] the  [0b] fried calamari [0e]  was even better ! [SEP]	2	2	7
+[CLS] the  [0b] food [0e]  was good overall . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  was outstanding and the  [1b] service [1e]  was tops . [SEP]	2	2	4
+[CLS] the  [0b] food [0e]  was outstanding and the  [1b] service [1e]  was tops . [SEP]	2	9	11
+[CLS] the  [0b] portions [0e]  are very large and the  [1b] service [1e]  is fantastic !! [SEP]	2	2	4
+[CLS] the  [0b] portions [0e]  are very large and the  [1b] service [1e]  is fantastic !! [SEP]	2	10	12
+[CLS] i recomend the  [0b] chicken milanese [0e]  . [SEP]	2	6	10
+[CLS] excellent  [0b] tapas [0e]  at great  [1b] prices [1e]  , romantic , small but not overly crowed , excellent [SEP]	2	2	5
+[CLS] excellent  [0b] tapas [0e]  at great  [1b] prices [1e]  , romantic , small but not overly crowed , excellent [SEP]	2	8	10
+[CLS] the  [0b] chocolate raspberry cake [0e]  is heavenly - not too sweet , but full of  [1b] flavor [1e]  . [SEP]	2	2	8
+[CLS] the  [0b] chocolate raspberry cake [0e]  is heavenly - not too sweet , but full of  [1b] flavor [1e]  . [SEP]	2	19	21
+[CLS] our  [0b] waiter [0e]  was helpful and charming , the  [1b] food [1e]  was perfect , and the  [2b] wine [2e]  was good , too . [SEP]	2	2	4
+[CLS] our  [0b] waiter [0e]  was helpful and charming , the  [1b] food [1e]  was perfect , and the  [2b] wine [2e]  was good , too . [SEP]	2	11	13
+[CLS] our  [0b] waiter [0e]  was helpful and charming , the  [1b] food [1e]  was perfect , and the  [2b] wine [2e]  was good , too . [SEP]	2	19	21
+[CLS] i have never had a bad  [0b] meal [0e]  -lrb- or bad  [1b] service [1e]  -rrb- @ pigalle . [SEP]	2	7	9
+[CLS] i have never had a bad  [0b] meal [0e]  -lrb- or bad  [1b] service [1e]  -rrb- @ pigalle . [SEP]	2	16	18
+[CLS] best  [0b] hot dogs [0e]  in the tri-state area . [SEP]	2	2	5
+[CLS] the  [0b] service [0e]  was very attentive and very generous . [SEP]	2	2	4
+[CLS] we had tons of great  [0b] food [0e]  ,  [1b] wine [1e]  , and  [2b] desserts [2e]  . [SEP]	2	6	8
+[CLS] we had tons of great  [0b] food [0e]  ,  [1b] wine [1e]  , and  [2b] desserts [2e]  . [SEP]	2	10	12
+[CLS] we had tons of great  [0b] food [0e]  ,  [1b] wine [1e]  , and  [2b] desserts [2e]  . [SEP]	2	15	18
+[CLS] really lovely  [0b] dining experience [0e]  in the midst of buzzing midtown area . [SEP]	2	3	6
+[CLS] the  [0b] food [0e]  really is n't very good and the  [1b] service [1e]  is terrible . [SEP]	0	2	4
+[CLS] the  [0b] food [0e]  really is n't very good and the  [1b] service [1e]  is terrible . [SEP]	0	14	16
+[CLS] not only do they have the best  [0b] escargot [0e]  in town , they always try to accomodate our toddler . [SEP]	2	8	13
+[CLS] between my guest and i , we sampled at least 80 % of the  [0b] menu [0e]  , and they were all hits . [SEP]	2	15	17
+[CLS] the  [0b] deco [0e]  and  [1b] ambiance [1e]  was really romantic . [SEP]	2	2	4
+[CLS] the  [0b] deco [0e]  and  [1b] ambiance [1e]  was really romantic . [SEP]	2	6	10
+[CLS] just go in and sample the greatest  [0b] french food [0e]  west of daniel . [SEP]	2	8	11
+[CLS] for someone who used to hate  [0b] indian food [0e]  , baluchi 's has changed my mid . [SEP]	2	7	10
+[CLS] finally a  [0b] curry [0e]  that i can eat , enjoy and not suffer from gastritis from 3 hours later . [SEP]	2	3	5
+[CLS] all are great -  [0b] poori [0e]  ,  [1b] naan [1e]  ,  [2b] paratha [2e]  all fresh . [SEP]	2	5	8
+[CLS] all are great -  [0b] poori [0e]  ,  [1b] naan [1e]  ,  [2b] paratha [2e]  all fresh . [SEP]	2	10	13
+[CLS] all are great -  [0b] poori [0e]  ,  [1b] naan [1e]  ,  [2b] paratha [2e]  all fresh . [SEP]	2	15	18
+[CLS] try the  [0b] homemade breads [0e]  . [SEP]	2	3	7
+[CLS] this place has beautiful  [0b] sushi [0e]  , and it 's delicious cheap . [SEP]	2	5	8
+[CLS] it also has lots of other  [0b] korean dishes [0e]  that are affordable and just as yummy . [SEP]	2	7	10
+[CLS] i went for restaurant week and ordered off the  [0b] prix fixe menu [0e]   [SEP]	1	10	15
+[CLS] not only was the  [0b] waiter [0e]  efficient and courteous , but also extremely helpful . [SEP]	2	5	7
+[CLS] this  [0b] place [0e]  is classy , chic , the  [1b] service [1e]  is warm and hospitable , and the  [2b] food [2e]  is outstanding . [SEP]	2	2	4
+[CLS] this  [0b] place [0e]  is classy , chic , the  [1b] service [1e]  is warm and hospitable , and the  [2b] food [2e]  is outstanding . [SEP]	2	13	15
+[CLS] this  [0b] place [0e]  is classy , chic , the  [1b] service [1e]  is warm and hospitable , and the  [2b] food [2e]  is outstanding . [SEP]	2	26	28
+[CLS] great  [0b] burgers [0e]  ,  [1b] grilled cheeses [1e]  and  [2b] french fries [2e]  . [SEP]	2	2	5
+[CLS] great  [0b] burgers [0e]  ,  [1b] grilled cheeses [1e]  and  [2b] french fries [2e]  . [SEP]	2	7	12
+[CLS] great  [0b] burgers [0e]  ,  [1b] grilled cheeses [1e]  and  [2b] french fries [2e]  . [SEP]	2	14	17
+[CLS] the  [0b] yellowfin tuna [0e]  and calf 's liver are my favorites ! [SEP]	2	2	6
+[CLS] the yellowfin tuna and  [0b] calf's liver [0e]  are my favorites ! [SEP]	2	6	11
+[CLS]   [0b] sushi [0e]  so fresh that it crunches in your mouth . [SEP]	2	1	4
+[CLS] but make sure you have enough room on your credit card as the  [0b] bill [0e]  will leave a big dent in your wallet . [SEP]	0	14	16
+[CLS] they bring a  [2b] sauce cart [2e]  up to your  [3b] table [3e]  and offer you up to 7 or 8  [1b] choices of sauces [1e]  for your  [0b] steak [0e]  -lrb- i tried them all -rrb- . [SEP]	1	30	32
+[CLS] they bring a  [2b] sauce cart [2e]  up to your  [3b] table [3e]  and offer you up to 7 or 8  [1b] choices of sauces [1e]  for your  [0b] steak [0e]  -lrb- i tried them all -rrb- . [SEP]	2	22	27
+[CLS] they bring a  [2b] sauce cart [2e]  up to your  [3b] table [3e]  and offer you up to 7 or 8  [1b] choices of sauces [1e]  for your  [0b] steak [0e]  -lrb- i tried them all -rrb- . [SEP]	1	4	7
+[CLS] they bring a  [2b] sauce cart [2e]  up to your  [3b] table [3e]  and offer you up to 7 or 8  [1b] choices of sauces [1e]  for your  [0b] steak [0e]  -lrb- i tried them all -rrb- . [SEP]	1	11	13
+[CLS] not only was the  [0b] sushi [0e]  fresh , they also served other  [2b] entrees [2e]  allowed each guest something to choose from and we all left happy -lrb- try the  [1b] duck [1e]  ! [SEP]	2	5	8
+[CLS] not only was the  [0b] sushi [0e]  fresh , they also served other  [2b] entrees [2e]  allowed each guest something to choose from and we all left happy -lrb- try the  [1b] duck [1e]  ! [SEP]	2	38	40
+[CLS] not only was the  [0b] sushi [0e]  fresh , they also served other  [2b] entrees [2e]  allowed each guest something to choose from and we all left happy -lrb- try the  [1b] duck [1e]  ! [SEP]	1	15	19
+[CLS] good  [0b] variety [0e]  but nothing surprising . [SEP]	2	2	4
+[CLS] after i paid for my purchase , i noticed they had not given me  [0b] utensils [0e]  so i could eat my  [1b] pie [1e]  . [SEP]	1	15	19
+[CLS] after i paid for my purchase , i noticed they had not given me  [0b] utensils [0e]  so i could eat my  [1b] pie [1e]  . [SEP]	1	25	27
+[CLS] likewise if you like really  [0b] thin crust [0e]  or really big  [1b] slices [1e]  then nick and joe 's may not be your favorite . [SEP]	0	6	9
+[CLS] likewise if you like really  [0b] thin crust [0e]  or really big  [1b] slices [1e]  then nick and joe 's may not be your favorite . [SEP]	0	13	15
+[CLS] no  [0b] green beans [0e]  , no  [1b] egg [1e]  , no  [2b] anchovy dressing [2e]  , no  [3b] nicoise olives [3e]  , no  [4b] red onion [4e]  . [SEP]	1	2	5
+[CLS] no  [0b] green beans [0e]  , no  [1b] egg [1e]  , no  [2b] anchovy dressing [2e]  , no  [3b] nicoise olives [3e]  , no  [4b] red onion [4e]  . [SEP]	1	8	10
+[CLS] no  [0b] green beans [0e]  , no  [1b] egg [1e]  , no  [2b] anchovy dressing [2e]  , no  [3b] nicoise olives [3e]  , no  [4b] red onion [4e]  . [SEP]	1	13	18
+[CLS] no  [0b] green beans [0e]  , no  [1b] egg [1e]  , no  [2b] anchovy dressing [2e]  , no  [3b] nicoise olives [3e]  , no  [4b] red onion [4e]  . [SEP]	1	21	26
+[CLS] no  [0b] green beans [0e]  , no  [1b] egg [1e]  , no  [2b] anchovy dressing [2e]  , no  [3b] nicoise olives [3e]  , no  [4b] red onion [4e]  . [SEP]	1	29	32
+[CLS] build a  [0b] meal [0e]  with side orders like amazin ' greens salads , buffalo chicken kickers and cinna stix . [SEP]	1	3	5
+[CLS] build a meal with side orders like  [0b] amazin' greens salads [0e]  , buffalo chicken kickers and cinna stix . [SEP]	1	8	15
+[CLS] build a meal with  [2b] side orders [2e]  like amazin ' greens salads ,  [0b] buffalo chicken kickers [0e]  and  [1b] cinna stix [1e]  . [SEP]	1	17	22
+[CLS] build a meal with  [2b] side orders [2e]  like amazin ' greens salads ,  [0b] buffalo chicken kickers [0e]  and  [1b] cinna stix [1e]  . [SEP]	1	24	29
+[CLS] build a meal with  [2b] side orders [2e]  like amazin ' greens salads ,  [0b] buffalo chicken kickers [0e]  and  [1b] cinna stix [1e]  . [SEP]	1	5	8
+[CLS] thick  [0b] fries [0e]  ,  [1b] meaty chili [1e]  and  [2b] stuffed baked potatoes [2e]  round out a  [3b] menu [3e]  that includes a cool , ultra-thick  [4b] chocolate frosty [4e]  . [SEP]	1	2	4
+[CLS] thick  [0b] fries [0e]  ,  [1b] meaty chili [1e]  and  [2b] stuffed baked potatoes [2e]  round out a  [3b] menu [3e]  that includes a cool , ultra-thick  [4b] chocolate frosty [4e]  . [SEP]	1	6	10
+[CLS] thick  [0b] fries [0e]  ,  [1b] meaty chili [1e]  and  [2b] stuffed baked potatoes [2e]  round out a  [3b] menu [3e]  that includes a cool , ultra-thick  [4b] chocolate frosty [4e]  . [SEP]	1	12	16
+[CLS] thick  [0b] fries [0e]  ,  [1b] meaty chili [1e]  and  [2b] stuffed baked potatoes [2e]  round out a  [3b] menu [3e]  that includes a cool , ultra-thick  [4b] chocolate frosty [4e]  . [SEP]	1	20	22
+[CLS] thick  [0b] fries [0e]  ,  [1b] meaty chili [1e]  and  [2b] stuffed baked potatoes [2e]  round out a  [3b] menu [3e]  that includes a cool , ultra-thick  [4b] chocolate frosty [4e]  . [SEP]	2	31	35
+[CLS] i always find myself asking the  [0b] waiter [0e]  to make something bland and different than what is on the  [1b] menu [1e]  . [SEP]	1	7	9
+[CLS] i always find myself asking the  [0b] waiter [0e]  to make something bland and different than what is on the  [1b] menu [1e]  . [SEP]	1	21	23
+[CLS] good  [0b] cake [0e]  but : it was not the best cake i 've ever had , and definately not worth standing outside on the sidewalk being herded like cattle by indifferent and overworked  [1b] employees [1e]  . [SEP]	0	2	4
+[CLS] good  [0b] cake [0e]  but : it was not the best cake i 've ever had , and definately not worth standing outside on the sidewalk being herded like cattle by indifferent and overworked  [1b] employees [1e]  . [SEP]	0	41	43
+[CLS] the closest that i got was the  [0b] cherry marscapone [0e]  , but they were out of it that day . [SEP]	1	8	13
+[CLS] the homage to india is most evident in the delectable  [0b] roti canai appetizer [0e]  , a  [2b] fried pancake served with pungent curry dipping sauce [2e]  , while the  [1b] mango chicken [1e]  offers a surprisingly sophisticated , fresh take on sweet-and-sour . [SEP]	2	13	21
+[CLS] the homage to india is most evident in the delectable  [0b] roti canai appetizer [0e]  , a  [2b] fried pancake served with pungent curry dipping sauce [2e]  , while the  [1b] mango chicken [1e]  offers a surprisingly sophisticated , fresh take on sweet-and-sour . [SEP]	2	39	42
+[CLS] the homage to india is most evident in the delectable  [0b] roti canai appetizer [0e]  , a  [2b] fried pancake served with pungent curry dipping sauce [2e]  , while the  [1b] mango chicken [1e]  offers a surprisingly sophisticated , fresh take on sweet-and-sour . [SEP]	2	24	35
+[CLS] it does n't look like much on the  [0b] outside [0e]  , but the minute you walk inside , it 's a whole other  [1b] atmosphere [1e]  . [SEP]	0	11	13
+[CLS] it does n't look like much on the  [0b] outside [0e]  , but the minute you walk inside , it 's a whole other  [1b] atmosphere [1e]  . [SEP]	2	28	30
+[CLS] the  [0b] ground chickpea soup [0e]  we sampled as a  [1b] starter [1e]  tasted somewhat thin . [SEP]	0	2	8
+[CLS] the  [0b] ground chickpea soup [0e]  we sampled as a  [1b] starter [1e]  tasted somewhat thin . [SEP]	1	13	15
+[CLS] we requested they re-slice the  [0b] sushi [0e]  , and it was returned to us in small cheese-like cubes . [SEP]	0	8	11
+[CLS] the  [0b] service [0e]  , however , is a peg or two below the  [1b] quality of food [1e]  -lrb- horrible  [2b] bartenders [2e]  -rrb- , and the  [3b] clientele [3e]  , for the most part , are rowdy , loud-mouthed commuters -lrb- this could explain the bad attitudes from the  [4b] staff [4e]  -rrb- getting loaded for an ac/dc concert or a knicks game . [SEP]	0	2	4
+[CLS] the  [0b] service [0e]  , however , is a peg or two below the  [1b] quality of food [1e]  -lrb- horrible  [2b] bartenders [2e]  -rrb- , and the  [3b] clientele [3e]  , for the most part , are rowdy , loud-mouthed commuters -lrb- this could explain the bad attitudes from the  [4b] staff [4e]  -rrb- getting loaded for an ac/dc concert or a knicks game . [SEP]	2	15	19
+[CLS] the  [0b] service [0e]  , however , is a peg or two below the  [1b] quality of food [1e]  -lrb- horrible  [2b] bartenders [2e]  -rrb- , and the  [3b] clientele [3e]  , for the most part , are rowdy , loud-mouthed commuters -lrb- this could explain the bad attitudes from the  [4b] staff [4e]  -rrb- getting loaded for an ac/dc concert or a knicks game . [SEP]	0	25	28
+[CLS] the  [0b] service [0e]  , however , is a peg or two below the  [1b] quality of food [1e]  -lrb- horrible  [2b] bartenders [2e]  -rrb- , and the  [3b] clientele [3e]  , for the most part , are rowdy , loud-mouthed commuters -lrb- this could explain the bad attitudes from the  [4b] staff [4e]  -rrb- getting loaded for an ac/dc concert or a knicks game . [SEP]	0	36	39
+[CLS] the  [0b] service [0e]  , however , is a peg or two below the  [1b] quality of food [1e]  -lrb- horrible  [2b] bartenders [2e]  -rrb- , and the  [3b] clientele [3e]  , for the most part , are rowdy , loud-mouthed commuters -lrb- this could explain the bad attitudes from the  [4b] staff [4e]  -rrb- getting loaded for an ac/dc concert or a knicks game . [SEP]	0	67	69
+[CLS] if you 're in the neighborhood , definitely stop by for a great  [0b] meal [0e]  . [SEP]	2	15	17
+[CLS] unfortunately , with our show tickets , we did n't have time to sample any  [0b] desserts [0e]  . [SEP]	1	18	21
+[CLS] make more  [0b] tables [0e]  - perhaps a  [1b] rooftop bar [1e]  ? [SEP]	0	3	5
+[CLS] make more  [0b] tables [0e]  - perhaps a  [1b] rooftop bar [1e]  ? [SEP]	1	9	12
+[CLS] the  [0b] decoration [0e]  was feeling like we was on the cairo , actually the street is part of that adventure . [SEP]	2	2	4
+[CLS] although small , it has beautiful  [0b] ambience [0e]  , excellent  [1b] food [1e]  -lrb- the  [2b] catfish [2e]  is delicious - if ya do n't mind it a lil salty -rrb- and attentive  [3b] service [3e]  . [SEP]	2	7	11
+[CLS] although small , it has beautiful  [0b] ambience [0e]  , excellent  [1b] food [1e]  -lrb- the  [2b] catfish [2e]  is delicious - if ya do n't mind it a lil salty -rrb- and attentive  [3b] service [3e]  . [SEP]	2	14	16
+[CLS] although small , it has beautiful  [0b] ambience [0e]  , excellent  [1b] food [1e]  -lrb- the  [2b] catfish [2e]  is delicious - if ya do n't mind it a lil salty -rrb- and attentive  [3b] service [3e]  . [SEP]	2	22	24
+[CLS] although small , it has beautiful  [0b] ambience [0e]  , excellent  [1b] food [1e]  -lrb- the  [2b] catfish [2e]  is delicious - if ya do n't mind it a lil salty -rrb- and attentive  [3b] service [3e]  . [SEP]	2	47	49
+[CLS] i did n't go there for  [0b] food [0e]  so i ca n't comment . [SEP]	1	9	11
+[CLS] stick to the items the place does best ,  [0b] brisket [0e]  ,  [1b] ribs [1e]  ,  [2b] wings [2e]  ,  [3b] cajun shrimp [3e]  is good , not great . [SEP]	2	10	13
+[CLS] stick to the items the place does best ,  [0b] brisket [0e]  ,  [1b] ribs [1e]  ,  [2b] wings [2e]  ,  [3b] cajun shrimp [3e]  is good , not great . [SEP]	2	15	17
+[CLS] stick to the items the place does best ,  [0b] brisket [0e]  ,  [1b] ribs [1e]  ,  [2b] wings [2e]  ,  [3b] cajun shrimp [3e]  is good , not great . [SEP]	2	19	21
+[CLS] stick to the items the place does best ,  [0b] brisket [0e]  ,  [1b] ribs [1e]  ,  [2b] wings [2e]  ,  [3b] cajun shrimp [3e]  is good , not great . [SEP]	1	23	27
+[CLS] hip boutiques and bars on ludlow add to the artsy , laid-back  [0b] atmosphere [0e]  at this israeli-style takeout and eat-in burger joint . [SEP]	2	18	20
+[CLS] young neighborhood trendies graze at the  [0b] counter [0e]  during the day , while chic , art-house drinkers with heavy doses of the munchies pile in late at night . [SEP]	1	9	11
+[CLS] bring your date and a  [0b] bottle of wine [0e]  ! [SEP]	1	6	10
+[CLS] my chelsea 's impressive and creative  [0b] menu [0e]  includes modern , westernized  [1b] japanese dishes [1e]  such as  [2b] foie gras unagi napolean [2e]  ,  [3b] jap style hamburger steak [3e]  ,  [4b] spicy cod roe spaghetti [4e]  ,  [5b] black cod with miso base [5e]  , and  [6b] rack of lamb in black truffle sauce [6e]  , to name a few . [SEP]	2	8	10
+[CLS] my chelsea 's impressive and creative  [0b] menu [0e]  includes modern , westernized  [1b] japanese dishes [1e]  such as  [2b] foie gras unagi napolean [2e]  ,  [3b] jap style hamburger steak [3e]  ,  [4b] spicy cod roe spaghetti [4e]  ,  [5b] black cod with miso base [5e]  , and  [6b] rack of lamb in black truffle sauce [6e]  , to name a few . [SEP]	1	16	19
+[CLS] my chelsea 's impressive and creative  [0b] menu [0e]  includes modern , westernized  [1b] japanese dishes [1e]  such as  [2b] foie gras unagi napolean [2e]  ,  [3b] jap style hamburger steak [3e]  ,  [4b] spicy cod roe spaghetti [4e]  ,  [5b] black cod with miso base [5e]  , and  [6b] rack of lamb in black truffle sauce [6e]  , to name a few . [SEP]	1	22	33
+[CLS] my chelsea 's impressive and creative  [0b] menu [0e]  includes modern , westernized  [1b] japanese dishes [1e]  such as  [2b] foie gras unagi napolean [2e]  ,  [3b] jap style hamburger steak [3e]  ,  [4b] spicy cod roe spaghetti [4e]  ,  [5b] black cod with miso base [5e]  , and  [6b] rack of lamb in black truffle sauce [6e]  , to name a few . [SEP]	1	35	41
+[CLS] my chelsea 's impressive and creative  [0b] menu [0e]  includes modern , westernized  [1b] japanese dishes [1e]  such as  [2b] foie gras unagi napolean [2e]  ,  [3b] jap style hamburger steak [3e]  ,  [4b] spicy cod roe spaghetti [4e]  ,  [5b] black cod with miso base [5e]  , and  [6b] rack of lamb in black truffle sauce [6e]  , to name a few . [SEP]	1	43	48
+[CLS] my chelsea 's impressive and creative  [0b] menu [0e]  includes modern , westernized  [1b] japanese dishes [1e]  such as  [2b] foie gras unagi napolean [2e]  ,  [3b] jap style hamburger steak [3e]  ,  [4b] spicy cod roe spaghetti [4e]  ,  [5b] black cod with miso base [5e]  , and  [6b] rack of lamb in black truffle sauce [6e]  , to name a few . [SEP]	1	50	57
+[CLS] my chelsea 's impressive and creative  [0b] menu [0e]  includes modern , westernized  [1b] japanese dishes [1e]  such as  [2b] foie gras unagi napolean [2e]  ,  [3b] jap style hamburger steak [3e]  ,  [4b] spicy cod roe spaghetti [4e]  ,  [5b] black cod with miso base [5e]  , and  [6b] rack of lamb in black truffle sauce [6e]  , to name a few . [SEP]	1	60	70
+[CLS] his  [0b] food [0e]  is excellent -lrb- and not expensive by nyc standards - no  [2b] entrees [2e]  over $ 30 , most  [1b] appetizers [1e]  $ 12 to 14 -rrb- . [SEP]	2	2	4
+[CLS] his  [0b] food [0e]  is excellent -lrb- and not expensive by nyc standards - no  [2b] entrees [2e]  over $ 30 , most  [1b] appetizers [1e]  $ 12 to 14 -rrb- . [SEP]	2	29	33
+[CLS] his  [0b] food [0e]  is excellent -lrb- and not expensive by nyc standards - no  [2b] entrees [2e]  over $ 30 , most  [1b] appetizers [1e]  $ 12 to 14 -rrb- . [SEP]	2	19	23
+[CLS] the  [0b] food [0e]  is consistant and good but how it got name best diner in manhattan is beyond me . [SEP]	2	2	4
+[CLS] the  [0b] pasta primavera [0e]  was outstanding as well , lots of  [1b] fresh veggies [1e]  . [SEP]	2	2	6
+[CLS] the  [0b] pasta primavera [0e]  was outstanding as well , lots of  [1b] fresh veggies [1e]  . [SEP]	2	14	19
+[CLS] do n't get me wrong -  [0b] sushi [0e]  was good , just not fantastic . [SEP]	2	9	12
+[CLS] being puerto rican i know a thing or two about  [0b] flan [0e]  and this place serves one of the best -lrb- i hope mom does n't read this ! -rrb- . [SEP]	2	11	14
+[CLS] been to the one in brooklyn for over 25 years , now i dont have to go over the bridge for the best  [0b] pizza [0e]  ... hanx [SEP]	2	25	27
+[CLS] had  [0b] dinner [0e]  here on a friday and the  [1b] food [1e]  was great . [SEP]	1	2	4
+[CLS] had  [0b] dinner [0e]  here on a friday and the  [1b] food [1e]  was great . [SEP]	2	11	13
+[CLS] we recently spent new year 's eve at the restaurant , and had a great experience , from the  [0b] wine [0e]  to the  [1b] dessert menu [1e]  . [SEP]	2	21	23
+[CLS] we recently spent new year 's eve at the restaurant , and had a great experience , from the  [0b] wine [0e]  to the  [1b] dessert menu [1e]  . [SEP]	2	26	29
+[CLS] highly recommended ... as stated , i have n't dined * in * the restaurant but stopped by there to pick up  [2b] takeout [2e]  and it seems a very relaxing  [0b] place [0e]  ; also , the  [1b] bar [1e]  looks nice . [SEP]	2	38	40
+[CLS] highly recommended ... as stated , i have n't dined * in * the restaurant but stopped by there to pick up  [2b] takeout [2e]  and it seems a very relaxing  [0b] place [0e]  ; also , the  [1b] bar [1e]  looks nice . [SEP]	2	45	47
+[CLS] highly recommended ... as stated , i have n't dined * in * the restaurant but stopped by there to pick up  [2b] takeout [2e]  and it seems a very relaxing  [0b] place [0e]  ; also , the  [1b] bar [1e]  looks nice . [SEP]	1	28	31
+[CLS] the  [0b] ambiance [0e]  was fine , a little loud but still nice and romantic . [SEP]	2	2	6
+[CLS] but , the  [1b] filet mignon [1e]  was not very good at all  [0b] cocktail hour [0e]  includes free  [3b] appetizers [3e]  -lrb- nice  [2b] non-sushi selection [2e]  -rrb- . [SEP]	2	16	19
+[CLS] but , the  [1b] filet mignon [1e]  was not very good at all  [0b] cocktail hour [0e]  includes free  [3b] appetizers [3e]  -lrb- nice  [2b] non-sushi selection [2e]  -rrb- . [SEP]	0	4	9
+[CLS] but , the  [1b] filet mignon [1e]  was not very good at all  [0b] cocktail hour [0e]  includes free  [3b] appetizers [3e]  -lrb- nice  [2b] non-sushi selection [2e]  -rrb- . [SEP]	2	32	38
+[CLS] but , the  [1b] filet mignon [1e]  was not very good at all  [0b] cocktail hour [0e]  includes free  [3b] appetizers [3e]  -lrb- nice  [2b] non-sushi selection [2e]  -rrb- . [SEP]	2	22	26
+[CLS] it took about 2 1/2 hours to be  [1b] served [1e]  our 2  [0b] courses [0e]  . [SEP]	1	16	18
+[CLS] it took about 2 1/2 hours to be  [1b] served [1e]  our 2  [0b] courses [0e]  . [SEP]	0	11	13
+[CLS] who said go when the  [0b] place [0e]  is quiet during the day ? [SEP]	1	6	8
+[CLS] can be a bit busy around peak times because of the  [0b] size [0e]  . [SEP]	0	12	14
+[CLS] i was on jury duty , rode my bike up centre street on my lunch break and came across this great little  [2b] place [2e]  with awesome  [0b] chicken tacos [0e]  and  [1b] hibiscus lemonade [1e]  . [SEP]	2	28	32
+[CLS] i was on jury duty , rode my bike up centre street on my lunch break and came across this great little  [2b] place [2e]  with awesome  [0b] chicken tacos [0e]  and  [1b] hibiscus lemonade [1e]  . [SEP]	2	34	40
+[CLS] i was on jury duty , rode my bike up centre street on my lunch break and came across this great little  [2b] place [2e]  with awesome  [0b] chicken tacos [0e]  and  [1b] hibiscus lemonade [1e]  . [SEP]	2	23	25
+[CLS] good  [0b] place [0e]  to hang out during the day after shopping or to grab a simple  [1b] soup [1e]  or classic  [2b] french dish [2e]  over a  [3b] glass of wine [3e]  . [SEP]	2	2	4
+[CLS] good  [0b] place [0e]  to hang out during the day after shopping or to grab a simple  [1b] soup [1e]  or classic  [2b] french dish [2e]  over a  [3b] glass of wine [3e]  . [SEP]	1	18	20
+[CLS] good  [0b] place [0e]  to hang out during the day after shopping or to grab a simple  [1b] soup [1e]  or classic  [2b] french dish [2e]  over a  [3b] glass of wine [3e]  . [SEP]	1	23	26
+[CLS] good  [0b] place [0e]  to hang out during the day after shopping or to grab a simple  [1b] soup [1e]  or classic  [2b] french dish [2e]  over a  [3b] glass of wine [3e]  . [SEP]	1	29	33
+[CLS] very nice touch that very much fits the  [0b] place [0e]  . [SEP]	2	9	11
+[CLS] however , there is just something so great about being  [1b] outdoors [1e]  , in great landscaping , enjoying a  [0b] casual drink [0e]  that makes going to this  [2b] place [2e]  worthwhile . [SEP]	2	21	24
+[CLS] however , there is just something so great about being  [1b] outdoors [1e]  , in great landscaping , enjoying a  [0b] casual drink [0e]  that makes going to this  [2b] place [2e]  worthwhile . [SEP]	2	11	13
+[CLS] however , there is just something so great about being  [1b] outdoors [1e]  , in great landscaping , enjoying a  [0b] casual drink [0e]  that makes going to this  [2b] place [2e]  worthwhile . [SEP]	2	30	32
+[CLS] we were seated promptly in close proximity to the  [0b] dance floor [0e]  . [SEP]	1	10	13
+[CLS] if you are here as a  [0b] pre-show meal [0e]  , hop in a cab and take the extra 10 minutes to go to the uptown location . [SEP]	1	7	12
+[CLS] the comments about  [0b] fried foods [0e]  is correct -lrb- below -rrb- but the other  [1b] dishes [1e]  , including the  [2b] lamb entree [2e]  and many of the salads -lrb- avocado shrimp -rrb- were quite good . [SEP]	0	4	7
+[CLS] the comments about  [0b] fried foods [0e]  is correct -lrb- below -rrb- but the other  [1b] dishes [1e]  , including the  [2b] lamb entree [2e]  and many of the salads -lrb- avocado shrimp -rrb- were quite good . [SEP]	2	22	24
+[CLS] the comments about  [0b] fried foods [0e]  is correct -lrb- below -rrb- but the other  [1b] dishes [1e]  , including the  [2b] lamb entree [2e]  and many of the salads -lrb- avocado shrimp -rrb- were quite good . [SEP]	2	28	32
+[CLS] the comments about fried foods is correct -lrb- below -rrb- but the other dishes , including the lamb entree and many of the  [0b] salads (avocado shrimp) [0e]  were quite good . [SEP]	2	31	40
+[CLS] slow  [0b] service [0e]  , but when you 're hanging around with groups of 10 or 20 , who really notices ? [SEP]	0	2	4
+[CLS] the  [1b] sauce [1e]  is excellent -lrb- very fresh -rrb- with  [0b] dabs of real mozzarella [0e]  . [SEP]	1	18	26
+[CLS] the  [1b] sauce [1e]  is excellent -lrb- very fresh -rrb- with  [0b] dabs of real mozzarella [0e]  . [SEP]	2	2	4
+[CLS] do n't ever bother - the  [0b] drinks [0e]  were awful , but it was the  [1b] people [1e]  who work there that really made this the worst experience at  [2b] dining [2e]  . [SEP]	0	9	11
+[CLS] do n't ever bother - the  [0b] drinks [0e]  were awful , but it was the  [1b] people [1e]  who work there that really made this the worst experience at  [2b] dining [2e]  . [SEP]	0	19	21
+[CLS] do n't ever bother - the  [0b] drinks [0e]  were awful , but it was the  [1b] people [1e]  who work there that really made this the worst experience at  [2b] dining [2e]  . [SEP]	0	33	35
+[CLS] the  [0b] room [0e]  is a little plain , but it 's difficult to make such a small  [1b] place [1e]  exciting and i would not suggest that as a reason not to go . [SEP]	0	2	4
+[CLS] the  [0b] room [0e]  is a little plain , but it 's difficult to make such a small  [1b] place [1e]  exciting and i would not suggest that as a reason not to go . [SEP]	0	20	22
+[CLS]   [0b] prices [0e]  even outside of restaurant week were great . [SEP]	2	1	3
+[CLS] a small ,  [1b] outdoor eating area [1e]  makes for a private , comfortable  [0b] space [0e]  to study alone or meet up with friends . [SEP]	2	15	17
+[CLS] a small ,  [1b] outdoor eating area [1e]  makes for a private , comfortable  [0b] space [0e]  to study alone or meet up with friends . [SEP]	2	4	8
+[CLS] and all the  [0b] [female] servers [0e]  are cute too , which is always nice . [SEP]	2	4	9
+[CLS] the best  [0b] dessert [0e]  , a  [1b] chocolate and peanut butter tart [1e]  , is n't particularly hawaiian , but it 's a small world when it comes to  [2b] sweets [2e]  . [SEP]	2	3	5
+[CLS] the best  [0b] dessert [0e]  , a  [1b] chocolate and peanut butter tart [1e]  , is n't particularly hawaiian , but it 's a small world when it comes to  [2b] sweets [2e]  . [SEP]	2	8	15
+[CLS] the best  [0b] dessert [0e]  , a  [1b] chocolate and peanut butter tart [1e]  , is n't particularly hawaiian , but it 's a small world when it comes to  [2b] sweets [2e]  . [SEP]	1	35	37
+[CLS] for an  [0b] appetizer [0e]  , their  [1b] calamari [1e]  is a winner . [SEP]	1	3	7
+[CLS] for an  [0b] appetizer [0e]  , their  [1b] calamari [1e]  is a winner . [SEP]	2	10	14
+[CLS] satay is one of those favorite haunts on washington where the  [0b] service [0e]  and  [1b] food [1e]  is always on the money . [SEP]	2	14	16
+[CLS] satay is one of those favorite haunts on washington where the  [0b] service [0e]  and  [1b] food [1e]  is always on the money . [SEP]	2	18	20
+[CLS] after  [0b] dinner [0e]  i heard  [1b] music [1e]  playing and discovered that there is a  [2b] lounge [2e]  downstairs . [SEP]	1	2	4
+[CLS] after  [0b] dinner [0e]  i heard  [1b] music [1e]  playing and discovered that there is a  [2b] lounge [2e]  downstairs . [SEP]	1	7	9
+[CLS] after  [0b] dinner [0e]  i heard  [1b] music [1e]  playing and discovered that there is a  [2b] lounge [2e]  downstairs . [SEP]	1	17	19
+[CLS] the  [0b] room [0e]  is a gorgeous ,  [1b] bi-level space [1e]  and the  [2b] long bar [2e]  perfect for a  [3b] drink [3e]  . [SEP]	2	2	4
+[CLS] the  [0b] room [0e]  is a gorgeous ,  [1b] bi-level space [1e]  and the  [2b] long bar [2e]  perfect for a  [3b] drink [3e]  . [SEP]	2	9	14
+[CLS] the  [0b] room [0e]  is a gorgeous ,  [1b] bi-level space [1e]  and the  [2b] long bar [2e]  perfect for a  [3b] drink [3e]  . [SEP]	2	17	20
+[CLS] the  [0b] room [0e]  is a gorgeous ,  [1b] bi-level space [1e]  and the  [2b] long bar [2e]  perfect for a  [3b] drink [3e]  . [SEP]	1	24	26
+[CLS] two complaints - their  [0b] appetizer selection [0e]  stinks , it would be nice to get some  [1b] mozzarella sticks [1e]  on the  [2b] menu [2e]  . [SEP]	0	5	10
+[CLS] two complaints - their  [0b] appetizer selection [0e]  stinks , it would be nice to get some  [1b] mozzarella sticks [1e]  on the  [2b] menu [2e]  . [SEP]	1	21	26
+[CLS] two complaints - their  [0b] appetizer selection [0e]  stinks , it would be nice to get some  [1b] mozzarella sticks [1e]  on the  [2b] menu [2e]  . [SEP]	0	29	31
+[CLS] i was especially impressed during the bday party when the  [0b] waitstaff [0e]  went above and beyond in helping me decorate and bring out a bday cake as well as offering prompt and friendly  [1b] service [1e]  to a 15 person party . [SEP]	2	12	15
+[CLS] i was especially impressed during the bday party when the  [0b] waitstaff [0e]  went above and beyond in helping me decorate and bring out a bday cake as well as offering prompt and friendly  [1b] service [1e]  to a 15 person party . [SEP]	2	38	40
+[CLS] the  [0b] chicken and falafel platters [0e]  were nondescript combinations with  [1b] fresh leaf salad [1e]  . [SEP]	1	2	11
+[CLS] the  [0b] chicken and falafel platters [0e]  were nondescript combinations with  [1b] fresh leaf salad [1e]  . [SEP]	1	18	22
+[CLS] the  [0b] atmosphere [0e]  takes you to that place , the place many dream of . [SEP]	2	2	4
+[CLS] several times and put up with the  [0b] waiters [0e]  ' bad manners , knowing that their job is n't easy . [SEP]	0	8	11
+[CLS] the service is great -lrb- maybe even borderline nagging but at least you get attention -rrb- , the  [0b] desserts [0e]  are excellent and the  [1b] coffee [1e]  is so very good ... [SEP]	2	27	30
+[CLS] the service is great -lrb- maybe even borderline nagging but at least you get attention -rrb- , the  [0b] desserts [0e]  are excellent and the  [1b] coffee [1e]  is so very good ... [SEP]	2	35	37
+[CLS] they are  [0b] served [0e]  on  [1b] focacchia bread [1e]  and are to die for . [SEP]	1	3	5
+[CLS] they are  [0b] served [0e]  on  [1b] focacchia bread [1e]  and are to die for . [SEP]	1	7	13
+[CLS] while the  [0b] smoothies [0e]  are a little big for me , the  [1b] fresh juices [1e]  are the best i have ever had ! [SEP]	0	3	6
+[CLS] while the  [0b] smoothies [0e]  are a little big for me , the  [1b] fresh juices [1e]  are the best i have ever had ! [SEP]	2	15	19
+[CLS] the food is just okay , and it 's almost not worth going unless you 're getting the  [0b] pialla [0e]  , which is the only  [1b] dish [1e]  that 's really good . [SEP]	2	21	24
+[CLS] the food is just okay , and it 's almost not worth going unless you 're getting the  [0b] pialla [0e]  , which is the only  [1b] dish [1e]  that 's really good . [SEP]	2	30	32
+[CLS] the guac is fresh , yet lacking  [1b] flavor [1e]  , we like to add our  [0b] fresh salsa [0e]  into it . [SEP]	1	18	21
+[CLS] the guac is fresh , yet lacking  [1b] flavor [1e]  , we like to add our  [0b] fresh salsa [0e]  into it . [SEP]	0	9	11
+[CLS] the  [1b] new menu [1e]  has a few creative items , they were smart enough to keep some of the old favorites -lrb- but they raised the  [0b] prices [0e]  -rrb- , the staff is friendly most of the time , but i must agree with the person that wrote about their favorite words : no , ca n't , sorry ... , boy , they wo n't bend the rules for anyone . [SEP]	0	31	33
+[CLS] the  [1b] new menu [1e]  has a few creative items , they were smart enough to keep some of the old favorites -lrb- but they raised the  [0b] prices [0e]  -rrb- , the staff is friendly most of the time , but i must agree with the person that wrote about their favorite words : no , ca n't , sorry ... , boy , they wo n't bend the rules for anyone . [SEP]	2	2	5
+[CLS] it ' only open for  [0b] lunch [0e]  but the  [1b] food [1e]  is so good ! [SEP]	1	6	8
+[CLS] it ' only open for  [0b] lunch [0e]  but the  [1b] food [1e]  is so good ! [SEP]	2	11	13
+[CLS] if you like  [0b] seafood [0e]  and/or  [1b] greek food [1e]  you will love this place though it is not limited to just these things . [SEP]	2	4	6
+[CLS] if you like  [0b] seafood [0e]  and/or  [1b] greek food [1e]  you will love this place though it is not limited to just these things . [SEP]	2	10	13
+[CLS] '' the  [0b] menu [0e]  includes  [5b] pub fare [5e]  --  [1b] burgers [1e]  ,  [2b] steaks [2e]  and  [3b] shepherds pie [3e]  -- and even a  [4b] portabella lasagna [4e]  for those black sheep known as `` vegetarians . [SEP]	1	4	6
+[CLS] '' the  [0b] menu [0e]  includes  [5b] pub fare [5e]  --  [1b] burgers [1e]  ,  [2b] steaks [2e]  and  [3b] shepherds pie [3e]  -- and even a  [4b] portabella lasagna [4e]  for those black sheep known as `` vegetarians . [SEP]	1	14	17
+[CLS] '' the  [0b] menu [0e]  includes  [5b] pub fare [5e]  --  [1b] burgers [1e]  ,  [2b] steaks [2e]  and  [3b] shepherds pie [3e]  -- and even a  [4b] portabella lasagna [4e]  for those black sheep known as `` vegetarians . [SEP]	1	19	22
+[CLS] '' the  [0b] menu [0e]  includes  [5b] pub fare [5e]  --  [1b] burgers [1e]  ,  [2b] steaks [2e]  and  [3b] shepherds pie [3e]  -- and even a  [4b] portabella lasagna [4e]  for those black sheep known as `` vegetarians . [SEP]	1	24	28
+[CLS] '' the  [0b] menu [0e]  includes  [5b] pub fare [5e]  --  [1b] burgers [1e]  ,  [2b] steaks [2e]  and  [3b] shepherds pie [3e]  -- and even a  [4b] portabella lasagna [4e]  for those black sheep known as `` vegetarians . [SEP]	1	34	41
+[CLS] '' the  [0b] menu [0e]  includes  [5b] pub fare [5e]  --  [1b] burgers [1e]  ,  [2b] steaks [2e]  and  [3b] shepherds pie [3e]  -- and even a  [4b] portabella lasagna [4e]  for those black sheep known as `` vegetarians . [SEP]	1	8	11
+[CLS] how can they survive serving mediocre  [0b] food [0e]  at exorbitant  [1b] prices [1e]  ?! [SEP]	1	9	11
+[CLS] how can they survive serving mediocre  [0b] food [0e]  at exorbitant  [1b] prices [1e]  ?! [SEP]	0	17	19
+[CLS] the  [1b] food [1e]  was mediocre and the  [0b] service [0e]  was severely slow . [SEP]	0	11	13
+[CLS] the  [1b] food [1e]  was mediocre and the  [0b] service [0e]  was severely slow . [SEP]	1	2	4
+[CLS] i have eaten here on a different occasion - the  [0b] food [0e]  is mediocre for the  [1b] prices [1e]  . [SEP]	1	11	13
+[CLS] i have eaten here on a different occasion - the  [0b] food [0e]  is mediocre for the  [1b] prices [1e]  . [SEP]	0	20	22
+[CLS] i 'm looking forward to going back soon and eventually trying most everything on the  [0b] menu [0e]  ! [SEP]	2	17	19
+[CLS] i just had my first visit to this place and ca n't wait to go back and slowly work my way through the  [0b] menu [0e]  . [SEP]	1	26	28
+[CLS] i asked repeatedly what the status of the  [1b] meal [1e]  was and was pretty much grunted at by the unbelievably rude  [0b] waiter [0e]  . [SEP]	0	27	29
+[CLS] i asked repeatedly what the status of the  [1b] meal [1e]  was and was pretty much grunted at by the unbelievably rude  [0b] waiter [0e]  . [SEP]	1	9	11
+[CLS] i stopped by for some  [0b] brunch [0e]  today and had the  [1b] vegan cranberry pancakes [1e]  and some  [2b] rice milk [2e]  . [SEP]	1	6	10
+[CLS] i stopped by for some  [0b] brunch [0e]  today and had the  [1b] vegan cranberry pancakes [1e]  and some  [2b] rice milk [2e]  . [SEP]	1	15	22
+[CLS] i stopped by for some  [0b] brunch [0e]  today and had the  [1b] vegan cranberry pancakes [1e]  and some  [2b] rice milk [2e]  . [SEP]	1	25	28
+[CLS] sweet irish  [0b] bartender [0e]  is always happy and able to bring a smile to my friends a my face . [SEP]	2	3	5
+[CLS] [2e]  its good to go there for  [1b] drink [1e] s if you do n't want to get drunk because you 'll be lucky if you can get one drink an hour the  [0b] service [0e]  is so bad . [SEP [2b] ]	0	37	39
+[CLS] [2e]  its good to go there for  [1b] drink [1e] s if you do n't want to get drunk because you 'll be lucky if you can get one drink an hour the  [0b] service [0e]  is so bad . [SEP [2b] ]	1	8	10
+[CLS] [2e]  its good to go there for  [1b] drink [1e] s if you do n't want to get drunk because you 'll be lucky if you can get one drink an hour the  [0b] service [0e]  is so bad . [SEP [2b] ]	1	46	1
+[CLS] anyway , the  [0b] owner [0e]  was fake . [SEP]	0	4	6
+[CLS]   [0b] owner [0e]  is pleasant and entertaining . [SEP]	2	1	3
+[CLS] i have never in my life sent back  [0b] food [0e]  before , but i simply had to , and the  [1b] waiter [1e]  argued with me over this . [SEP]	0	9	11
+[CLS] i have never in my life sent back  [0b] food [0e]  before , but i simply had to , and the  [1b] waiter [1e]  argued with me over this . [SEP]	0	22	24
+[CLS] although the restaurant itself is nice , i prefer not to go for the  [0b] food [0e]  . [SEP]	0	15	17
+[CLS]   [0b] creamy appetizers [0e]  -- taramasalata , eggplant salad , and greek yogurt -lrb- with cuccumber , dill , and garlic -rrb- taste excellent when on warm pitas . [SEP]	2	1	6
+[CLS] creamy appetizers --  [1b] taramasalata [1e]  ,  [2b] eggplant salad [2e]  , and greek yogurt -lrb- with cuccumber , dill , and garlic -rrb- taste excellent when on  [0b] warm pitas [0e]  . [SEP]	1	48	52
+[CLS] creamy appetizers --  [1b] taramasalata [1e]  ,  [2b] eggplant salad [2e]  , and greek yogurt -lrb- with cuccumber , dill , and garlic -rrb- taste excellent when on  [0b] warm pitas [0e]  . [SEP]	2	7	12
+[CLS] creamy appetizers --  [1b] taramasalata [1e]  ,  [2b] eggplant salad [2e]  , and greek yogurt -lrb- with cuccumber , dill , and garlic -rrb- taste excellent when on  [0b] warm pitas [0e]  . [SEP]	2	14	19
+[CLS] creamy appetizers -- taramasalata , eggplant salad , and  [0b] greek yogurt (with cuccumber, dill, and garlic) [0e]  taste excellent when on warm pitas . [SEP]	2	18	35

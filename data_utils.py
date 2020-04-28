@@ -11,6 +11,10 @@ from torch.utils.data import Dataset
 # from pytorch_transformers import BertTokenizer
 from transformers import BertTokenizer
 
+import nlpaug.augmenter.word as naw
+
+aug = naw.SynonymAug()
+
 def insert(original, new, pos):
 # '''Inserts new inside original at pos.'''
     return original[:pos] + new + original[pos:]
@@ -146,7 +150,7 @@ class ABSADataset(Dataset):
         
 
         all_data = []
-        load = 0
+        load = 1
         if int(opt.resplit)!=0 and load ==0:
             raise RuntimeError('pls use load to load the replit')
 
@@ -158,6 +162,9 @@ class ABSADataset(Dataset):
                 process='test'
             if fname.lower().find('valid')!=-1:
                 process='valid'
+            # if int(opt.aug)==1:
+            #     all_data=np.load('./datasets/aug/{}-{}.npy'.format(process, opt.dataset),allow_pickle=True).tolist()
+            # else:
             if int(opt.resplit)==1:
                 print('./datasets/resplit/{}-{}.npy'.format(process, opt.dataset))
                 all_data=np.load('./datasets/resplit/{}-{}.npy'.format(process, opt.dataset),allow_pickle=True).tolist()
@@ -171,88 +178,194 @@ class ABSADataset(Dataset):
                 all_data=np.load('./datasets/processed/{}-{}.npy'.format(process, opt.dataset),allow_pickle=True).tolist()
 
             self.data = all_data
-            return
-        fin = open(fname, 'r', encoding='utf-8', newline='\n', errors='ignore')
-        lines = fin.readlines()
-        fin.close()
-        
-        for i in range(0, len(lines), 3):
-
-            text_left, _, text_right = [s.lower().strip() for s in lines[i].partition("$T$")]
-            aspect = lines[i + 1].lower().strip()
-            polarity = lines[i + 2].strip()
-
-            text_raw="[CLS] " + text_left + " " + aspect + " " + text_right + " [SEP]"
-            text_spc='[CLS] ' + text_left + " " + aspect + " " + text_right + ' [SEP] ' + aspect + " [SEP]"
-            text_target='[CLS] ' + text_left + ' [aspect_b] '+aspect + ' [aspect_e] '+ text_right + ' [SEP] '
-
-            text_without_cls=text_left + " " + aspect + " " + text_right + ' [SEP] ' + aspect + " [SEP]"
+        else:
+            fin = open(fname, 'r', encoding='utf-8', newline='\n', errors='ignore')
+            lines = fin.readlines()
+            fin.close()
             
-            
-            text_raw_indices = tokenizer.text_to_sequence(text_left + " " + aspect + " " + text_right)
+            for i in range(0, len(lines), 3):
 
+                text_left, _, text_right = [s.lower().strip() for s in lines[i].partition("$T$")]
+                aspect = lines[i + 1].lower().strip()
+                polarity = lines[i + 2].strip()
 
-            text_target_indices = tokenizer.text_to_sequence(text_target)
-            text_target_segments_ids=np.asarray([0] * (np.sum(text_target_indices != 0)))
-            text_target_segments_ids = pad_and_truncate(text_target_segments_ids, tokenizer.max_seq_len)
-            
+                text_raw="[CLS] " + text_left + " " + aspect + " " + text_right + " [SEP]"
+                text_spc='[CLS] ' + text_left + " " + aspect + " " + text_right + ' [SEP] ' + aspect + " [SEP]"
+                text_target='[CLS] ' + text_left + ' [aspect_b] '+aspect + ' [aspect_e] '+ text_right + ' [SEP] '
 
-            text_raw_without_aspect_indices = tokenizer.text_to_sequence(text_left + " " + text_right)
-            text_left_indices = tokenizer.text_to_sequence(text_left)
-            text_left_with_aspect_indices = tokenizer.text_to_sequence(text_left + " " + aspect)
-            text_right_indices = tokenizer.text_to_sequence(text_right, reverse=True)
-            text_right_with_aspect_indices = tokenizer.text_to_sequence(" " + aspect + " " + text_right, reverse=True)
-            aspect_indices = tokenizer.text_to_sequence(aspect)
-            left_context_len = np.sum(text_left_indices != 0)
-            aspect_len = np.sum(aspect_indices != 0)
-            aspect_pos = left_context_len+1
-            target_begin=left_context_len+1
-            aspect_in_text = torch.tensor([left_context_len.item(), (left_context_len + aspect_len - 1).item()])
-            # aspect_range = torch.LongTensor(range(left_context_len.item()+1, (left_context_len + aspect_len).item()+1))# plus [cls]
-            polarity = int(polarity) + 1
-
-            text_bert_indices = tokenizer.text_to_sequence('[CLS] ' + text_left + " " + aspect + " " + text_right + ' [SEP] ' + aspect + " [SEP]")
-            # text_bert_indices = tokenizer.text_to_sequence('[CLS] '+ text_left + " " + aspect + " " + text_right + ' [SEP] '+ aspect + " [SEP] ")
-
-            bert_segments_ids = np.asarray([0] * (np.sum(text_raw_indices != 0)+2) + [1] * (aspect_len + 1))
-            # bert_segments_ids = np.asarray([1] * (aspect_len + 1)+[0] * (np.sum(text_raw_indices != 0) + 2))
-            bert_raw_segments_ids=np.asarray([0] * (np.sum(text_raw_indices != 0)+2))
-            bert_segments_ids = pad_and_truncate(bert_segments_ids, tokenizer.max_seq_len)
-            bert_raw_segments_ids = pad_and_truncate(bert_raw_segments_ids, tokenizer.max_seq_len)
-            text_raw_bert_indices = tokenizer.text_to_sequence("[CLS] " + text_left + " " + aspect + " " + text_right + " [SEP]")
-            aspect_bert_indices = tokenizer.text_to_sequence("[CLS] " + aspect + " [SEP]")
-            input_mask=torch.tensor([1]*len(text_bert_indices))
-            # print(aspect_indices)
-            data = {
-                'text_target_indices':text_target_indices,
-                'text_target_segments_ids':text_target_segments_ids,
+                text_without_cls=text_left + " " + aspect + " " + text_right + ' [SEP] ' + aspect + " [SEP]"
                 
-                'aspect_pos':aspect_pos,
-                'aspect_len':aspect_len,
-                'target_begin':target_begin,
-                'text_raw': text_raw,
-                'text_spc': text_spc,
-                'text_without_cls': text_without_cls,
-                'text_aspect':aspect,
-                'left_context_len': left_context_len,
-                'text_bert_indices': text_bert_indices,
-                'bert_segments_ids': bert_segments_ids,
-                'text_raw_bert_indices': text_raw_bert_indices,
-                'aspect_bert_indices': aspect_bert_indices,
-                'text_raw_indices': text_raw_indices,
-                'bert_raw_segments_ids':bert_raw_segments_ids,
-                'text_raw_without_aspect_indices': text_raw_without_aspect_indices,
-                'text_left_indices': text_left_indices,
-                'text_left_with_aspect_indices': text_left_with_aspect_indices,
-                'text_right_indices': text_right_indices,
-                'text_right_with_aspect_indices': text_right_with_aspect_indices,
-                'aspect_indices': aspect_indices,
-                'aspect_in_text': aspect_in_text,
-                'polarity': polarity,
-                'input_mask':input_mask,
-            }
+                
+                text_raw_indices = tokenizer.text_to_sequence(text_left + " " + aspect + " " + text_right)
 
-            all_data.append(data)
+
+                text_target_indices = tokenizer.text_to_sequence(text_target)
+                text_target_segments_ids=np.asarray([0] * (np.sum(text_target_indices != 0)))
+                text_target_segments_ids = pad_and_truncate(text_target_segments_ids, tokenizer.max_seq_len)
+                
+
+                text_raw_without_aspect_indices = tokenizer.text_to_sequence(text_left + " " + text_right)
+                text_left_indices = tokenizer.text_to_sequence(text_left)
+                text_left_with_aspect_indices = tokenizer.text_to_sequence(text_left + " " + aspect)
+                text_right_indices = tokenizer.text_to_sequence(text_right, reverse=True)
+                text_right_with_aspect_indices = tokenizer.text_to_sequence(" " + aspect + " " + text_right, reverse=True)
+                aspect_indices = tokenizer.text_to_sequence(aspect)
+                left_context_len = np.sum(text_left_indices != 0)
+                aspect_len = np.sum(aspect_indices != 0)
+                aspect_pos = left_context_len+1
+                target_begin=left_context_len+1
+                aspect_in_text = torch.tensor([left_context_len.item(), (left_context_len + aspect_len - 1).item()])
+                # aspect_range = torch.LongTensor(range(left_context_len.item()+1, (left_context_len + aspect_len).item()+1))# plus [cls]
+                polarity = int(polarity) + 1
+
+                text_bert_indices = tokenizer.text_to_sequence('[CLS] ' + text_left + " " + aspect + " " + text_right + ' [SEP] ' + aspect + " [SEP]")
+                # text_bert_indices = tokenizer.text_to_sequence('[CLS] '+ text_left + " " + aspect + " " + text_right + ' [SEP] '+ aspect + " [SEP] ")
+
+                bert_segments_ids = np.asarray([0] * (np.sum(text_raw_indices != 0)+2) + [1] * (aspect_len + 1))
+                # bert_segments_ids = np.asarray([1] * (aspect_len + 1)+[0] * (np.sum(text_raw_indices != 0) + 2))
+                bert_raw_segments_ids=np.asarray([0] * (np.sum(text_raw_indices != 0)+2))
+                bert_segments_ids = pad_and_truncate(bert_segments_ids, tokenizer.max_seq_len)
+                bert_raw_segments_ids = pad_and_truncate(bert_raw_segments_ids, tokenizer.max_seq_len)
+                text_raw_bert_indices = tokenizer.text_to_sequence("[CLS] " + text_left + " " + aspect + " " + text_right + " [SEP]")
+                aspect_bert_indices = tokenizer.text_to_sequence("[CLS] " + aspect + " [SEP]")
+                input_mask=torch.tensor([1]*len(text_bert_indices))
+                # print(aspect_indices)
+
+                isaug=torch.tensor(0)
+                data = {
+                    'text_target_indices':text_target_indices,
+                    'text_target_segments_ids':text_target_segments_ids,
+                    'text_left':text_left,
+                    'text_right':text_right,
+                    'aspect_pos':aspect_pos,
+                    'aspect_len':aspect_len,
+                    'target_begin':target_begin,
+                    'text_raw': text_raw,
+                    'text_spc': text_spc,
+                    'text_without_cls': text_without_cls,
+                    'text_aspect':aspect,
+                    'left_context_len': left_context_len,
+                    'text_bert_indices': text_bert_indices,
+                    'bert_segments_ids': bert_segments_ids,
+                    'text_raw_bert_indices': text_raw_bert_indices,
+                    'aspect_bert_indices': aspect_bert_indices,
+                    'text_raw_indices': text_raw_indices,
+                    'bert_raw_segments_ids':bert_raw_segments_ids,
+                    'text_raw_without_aspect_indices': text_raw_without_aspect_indices,
+                    'text_left_indices': text_left_indices,
+                    'text_left_with_aspect_indices': text_left_with_aspect_indices,
+                    'text_right_indices': text_right_indices,
+                    'text_right_with_aspect_indices': text_right_with_aspect_indices,
+                    'aspect_indices': aspect_indices,
+                    'aspect_in_text': aspect_in_text,
+                    'polarity': polarity,
+                    'input_mask':input_mask,
+                    'isaug':isaug,
+                }
+
+                all_data.append(data)
+
+        
+        l=len(all_data)
+        if opt.aug==1:
+            idx=0       
+            while idx in range(l):
+                print(idx)
+                
+                data=all_data[idx]
+                text_left=data['text_left']
+                text_right=data['text_right']
+
+                aspect=data['text_aspect']
+                polarity=data['polarity']
+
+
+
+
+                # isaug=1
+                isaug=torch.tensor(1)
+
+                ori_aspect=aspect
+                augmented_aspect = aug.augment(aspect)
+                aspect=augmented_aspect
+                print(ori_aspect,'---->',aspect)
+
+                text_raw="[CLS] " + text_left + " " + aspect + " " + text_right + " [SEP]"
+                text_spc='[CLS] ' + text_left + " " + aspect + " " + text_right + ' [SEP] ' + aspect + " [SEP]"
+                text_target='[CLS] ' + text_left + ' [aspect_b] '+aspect + ' [aspect_e] '+ text_right + ' [SEP] '
+
+                text_without_cls=text_left + " " + aspect + " " + text_right + ' [SEP] ' + aspect + " [SEP]"
+                
+                
+                text_raw_indices = tokenizer.text_to_sequence(text_left + " " + aspect + " " + text_right)
+
+
+                text_target_indices = tokenizer.text_to_sequence(text_target)
+                text_target_segments_ids=np.asarray([0] * (np.sum(text_target_indices != 0)))
+                text_target_segments_ids = pad_and_truncate(text_target_segments_ids, tokenizer.max_seq_len)
+                
+
+                text_raw_without_aspect_indices = tokenizer.text_to_sequence(text_left + " " + text_right)
+                text_left_indices = tokenizer.text_to_sequence(text_left)
+                text_left_with_aspect_indices = tokenizer.text_to_sequence(text_left + " " + aspect)
+                text_right_indices = tokenizer.text_to_sequence(text_right, reverse=True)
+                text_right_with_aspect_indices = tokenizer.text_to_sequence(" " + aspect + " " + text_right, reverse=True)
+                aspect_indices = tokenizer.text_to_sequence(aspect)
+                left_context_len = np.sum(text_left_indices != 0)
+                aspect_len = np.sum(aspect_indices != 0)
+                aspect_pos = left_context_len+1
+                target_begin=left_context_len+1
+                aspect_in_text = torch.tensor([left_context_len.item(), (left_context_len + aspect_len - 1).item()])
+                # aspect_range = torch.LongTensor(range(left_context_len.item()+1, (left_context_len + aspect_len).item()+1))# plus [cls]
+                # polarity = int(polarity) + 1
+
+                text_bert_indices = tokenizer.text_to_sequence('[CLS] ' + text_left + " " + aspect + " " + text_right + ' [SEP] ' + aspect + " [SEP]")
+                # text_bert_indices = tokenizer.text_to_sequence('[CLS] '+ text_left + " " + aspect + " " + text_right + ' [SEP] '+ aspect + " [SEP] ")
+
+                bert_segments_ids = np.asarray([0] * (np.sum(text_raw_indices != 0)+2) + [1] * (aspect_len + 1))
+                # bert_segments_ids = np.asarray([1] * (aspect_len + 1)+[0] * (np.sum(text_raw_indices != 0) + 2))
+                bert_raw_segments_ids=np.asarray([0] * (np.sum(text_raw_indices != 0)+2))
+                bert_segments_ids = pad_and_truncate(bert_segments_ids, tokenizer.max_seq_len)
+                bert_raw_segments_ids = pad_and_truncate(bert_raw_segments_ids, tokenizer.max_seq_len)
+                text_raw_bert_indices = tokenizer.text_to_sequence("[CLS] " + text_left + " " + aspect + " " + text_right + " [SEP]")
+                aspect_bert_indices = tokenizer.text_to_sequence("[CLS] " + aspect + " [SEP]")
+                input_mask=torch.tensor([1]*len(text_bert_indices))
+                # print(aspect_indices)
+                data = {
+                    'text_target_indices':text_target_indices,
+                    'text_target_segments_ids':text_target_segments_ids,
+                    'text_left':text_left,
+                    'text_right':text_right,
+                    
+                    'aspect_pos':aspect_pos,
+                    'aspect_len':aspect_len,
+                    'target_begin':target_begin,
+                    'text_raw': text_raw,
+                    'text_spc': text_spc,
+                    'text_without_cls': text_without_cls,
+                    'text_aspect':aspect,
+                    'left_context_len': left_context_len,
+                    'text_bert_indices': text_bert_indices,
+                    'bert_segments_ids': bert_segments_ids,
+                    'text_raw_bert_indices': text_raw_bert_indices,
+                    'aspect_bert_indices': aspect_bert_indices,
+                    'text_raw_indices': text_raw_indices,
+                    'bert_raw_segments_ids':bert_raw_segments_ids,
+                    'text_raw_without_aspect_indices': text_raw_without_aspect_indices,
+                    'text_left_indices': text_left_indices,
+                    'text_left_with_aspect_indices': text_left_with_aspect_indices,
+                    'text_right_indices': text_right_indices,
+                    'text_right_with_aspect_indices': text_right_with_aspect_indices,
+                    'aspect_indices': aspect_indices,
+                    'aspect_in_text': aspect_in_text,
+                    'polarity': polarity,
+                    'input_mask':input_mask,
+                    'isaug':isaug,
+                }
+
+                all_data.append(data)
+                idx=idx+1
+
 
         target_b=tokenizer.text_to_sequence('[target_b]')[0]
         target_e=tokenizer.text_to_sequence('[target_e]')[0]
@@ -272,13 +385,15 @@ class ABSADataset(Dataset):
             aspect_e_tokens.append(e)
 
             aspect_b.append(tokenizer.text_to_sequence(b)[0])
-            aspect_e.append(tokenizer.text_to_sequence(b)[0])
+            aspect_e.append(tokenizer.text_to_sequence(e)[0])
 
 
 
         idx=0       
         while idx in range(len(all_data)):
             # print(idx)
+            
+
             data=all_data[idx]
             text_raw=data['text_raw']
             flag = True
@@ -377,6 +492,9 @@ class ABSADataset(Dataset):
 
             # aspect_poss=np.argwhere(all_data[i]['multi_target_indices']==target_b)[0][0]
             # print(pos,all_data[i]['multi_target_indices'])
+            # print(main_target_pos)
+            # print(main_target_pos_end)
+
             all_data[i]['target_pos']=main_target_pos
             all_data[i]['target_pos_end']=main_target_pos_end
 
@@ -395,7 +513,10 @@ class ABSADataset(Dataset):
 
         
         a=np.array(all_data)
-        np.save('./datasets/processed/{}-{}.npy'.format(process, opt.dataset),a)
+        if opt.aug==1:
+            np.save('./datasets/aug/{}-{}.npy'.format(process, opt.dataset),a)
+        else:
+            np.save('./datasets/processed/{}-{}.npy'.format(process, opt.dataset),a)
         self.data = all_data
 
     def __getitem__(self, index):

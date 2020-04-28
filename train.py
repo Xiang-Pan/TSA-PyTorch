@@ -213,8 +213,12 @@ class Instructor:
         p_adv = Variable(p_adv)
         # print('p_adv',p_adv)
 
-        out_aux,logits,reg_can,reg_aux,bert_word_eb = self.model(inputs,p_adv)
-        adv_loss = criterion(logits, targets)
+        aug=inputs[6].cpu()
+        if aug[0] ==0:
+            adv_loss=0
+        else:
+            out_aux,logits,reg_can,reg_aux,bert_word_eb = self.model(inputs,p_adv)
+            adv_loss = criterion(logits, targets)
         # loss += adv_loss
         return adv_loss
 
@@ -238,7 +242,6 @@ class Instructor:
                 inputs = [sample_batched[col].to(self.opt.device) for col in self.opt.inputs_cols]
                 if self.opt.model_name=='bert_multi_target':
                     targets = sample_batched['polarity'].to(self.opt.device)
-                    # print(targets.shape)
                 else:
                     targets = sample_batched['polarity'].to(self.opt.device)
                 
@@ -250,6 +253,9 @@ class Instructor:
                     reg_aux_loss=0
                 # print('outputs',outputs.shape)
                 # print('targets',targets.shape)
+
+                # print(outputs,'outputs')
+                # print(targets,'polarity')
 
                 loss_1 = criterion(outputs, targets)
                 loss_2 = reg_can_loss
@@ -289,8 +295,8 @@ class Instructor:
                 max_val_acc = val_acc
                 if not os.path.exists('state_dict'):
                     os.mkdir('state_dict')
-                model_path = 'state_dict/{0}_{1}_doamin-{2}_can{3}_adv{4}_aux{5}_val_acc{6}_resplit{7}'.format(self.opt.model_name,self.opt.dataset,self.opt.domain,self.opt.can,self.opt.adv,self.opt.aux,round(val_acc, 4),self.opt.resplit)
-                bert_path = 'state_dict/{0}_{1}_doamin-{2}_can{3}_adv{4}_aux{5}_val_acc{6}_resplit{7}_bert'.format(self.opt.model_name, self.opt.dataset,self.opt.domain,self.opt.can,self.opt.adv,self.opt.aux,round(val_acc, 4),self.opt.resplit)
+                model_path = 'state_dict/{0}_{1}_doamin-{2}_can{3}_aug{4}_adv{5}_aux{6}_val_acc{7}_resplit{8}'.format(self.opt.model_name,self.opt.dataset,self.opt.domain,self.opt.can,self.opt.aug,self.opt.adv,self.opt.aux,round(val_acc, 4),self.opt.resplit)
+                bert_path = 'state_dict/{0}_{1}_doamin-{2}_can{3}_aug{4}_adv{5}_aux{6}_val_acc{7}_resplit{8}_bert'.format(self.opt.model_name, self.opt.dataset,self.opt.domain,self.opt.can,self.opt.aug,self.opt.adv,self.opt.aux,round(val_acc, 4),self.opt.resplit)
                 
 
                 if last_model_path!=None:
@@ -402,6 +408,9 @@ def main():
     parser.add_argument('--adv', default=0, type=float, help='using adv training')
     parser.add_argument('--aux', default=0, type=float, help='using aux training')
 
+    parser.add_argument('--aug', default=0, type=float, help='using aug training')
+
+
     parser.add_argument('--domain', default=0, type=str, help='using domain bert')
     parser.add_argument('--resplit', default=0, type=str, help='using resplit dataset')
 
@@ -413,7 +422,7 @@ def main():
     
     
     opt = parser.parse_args()
-    torch.cuda.set_device(opt.device)
+    # torch.cuda.set_device(opt.device)
     if opt.seed is not None:
         random.seed(opt.seed)
         numpy.random.seed(opt.seed)
@@ -489,7 +498,7 @@ def main():
         'bert_aspect': ['text_raw_bert_indices','bert_raw_segments_ids','aspect_in_text','aspect_len'],
         
         'bert_target': ['text_target_indices', 'text_target_segments_ids','target_begin'],
-        'bert_multi_target': ['multi_target_indices','multi_target_segments_ids','target_pos','poss','polarity_list','polarity'],
+        'bert_multi_target': ['multi_target_indices','multi_target_segments_ids','target_pos','poss','polarity_list','polarity','isaug'],
 
         'bert_kg': ['text_bert_indices', 'bert_segments_ids','input_mask'],
         'bert_compete':['bert_compete_cls_pos','bert_compete_indices','bert_compete_segments_ids','bert_compete_cls_poss']
