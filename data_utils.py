@@ -13,6 +13,9 @@ from transformers import BertTokenizer
 
 import nlpaug.augmenter.word as naw
 
+
+
+
 aug = naw.SynonymAug()
 
 def insert(original, new, pos):

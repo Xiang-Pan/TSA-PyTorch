@@ -1,0 +1,1 @@
+{"hyper": {"model_name": "bert_multi_target", "dataset": "restaurant", "resplit": "1", "domain": 0, "aug": 0, "adv": 0, "aux": 1.0, "adv_aux": 0}}

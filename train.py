@@ -11,6 +11,13 @@ from time import strftime, localtime
 import random
 import numpy
 import numpy as np
+
+import fitlog
+# import random
+
+fitlog.commit(__file__)             # auto commit your codes
+fitlog.add_hyper_in_file(__file__)  # record your hyperparameters
+# fitlog.debug()
 # from manager_torch import *
 
 # gm=GPUManager()
@@ -20,11 +27,7 @@ import numpy as np
 
 
 
-
-
-
-# sys.path.append('/home/xiangpan/ABSA-PyTorch/transformers/src/')
-# sys.path.append('/home/xiangpan/ABSA-PyTorch/transformers/src/transformers')
+from attack_models.PGD import PGD
 
 from modeling_bert import BertModel,BertForTokenClassification,BertConfig
 # from transformers import BertModel,BertForTokenClassification,BertConfig
@@ -207,6 +210,8 @@ class Instructor:
     def _loss_adv(self,loss,emb,criterion,inputs,targets,p_mult):
         # emb_grad = grad(loss, emb, retain_graph=True,)
         emb_grad = grad(loss, emb, retain_graph=True)
+        # emb_grad = grad(loss, emb, retain_graph=True)
+
         # print(emb_grad.shape)
         p_adv = torch.FloatTensor(p_mult * self._l2_normalize(emb_grad[0].data))
         p_adv=p_adv.cuda(non_blocking=False)
@@ -214,7 +219,7 @@ class Instructor:
         # print('p_adv',p_adv)
 
         aug=inputs[6].cpu()
-        if aug[0] ==0:
+        if aug[0] ==1:
             adv_loss=0
         else:
             out_aux,logits,reg_can,reg_aux,bert_word_eb = self.model(inputs,p_adv)
@@ -223,11 +228,17 @@ class Instructor:
         return adv_loss
 
     def _train(self, criterion, optimizer, train_data_loader, val_data_loader,test_data_loader):
+        fitlog.add_hyper({"model_name":self.opt.model_name,"dataset":self.opt.dataset,'resplit':self.opt.resplit,"domain":self.opt.domain,"aug":self.opt.aug,"adv":self.opt.adv,"aux":self.opt.aux,"adv_aux":self.opt.adv_aux})
+
         max_val_acc = 0
         max_val_f1 = 0
         global_step = 0
         last_model_path = None
+        # model_path =None
         path=None
+
+        pgd = PGD(self.model)
+        k=3
         for epoch in range(self.opt.num_epoch):
             logger.info('>' * 100)
             logger.info('epoch: {}'.format(epoch))
@@ -266,13 +277,33 @@ class Instructor:
                 loss= 1*loss_1 + weighted_loss_2 + weighted_loss_3
 
 
-                if self.opt.adv > 0:
+                if float(self.opt.adv) > 0:
                     # print(inputs.shape)
-                    loss_adv = self._loss_adv(loss,bert_word_output,criterion,inputs,targets,p_mult=self.opt.adv)
+                    if int(self.opt.adv_aux)==1:
+                        loss_adv = self._loss_adv(loss_3,bert_word_output,criterion,inputs,targets,p_mult=self.opt.adv)
+                    else:
+                        loss_adv = self._loss_adv(loss,bert_word_output,criterion,inputs,targets,p_mult=self.opt.adv)
                     loss+=loss_adv
                 else:
                     loss_adv=0
                 loss.backward()
+
+                # pgd.backup_grad()
+                #     for t in range(K):
+                #         pgd.attack(is_first_attack=(t==0)) # 在embedding上添加对抗扰动, first attack时备份param.data
+                #         if t != K-1:
+                #             model.zero_grad()
+                #         else:
+                #             pgd.restore_grad()
+                #         loss_adv = model(batch_input, batch_label)
+                #         loss_adv.backward() # 反向传播，并在正常的grad基础上，累加对抗训练的梯度
+                #     pgd.restore() # 恢复embedding参数
+
+
+
+
+
+
                 optimizer.step()
 
                 n_correct += (torch.argmax(outputs, -1) == targets).sum().item()
@@ -284,9 +315,10 @@ class Instructor:
                     train_acc = n_correct / n_total
                     train_loss = loss_total / n_total
                     logger.info('loss_total: {:.4f}, acc: {:.4f},loss_main: {:.4f},reg_can_loss: {:.4f},loss_adv: {:.4f},reg_aux_loss {:.4f}'.format(train_loss, train_acc,loss_1,weighted_loss_2,loss_adv,weighted_loss_3))
-
+                    fitlog.add_metric({"Train":{'loss_total: {:.4f}, acc: {:.4f},loss_main: {:.4f},reg_can_loss: {:.4f},loss_adv: {:.4f},reg_aux_loss {:.4f}'.format(train_loss, train_acc,loss_1,weighted_loss_2,loss_adv,weighted_loss_3)}},step=global_step)
             val_acc, val_f1 = self._evaluate_acc_f1(val_data_loader)
             test_acc, test_f1 = self._evaluate_acc_f1(test_data_loader)
+            
 
             logger.info('> val_acc: {:.4f}, val_f1: {:.4f}'.format(val_acc, val_f1))
             logger.info('> test_acc: {:.4f}, test_f1: {:.4f}'.format(test_acc, test_f1))
@@ -298,6 +330,14 @@ class Instructor:
                 model_path = 'state_dict/{0}_{1}_doamin-{2}_can{3}_aug{4}_adv{5}_aux{6}_val_acc{7}_resplit{8}'.format(self.opt.model_name,self.opt.dataset,self.opt.domain,self.opt.can,self.opt.aug,self.opt.adv,self.opt.aux,round(val_acc, 4),self.opt.resplit)
                 bert_path = 'state_dict/{0}_{1}_doamin-{2}_can{3}_aug{4}_adv{5}_aux{6}_val_acc{7}_resplit{8}_bert'.format(self.opt.model_name, self.opt.dataset,self.opt.domain,self.opt.can,self.opt.aug,self.opt.adv,self.opt.aux,round(val_acc, 4),self.opt.resplit)
                 
+                # fitlog.add_hyper({"model_name":self.opt.model_name,"dataset":self.opt.dataset,'resplit':self.opt.resplit,"domain":self.opt.domain,"aug":self.opt.aug,"adv":self.opt.adv,"aux":self.opt.aux})
+                
+                
+                fitlog.add_metric({"val":{"val_acc":val_acc,"val_f1":val_f1}},step=global_step)
+                fitlog.add_metric({"test":{"test_acc":test_acc,"test_f1":test_f1}},step=global_step)
+                
+                fitlog.add_best_metric({"val":{"val_acc":val_acc,"val_f1":val_f1}})
+                fitlog.add_best_metric({"test":{"test_acc":test_acc,"test_f1":test_f1}})
 
                 if last_model_path!=None:
                     os.remove(last_model_path)
@@ -307,8 +347,11 @@ class Instructor:
                 torch.save(self.model.state_dict(), model_path)
                 torch.save(self.model.bert.state_dict(), bert_path)
                 logger.info('>> saved: {}'.format(model_path))
+
+                # max_val_f1 = val_f1
             if val_f1 > max_val_f1:
                 max_val_f1 = val_f1
+                # fitlog.add_metric(acc,name="Acc",step=step)
 
         return model_path
 
@@ -360,6 +403,7 @@ class Instructor:
 
         # self._reset_params()
         # self.model.load_state_dict(torch.load('./state_dict/bert_spc_restaurant_val_acc0.7893'))
+
         best_model_path = self._train(criterion, optimizer, train_data_loader, val_data_loader,test_data_loader)
         self.model.load_state_dict(torch.load(best_model_path))
         # self.model.load_state_dict(torch.load('state_dict/bert_spc_restaurant_val_acc0.6491'))
@@ -413,6 +457,9 @@ def main():
 
     parser.add_argument('--domain', default=0, type=str, help='using domain bert')
     parser.add_argument('--resplit', default=0, type=str, help='using resplit dataset')
+
+    parser.add_argument('--adv_aux', default=0, type=str, help='using resplit dataset')
+
 
     
     # The following parameters are only valid for the lcf-bert model

@@ -12,3 +12,7 @@ __pycache__/
 *viz/
 datasets/
 
+.fitlog
+.fitconfig
+logs
+.gitignore
