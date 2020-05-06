@@ -12,18 +12,21 @@ from layers.attention import Attention
 # from text_models.leam import LEAM
 # import torchsparseattn 
 
-class TD_BERT(nn.Module):
+class BERT_SPC(nn.Module):
     def __init__(self, bert, opt):
         super(BERT_SPC, self).__init__()
         self.bert = bert
         self.dropout = nn.Dropout(opt.dropout)
         self.opt=opt
         self.dense = nn.Linear(opt.bert_dim, opt.polarities_dim)
+        # self.dense = nn.Linear(opt.bert_dim*opt.max_seq_len, opt.polarities_dim)
+        # self.attn=nn.MultiheadAttention(embed_dim=opt.bert_dim, num_heads=3, dropout=0.1)
+        # self.attn=MultiHeadAttention(in_features=768, head_num=3)
         self.attn=nn.TransformerEncoderLayer(d_model=opt.bert_dim,
                                             nhead=3,
                                             # dim_feedforward=4*opt.bert_dim,
                                             dropout=0.1)
-        # self.attn_k = Attention(opt.bert_dim, out_dim=opt.bert_dim, n_head=3, score_function='dot_product', dropout=opt.dropout)
+        self.attn_k = Attention(opt.bert_dim, out_dim=opt.bert_dim, n_head=3, score_function='dot_product', dropout=opt.dropout)
         # self.attn_q = Attention(opt.bert_dim, out_dim=opt.hidden_dim, n_head=8, score_function='mlp', dropout=opt.dropout)
                                             
 

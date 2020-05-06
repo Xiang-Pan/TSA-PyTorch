@@ -12,11 +12,12 @@ from torch.utils.data import Dataset
 from transformers import BertTokenizer
 
 import nlpaug.augmenter.word as naw
+SynonymAug = naw.SynonymAug()
+ContextualWordEmbsAug = naw.ContextualWordEmbsAug()
 
+WordEmbsAug= naw.ContextualWordEmbsAug()
 
-
-
-aug = naw.SynonymAug()
+import wikipedia
 
 def insert(original, new, pos):
 # '''Inserts new inside original at pos.'''
@@ -153,7 +154,10 @@ class ABSADataset(Dataset):
         
 
         all_data = []
-        load = 1
+        if int(opt.resplit)==1:
+            load = 1
+        else:
+            load = 0
         if int(opt.resplit)!=0 and load ==0:
             raise RuntimeError('pls use load to load the replit')
 
@@ -270,7 +274,7 @@ class ABSADataset(Dataset):
 
         
         l=len(all_data)
-        if opt.aug==1:
+        if opt.aug!=str(0):
             idx=0       
             while idx in range(l):
                 print(idx)
@@ -284,12 +288,28 @@ class ABSADataset(Dataset):
 
 
 
-
-                # isaug=1
                 isaug=torch.tensor(1)
 
                 ori_aspect=aspect
-                augmented_aspect = aug.augment(aspect)
+                if opt.aug == 'synonyms':
+                    augmented_aspect = SynonymAug.augment(aspect)
+                elif opt.aug == 'contextual':
+                    augmented_aspect = ContextualWordEmbsAug.augment(aspect)
+                    if augmented_aspect=='.':
+                        # print('gg')
+                        idx=idx+1
+                        continue
+                elif opt.aug == 'word_eb':
+                    augmented_aspect = WordEmbsAug.augment(aspect)
+                    if augmented_aspect=='.':
+                        idx=idx+1
+                        continue
+                elif opt.aug=='wiki':
+                    augmented_aspect=wikipedia.search(aspect, results=10, suggestion=False)
+                    print(aspect,wikipedia.search(aspect, results=10, suggestion=False),aug.augment(aspect))
+                    augmented_aspect=augmented_aspect[0]
+
+
                 aspect=augmented_aspect
                 print(ori_aspect,'---->',aspect)
 

@@ -19,6 +19,9 @@ class BERT_MULTI_TARGET(nn.Module):
         self.dropout = nn.Dropout(opt.dropout)
         self.dense = nn.Linear(opt.bert_dim, opt.polarities_dim)
 
+        self.chg_dense = nn.Linear(opt.bert_dim, 2)
+
+
         self.tfm=TransformerEncoderLayer(d_model=opt.bert_dim,
                                             nhead=3,
                                             # dim_feedforward=4*opt.bert_dim,
@@ -30,13 +33,15 @@ class BERT_MULTI_TARGET(nn.Module):
         
         self.classifier_concat=nn.Linear(opt.bert_dim*2, 9)
         self.classifier_criterion=nn.CrossEntropyLoss()
+        self.chg_criterion=nn.CrossEntropyLoss()
+
         # self.attn_k = Attention(opt.bert_dim, hidden_dim=2048,out_dim=opt.bert_dim, n_head=1, score_function='dot_product', dropout=opt.dropout)
 
             # if perturbation is not None:
             #     perturbation.to(self.opt.device)
             #     word_output += perturbation
     def forward(self,inputs,perturbation):
-        multi_target_indices,multi_target_segments_ids,target_pos,poss,polarity_list,polarity = inputs[0],inputs[1],inputs[2],inputs[3],inputs[4],inputs[5]
+        multi_target_indices,multi_target_segments_ids,target_pos,poss,polarity_list,polarity,isaug = inputs[0],inputs[1],inputs[2],inputs[3],inputs[4],inputs[5],inputs[6]
 
         # bert_word_embedder=self.bert.get_input_embeddings()
         # bert_word_eb=bert_word_embedder(multi_target_indices)
@@ -77,7 +82,6 @@ class BERT_MULTI_TARGET(nn.Module):
             word_output_i=word_output[i]
             target_eb_i=word_output_i[target_pos_i]
 
-            # print(polarity_list[i])
             polarity_list_i=polarity_list[i]
             polarity_list_i=polarity_list_i.index_select(0,torch.nonzero(polarity_list_i).reshape(-1))
             polarity_list_i=polarity_list_i-1
@@ -111,6 +115,12 @@ class BERT_MULTI_TARGET(nn.Module):
         
         cls_eb=hc[range(len(hc)),target_pos,:]
         pooled_output = self.dropout(cls_eb)
+
+
         logits = self.dense(pooled_output)
+
+        chg_logits=self.chg_dense(pooled_output)
+        reg_chg_loss=self.chg_criterion(chg_logits,isaug)
+
         # print(reg_aux)
-        return out_aux,logits,reg_can,reg_aux,bert_word_eb
+        return out_aux,logits,reg_can,reg_aux,bert_word_eb,reg_chg_loss

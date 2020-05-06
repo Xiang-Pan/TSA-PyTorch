@@ -52,6 +52,8 @@ from models.bert_multi_target import BERT_MULTI_TARGET
 from models.bert_kg import BERT_KG
 from models.bert_compete import BERT_COMPETE
 
+from models.td_bert import TD_BERT
+
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -80,6 +82,7 @@ class Instructor:
             #     self.model = opt.model_class(bert, opt).to(opt.device)
             #     self.model.to(opt.device)
             if opt.model_name == 'lcf_bert':
+                from pytorch_transformers import BertModel,BertForTokenClassification,BertConfig
                 tokenizer = Tokenizer4Bert(opt.max_seq_len, opt.pretrained_bert_name)
                 config = BertConfig.from_pretrained(opt.pretrained_bert_name, output_attentions=False)
                 bert = BertModel.from_pretrained(opt.pretrained_bert_name,config=config)
@@ -91,7 +94,7 @@ class Instructor:
                 config = BertConfig.from_pretrained(opt.pretrained_bert_name, output_attentions=True)
                 bert = BertModel.from_pretrained(opt.pretrained_bert_name,config=config)
                 self.model = opt.model_class(bert, opt).to(opt.device)
-            elif opt.model_name == 'bert_spc' :
+            elif opt.model_name in ['bert_spc','td_bert'] :
                 from pytorch_transformers import BertModel,BertForTokenClassification,BertConfig
 
                 tokenizer = Tokenizer4Bert(opt.max_seq_len, opt.pretrained_bert_name)
@@ -154,7 +157,8 @@ class Instructor:
 
         self.trainset = ABSADataset(opt.dataset_file['train'], tokenizer,'train',opt)
         self.testset = ABSADataset(opt.dataset_file['test'], tokenizer,'test',opt)
-
+        if int(opt.resplit)==0:
+            valset_ratio=0.05
         assert 0 <= opt.valset_ratio < 1
         if opt.valset_ratio > 0:
             valset_len = int(len(self.trainset) * opt.valset_ratio)
@@ -222,13 +226,13 @@ class Instructor:
         if aug[0] ==1:
             adv_loss=0
         else:
-            out_aux,logits,reg_can,reg_aux,bert_word_eb = self.model(inputs,p_adv)
+            out_aux,logits,reg_can,reg_aux,bert_word_eb,reg_chg_loss = self.model(inputs,p_adv)
             adv_loss = criterion(logits, targets)
         # loss += adv_loss
         return adv_loss
 
     def _train(self, criterion, optimizer, train_data_loader, val_data_loader,test_data_loader):
-        fitlog.add_hyper({"model_name":self.opt.model_name,"dataset":self.opt.dataset,'resplit':self.opt.resplit,"domain":self.opt.domain,"aug":self.opt.aug,"adv":self.opt.adv,"aux":self.opt.aux,"adv_aux":self.opt.adv_aux})
+        fitlog.add_hyper({"model_name":self.opt.model_name,"dataset":self.opt.dataset,'resplit':self.opt.resplit,"domain":self.opt.domain,"aug":self.opt.aug,"adv":self.opt.adv,"aux":self.opt.aux,"adv_aux":self.opt.adv_aux,'chg':self.opt.chg})
 
         max_val_acc = 0
         max_val_f1 = 0
@@ -257,11 +261,12 @@ class Instructor:
                     targets = sample_batched['polarity'].to(self.opt.device)
                 
                 if self.opt.model_name in reg_list:
-                    aux_cls_logeits,outputs,reg_can_loss,reg_aux_loss,bert_word_output = self.model(inputs,None)
+                    aux_cls_logeits,outputs,reg_can_loss,reg_aux_loss,bert_word_output,reg_chg_loss = self.model(inputs,None)
                 else:
                     outputs=self.model(inputs)
                     reg_can_loss=0
                     reg_aux_loss=0
+                    reg_chg_loss=0
                 # print('outputs',outputs.shape)
                 # print('targets',targets.shape)
 
@@ -271,16 +276,21 @@ class Instructor:
                 loss_1 = criterion(outputs, targets)
                 loss_2 = reg_can_loss
                 loss_3 = reg_aux_loss
+                loss_4 = reg_chg_loss
+
                 weighted_loss_2 =   loss_2 * self.opt.can
                 weighted_loss_3 =   loss_3 * self.opt.aux
+                weighted_loss_4 =   loss_4 * self.opt.chg
+
+
                 
-                loss= 1*loss_1 + weighted_loss_2 + weighted_loss_3
+                loss= 1*loss_1 + weighted_loss_2 + weighted_loss_3+ weighted_loss_4
 
 
-                if float(self.opt.adv) > 0:
+                if self.opt.adv > 0:
                     # print(inputs.shape)
-                    if int(self.opt.adv_aux)==1:
-                        loss_adv = self._loss_adv(loss_3,bert_word_output,criterion,inputs,targets,p_mult=self.opt.adv)
+                    if self.opt.adv_aux==1:
+                        loss_adv = self._loss_adv(weighted_loss_3,bert_word_output,criterion,inputs,targets,p_mult=self.opt.adv)
                     else:
                         loss_adv = self._loss_adv(loss,bert_word_output,criterion,inputs,targets,p_mult=self.opt.adv)
                     loss+=loss_adv
@@ -314,8 +324,8 @@ class Instructor:
                 if global_step % self.opt.log_step == 0:
                     train_acc = n_correct / n_total
                     train_loss = loss_total / n_total
-                    logger.info('loss_total: {:.4f}, acc: {:.4f},loss_main: {:.4f},reg_can_loss: {:.4f},loss_adv: {:.4f},reg_aux_loss {:.4f}'.format(train_loss, train_acc,loss_1,weighted_loss_2,loss_adv,weighted_loss_3))
-                    fitlog.add_metric({"Train":{'loss_total: {:.4f}, acc: {:.4f},loss_main: {:.4f},reg_can_loss: {:.4f},loss_adv: {:.4f},reg_aux_loss {:.4f}'.format(train_loss, train_acc,loss_1,weighted_loss_2,loss_adv,weighted_loss_3)}},step=global_step)
+                    logger.info('loss_total: {:.4f}, acc: {:.4f},loss_main: {:.4f},reg_can_loss: {:.4f},loss_adv: {:.4f},reg_aux_loss {:.4f},reg_chg_loss {:.4f}'.format(train_loss, train_acc,loss_1,weighted_loss_2,loss_adv,weighted_loss_3,weighted_loss_4))
+                    fitlog.add_metric({"Train":{'loss_total: {:.4f}, acc: {:.4f},loss_main: {:.4f},reg_can_loss: {:.4f},loss_adv: {:.4f},reg_aux_loss {:.4f},reg_chg_loss {:.4f}'.format(train_loss, train_acc,loss_1,weighted_loss_2,loss_adv,weighted_loss_3,weighted_loss_4)}},step=global_step)
             val_acc, val_f1 = self._evaluate_acc_f1(val_data_loader)
             test_acc, test_f1 = self._evaluate_acc_f1(test_data_loader)
             
@@ -341,11 +351,13 @@ class Instructor:
 
                 if last_model_path!=None:
                     os.remove(last_model_path)
-                    os.remove(last_bert_path)
+                    if self.opt.model_name not in ['lcf_bert']:
+                        os.remove(last_bert_path)
                 last_model_path=model_path
                 last_bert_path=bert_path
                 torch.save(self.model.state_dict(), model_path)
-                torch.save(self.model.bert.state_dict(), bert_path)
+                if self.opt.model_name not in ['lcf_bert']:
+                    torch.save(self.model.bert.state_dict(), bert_path)
                 logger.info('>> saved: {}'.format(model_path))
 
                 # max_val_f1 = val_f1
@@ -367,7 +379,7 @@ class Instructor:
                 t_targets = t_sample_batched['polarity'].to(self.opt.device)
                 if self.opt.model_name in reg_list:
                     # t_outputs,reg_less,emb = self.model(t_inputs,None)
-                    aux_cls_logeits,t_outputs,reg_can_loss,reg_aux_loss,bert_word_output = self.model(t_inputs,None)
+                    aux_cls_logeits,t_outputs,reg_can_loss,reg_aux_loss,bert_word_output,reg_chg_loss = self.model(t_inputs,None)
                 else:
                     t_outputs= self.model(t_inputs)
 
@@ -450,15 +462,21 @@ def main():
 
     parser.add_argument('--can', default=0, type=float, help='using tfm')
     parser.add_argument('--adv', default=0, type=float, help='using adv training')
+    
     parser.add_argument('--aux', default=0, type=float, help='using aux training')
 
-    parser.add_argument('--aug', default=0, type=float, help='using aug training')
+    parser.add_argument('--aug', default=str(0), type=str, help='using aug training')
+
+    parser.add_argument('--chg', default=0, type=float, help='using chg training')
+
+
+
 
 
     parser.add_argument('--domain', default=0, type=str, help='using domain bert')
     parser.add_argument('--resplit', default=0, type=str, help='using resplit dataset')
 
-    parser.add_argument('--adv_aux', default=0, type=str, help='using resplit dataset')
+    parser.add_argument('--adv_aux', default=1, type=str, help='using resplit dataset')
 
 
     
@@ -499,6 +517,8 @@ def main():
         'bert_compete': BERT_COMPETE,
         'bert_multi_target':BERT_MULTI_TARGET,
         'bert_target':BERT_TARGET,
+        'td_bert':TD_BERT,
+
         # default hyper-parameters for LCF-BERT model is as follws:
         # lr: 2e-5
         # l2: 1e-5
@@ -539,6 +559,9 @@ def main():
         'lcf_bert': ['text_bert_indices', 'bert_segments_ids', 'text_raw_bert_indices', 'aspect_bert_indices'],
         'bert_raw': ['text_raw_bert_indices', 'bert_raw_segments_ids'],
         'bert_label': ['text_raw_bert_indices', 'bert_segments_ids','polarity'],
+
+        'td_bert': ['text_bert_indices', 'bert_segments_ids','left_context_len','aspect_len'],
+
         
 
         # 'bert_aspect': ['bert_aspect_indices','bert_aspect_segments_ids','aspect_in_text','aspect_len'],
